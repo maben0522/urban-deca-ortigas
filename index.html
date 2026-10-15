@@ -1,0 +1,4831 @@
+<!DOCTYPE html>
+<html lang="en" data-theme-preference="system">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta name="color-scheme" content="light dark">
+
+  <meta
+    name="description"
+    content="Explore ready-for-occupancy 2BR and 3BR units at Urban Deca Homes Ortigas in Rosario, Pasig City. Compare layouts, financing options, actual turnover units, requirements, and book a site viewing with MAB."
+  >
+
+  <meta
+    name="keywords"
+    content="Urban Deca Homes Ortigas, condo Pasig, Ortigas condo, ready for occupancy condo, Pag-IBIG condo, MAB Property Specialist"
+  >
+
+  <meta name="author" content="MAB">
+
+  <meta property="og:title" content="Urban Deca Homes Ortigas | MAB">
+  <meta
+    property="og:description"
+    content="Hindi Basta Condo. Dapat Worth It Para sa’yo."
+  >
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/mab-logo.png">
+
+  <title>
+    Urban Deca Homes Ortigas | MAB Property Specialist
+  </title>
+
+  <script>
+    (function () {
+      const saved = localStorage.getItem("mab-theme") || "system";
+      const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      document.documentElement.dataset.theme =
+        saved === "system" ? (dark ? "dark" : "light") : saved;
+
+      document.documentElement.dataset.themePreference = saved;
+    })();
+  </script>
+
+  <style>
+    /* =========================================================
+       MAB BRAND
+       ========================================================= */
+
+    :root {
+      --red: #BF092F;
+      --navy: #132440;
+      --blue: #16476A;
+      --gold: #F5B52E;
+
+      --bg: #FFFFFF;
+      --surface: #FFFFFF;
+      --soft: #F5F7FA;
+      --soft2: #ECF1F5;
+
+      --text: #1D2836;
+      --muted: #667485;
+
+      --border: #DFE6EC;
+
+      --header: rgba(19,36,64,.97);
+
+      --shadow:
+        0 12px 35px rgba(19,36,64,.10);
+
+      --radius: 18px;
+
+      color-scheme: light;
+    }
+
+    html[data-theme="dark"] {
+      --bg: #091321;
+      --surface: #111F31;
+      --soft: #16263A;
+      --soft2: #1B2D43;
+
+      --text: #F5F7FA;
+      --muted: #BAC6D4;
+
+      --border: #2A3D54;
+
+      --header: rgba(8,17,30,.98);
+
+      --shadow:
+        0 12px 35px rgba(0,0,0,.30);
+
+      color-scheme: dark;
+    }
+
+    /* =========================================================
+       RESET
+       ========================================================= */
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+
+      font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+      background: var(--bg);
+      color: var(--text);
+
+      line-height: 1.65;
+    }
+
+    body,
+    button,
+    select,
+    input {
+      font: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    a,
+    select,
+    input {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.15;
+    }
+
+    h1 {
+      margin-bottom: 0;
+
+      font-size:
+        clamp(2.35rem, 7vw, 4.9rem);
+
+      letter-spacing: -.045em;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+
+      color: var(--text);
+
+      font-size:
+        clamp(1.85rem, 4.7vw, 3rem);
+
+      letter-spacing: -.03em;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+
+      color: var(--text);
+
+      font-size: 1.3rem;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    section {
+      padding: 78px 0;
+    }
+
+    .container {
+      width:
+        min(1140px, calc(100% - 32px));
+
+      margin-inline: auto;
+    }
+
+    .soft-section {
+      background: var(--soft);
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 40px;
+    }
+
+    .section-head.center {
+      margin-left: auto;
+      margin-right: auto;
+
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+
+      margin-bottom: 12px;
+
+      color: var(--red);
+
+      font-size: .8rem;
+      font-weight: 900;
+
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    /* =========================================================
+       ACCESSIBILITY
+       ========================================================= */
+
+    .sr-only {
+      position: absolute;
+
+      width: 1px;
+      height: 1px;
+
+      padding: 0;
+      margin: -1px;
+
+      overflow: hidden;
+
+      clip: rect(0,0,0,0);
+
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .skip-link {
+      position: fixed;
+
+      top: 12px;
+      left: 12px;
+
+      z-index: 99999;
+
+      padding: 12px 16px;
+
+      border-radius: 8px;
+
+      background: var(--gold);
+      color: var(--navy);
+
+      font-weight: 900;
+
+      transform: translateY(-200%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    select:focus-visible,
+    input:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    /* =========================================================
+       BUTTONS
+       ========================================================= */
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      min-height: 48px;
+
+      padding: 0 22px;
+
+      border: 0;
+      border-radius: 10px;
+
+      cursor: pointer;
+
+      font-weight: 850;
+      text-align: center;
+
+      transition:
+        .2s transform,
+        .2s background;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .btn-primary:hover {
+      background: #E1A31F;
+    }
+
+    .btn-blue {
+      background: var(--blue);
+      color: white;
+    }
+
+    .btn-blue:hover {
+      background: var(--navy);
+    }
+
+    .btn-red {
+      background: var(--red);
+      color: white;
+    }
+
+    .btn-red:hover {
+      background: #9F0827;
+    }
+
+    .btn-outline {
+      border:
+        1px solid rgba(255,255,255,.40);
+
+      background:
+        rgba(255,255,255,.08);
+
+      color: white;
+    }
+
+    /* =========================================================
+       NAV
+       ========================================================= */
+
+    .navbar {
+      position: sticky;
+
+      top: 0;
+
+      z-index: 2000;
+
+      padding-top:
+        env(safe-area-inset-top);
+
+      background: var(--header);
+
+      border-bottom:
+        1px solid rgba(255,255,255,.08);
+
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-wrap {
+      min-height: 74px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+    }
+
+    .brand-logo {
+      width: auto;
+      height: 56px;
+
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+
+      gap: 20px;
+
+      color: rgba(255,255,255,.90);
+
+      font-size: .9rem;
+      font-weight: 750;
+    }
+
+    .nav-links a:not(.btn):hover {
+      color: var(--gold);
+    }
+
+    .nav-tools {
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+    }
+
+    .theme-select {
+      min-height: 42px;
+
+      padding:
+        0 32px
+        0 10px;
+
+      border:
+        1px solid rgba(255,255,255,.23);
+
+      border-radius: 9px;
+
+      background:
+        rgba(255,255,255,.09);
+
+      color: white;
+
+      font-weight: 800;
+
+      cursor: pointer;
+    }
+
+    .theme-select option {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .menu-btn {
+      display: none;
+
+      width: 44px;
+      height: 44px;
+
+      border:
+        1px solid rgba(255,255,255,.24);
+
+      border-radius: 9px;
+
+      background:
+        rgba(255,255,255,.08);
+
+      color: white;
+
+      cursor: pointer;
+
+      font-size: 1.35rem;
+    }
+
+    .mobile-menu {
+      display: none;
+
+      padding:
+        0 16px
+        18px;
+
+      background: var(--header);
+    }
+
+    .mobile-menu.open {
+      display: grid;
+      gap: 5px;
+    }
+
+    .mobile-menu a {
+      padding: 12px 10px;
+
+      border-bottom:
+        1px solid rgba(255,255,255,.08);
+
+      color: white;
+
+      font-weight: 750;
+    }
+
+    /* =========================================================
+       HERO
+       ========================================================= */
+
+    .hero {
+      min-height: 760px;
+
+      display: flex;
+      align-items: center;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(19,36,64,.98) 0%,
+          rgba(19,36,64,.91) 48%,
+          rgba(22,71,106,.48) 100%
+        ),
+        url("images/building-facade.jpg")
+        center / cover
+        no-repeat;
+    }
+
+    .hero-content {
+      max-width: 840px;
+
+      padding: 85px 0;
+    }
+
+    .hero h1 {
+      color: white;
+    }
+
+    .hero .eyebrow {
+      color: var(--gold);
+    }
+
+    .hero-tagline {
+      max-width: 720px;
+
+      margin-top: 20px;
+
+      color: var(--gold);
+
+      font-size:
+        clamp(1rem, 2vw, 1.18rem);
+
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    .hero-sub {
+      max-width: 720px;
+
+      margin-top: 18px;
+
+      color:
+        rgba(255,255,255,.86);
+
+      font-size: 1.08rem;
+    }
+
+    .hero-checks {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap: 10px 22px;
+
+      max-width: 760px;
+
+      margin-top: 27px;
+
+      color: white;
+    }
+
+    .hero-checks div::before {
+      content: "✓";
+
+      margin-right: 8px;
+
+      color: var(--gold);
+
+      font-weight: 900;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 32px;
+    }
+
+    .hero-note {
+      max-width: 700px;
+
+      margin-top: 18px;
+
+      color:
+        rgba(255,255,255,.65);
+
+      font-size: .8rem;
+    }
+
+    /* =========================================================
+       CHOOSE PATH
+       ========================================================= */
+
+    .path-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap: 22px;
+    }
+
+    .path-card {
+      padding: 35px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .referral-path {
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy),
+          var(--blue)
+        );
+
+      border: 0;
+    }
+
+    .referral-path h3,
+    .referral-path p {
+      color: white;
+    }
+
+    .referral-path .eyebrow {
+      color: var(--gold);
+    }
+
+    /* =========================================================
+       INTERACTIVE TOOLS
+       ========================================================= */
+
+    .tool {
+      padding: 32px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .form-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+    }
+
+    .field label {
+      color: var(--text);
+
+      font-size: .9rem;
+      font-weight: 800;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 48px;
+
+      padding: 0 13px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 9px;
+
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .tool-result {
+      margin-top: 24px;
+
+      padding: 20px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 12px;
+
+      background: var(--soft);
+    }
+
+    .result-title {
+      margin-bottom: 6px;
+
+      color: var(--text);
+
+      font-size: 1.25rem;
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       CARDS
+       ========================================================= */
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .units-grid {
+      grid-template-columns:
+        repeat(
+          auto-fit,
+          minmax(
+            min(100%,300px),
+            1fr
+          )
+        );
+    }
+
+    .card {
+      overflow: hidden;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .card-img {
+      width: 100%;
+      height: 280px;
+
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 26px;
+    }
+
+    .unit-size {
+      margin-bottom: 8px;
+
+      color: var(--red);
+
+      font-size: .87rem;
+      font-weight: 900;
+
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .features {
+      padding: 0;
+
+      margin: 18px 0 24px;
+
+      list-style: none;
+    }
+
+    .features li {
+      margin: 8px 0;
+
+      color: var(--muted);
+    }
+
+    .features li::before {
+      content: "✓";
+
+      margin-right: 8px;
+
+      color: var(--gold);
+
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       COMPARE TABLE
+       ========================================================= */
+
+    .comparison-controls {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr auto;
+
+      gap: 12px;
+
+      align-items: end;
+    }
+
+    .compare-table-wrap {
+      overflow-x: auto;
+
+      margin-top: 24px;
+    }
+
+    table {
+      width: 100%;
+
+      border-collapse: collapse;
+
+      min-width: 650px;
+    }
+
+    th,
+    td {
+      padding: 14px;
+
+      border:
+        1px solid var(--border);
+
+      text-align: left;
+    }
+
+    th {
+      background: var(--navy);
+      color: white;
+    }
+
+    td {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    /* =========================================================
+       GALLERY
+       ========================================================= */
+
+    .gallery {
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          auto-fit,
+          minmax(205px,1fr)
+        );
+
+      gap: 14px;
+    }
+
+    .gallery-item {
+      position: relative;
+
+      min-height: 220px;
+
+      overflow: hidden;
+
+      border: 0;
+      border-radius: 14px;
+
+      background: var(--soft2);
+
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      min-height: 220px;
+
+      object-fit: cover;
+
+      transition: transform .3s;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.04);
+    }
+
+    .gallery-label {
+      position: absolute;
+
+      right: 10px;
+      bottom: 10px;
+      left: 10px;
+
+      padding: 9px 11px;
+
+      border-radius: 8px;
+
+      background:
+        rgba(19,36,64,.88);
+
+      color: white;
+
+      font-size: .82rem;
+      font-weight: 850;
+    }
+
+    /* =========================================================
+       FLOOR PLAN
+       ========================================================= */
+
+    .floor-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          auto-fit,
+          minmax(
+            min(100%,280px),
+            1fr
+          )
+        );
+
+      gap: 20px;
+    }
+
+    .floor-card {
+      overflow: hidden;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 15px;
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .floor-card button {
+      width: 100%;
+
+      padding: 0;
+
+      border: 0;
+
+      background: white;
+
+      cursor: pointer;
+    }
+
+    .floor-card img {
+      aspect-ratio: 16/10;
+
+      object-fit: contain;
+    }
+
+    .floor-copy {
+      padding: 19px;
+    }
+
+    /* =========================================================
+       SPLIT SECTIONS
+       ========================================================= */
+
+    .split {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      align-items: center;
+
+      gap: 45px;
+    }
+
+    .image-frame {
+      padding: 11px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .simple-list {
+      display: grid;
+
+      gap: 9px;
+
+      margin-top: 20px;
+    }
+
+    .simple-list div {
+      padding: 13px 15px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 9px;
+
+      background: var(--soft);
+
+      color: var(--text);
+
+      font-weight: 750;
+    }
+
+    /* =========================================================
+       MAP
+       ========================================================= */
+
+    .map-wrapper {
+      overflow: hidden;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: var(--radius);
+
+      background: var(--surface);
+
+      box-shadow: var(--shadow);
+    }
+
+    .map-wrapper iframe {
+      display: block;
+
+      width: 100%;
+      height: 450px;
+
+      border: 0;
+    }
+
+    .location-actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 22px;
+    }
+
+    /* =========================================================
+       CALCULATOR
+       ========================================================= */
+
+    .calculator-layout {
+      display: grid;
+
+      grid-template-columns:
+        1fr .8fr;
+
+      gap: 24px;
+    }
+
+    .calc-output {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      padding: 28px;
+
+      border-radius: var(--radius);
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy),
+          var(--blue)
+        );
+
+      color: white;
+    }
+
+    .calc-output p {
+      color:
+        rgba(255,255,255,.78);
+    }
+
+    .calc-number {
+      margin: 8px 0;
+
+      color: var(--gold);
+
+      font-size:
+        clamp(2.2rem,6vw,3.8rem);
+
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       PROCESS
+       ========================================================= */
+
+    .process-grid {
+      grid-template-columns:
+        repeat(
+          auto-fit,
+          minmax(230px,1fr)
+        );
+    }
+
+    .process-card {
+      padding: 26px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 15px;
+
+      background: var(--surface);
+    }
+
+    .step {
+      width: 43px;
+      height: 43px;
+
+      display: grid;
+      place-items: center;
+
+      margin-bottom: 16px;
+
+      border-radius: 50%;
+
+      background: var(--gold);
+      color: var(--navy);
+
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       REFERRAL
+       ========================================================= */
+
+    .referral-box {
+      padding: 52px;
+
+      border-radius: 25px;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy),
+          var(--blue)
+        );
+
+      text-align: center;
+
+      box-shadow: var(--shadow);
+    }
+
+    .referral-box h2,
+    .referral-box p {
+      color: white;
+    }
+
+    .referral-box .eyebrow {
+      color: var(--gold);
+    }
+
+    .incentive {
+      max-width: 390px;
+
+      margin:
+        28px auto;
+
+      padding: 25px;
+
+      border:
+        1px solid rgba(255,255,255,.18);
+
+      border-radius: 18px;
+
+      background:
+        rgba(255,255,255,.08);
+    }
+
+    .incentive span,
+    .incentive small {
+      display: block;
+
+      color: white;
+    }
+
+    .incentive strong {
+      display: block;
+
+      color: var(--gold);
+
+      font-size:
+        clamp(2.6rem,8vw,4.5rem);
+
+      line-height: 1.1;
+    }
+
+    /* =========================================================
+       ABOUT
+       ========================================================= */
+
+    .about {
+      background: var(--navy);
+    }
+
+    .about-grid {
+      display: grid;
+
+      grid-template-columns:
+        minmax(260px,380px)
+        1fr;
+
+      align-items: end;
+
+      gap: 50px;
+    }
+
+    .mab-photo {
+      max-width: 380px;
+
+      margin-inline: auto;
+
+      object-fit: contain;
+    }
+
+    .about .eyebrow {
+      color: var(--gold);
+    }
+
+    .about h2 {
+      color: white;
+    }
+
+    .about p {
+      color:
+        rgba(255,255,255,.78);
+    }
+
+    .signature {
+      margin: 24px 0;
+
+      padding:
+        5px 0
+        5px 17px;
+
+      border-left:
+        4px solid var(--red);
+
+      color: white !important;
+
+      font-weight: 850;
+    }
+
+    /* =========================================================
+       FAQ
+       ========================================================= */
+
+    .faq {
+      max-width: 850px;
+      margin-inline: auto;
+    }
+
+    details {
+      margin-bottom: 10px;
+
+      padding:
+        0 19px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 11px;
+
+      background: var(--surface);
+    }
+
+    summary {
+      padding: 19px 0;
+
+      cursor: pointer;
+
+      color: var(--text);
+
+      font-weight: 850;
+    }
+
+    details p {
+      padding-bottom: 18px;
+      margin-bottom: 0;
+    }
+
+    /* =========================================================
+       FINAL CTA
+       ========================================================= */
+
+    .final-cta {
+      text-align: center;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy),
+          var(--blue)
+        );
+    }
+
+    .final-cta h2,
+    .final-cta p {
+      color: white;
+    }
+
+    .final-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      gap: 12px;
+    }
+
+    /* =========================================================
+       FOOTER
+       ========================================================= */
+
+    footer {
+      padding:
+        38px 0
+        calc(
+          90px +
+          env(safe-area-inset-bottom)
+        );
+
+      background: #07111E;
+
+      color:
+        rgba(255,255,255,.68);
+
+      text-align: center;
+
+      font-size: .82rem;
+    }
+
+    .footer-logo {
+      width: auto;
+      height: 85px;
+
+      margin:
+        0 auto
+        18px;
+    }
+
+    /* =========================================================
+       LIGHTBOX
+       ========================================================= */
+
+    .lightbox {
+      position: fixed;
+
+      inset: 0;
+
+      z-index: 5000;
+
+      display: none;
+      align-items: center;
+      justify-content: center;
+
+      padding: 20px;
+
+      background:
+        rgba(0,0,0,.88);
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox-content {
+      position: relative;
+
+      width:
+        min(1000px,96vw);
+
+      max-height: 92vh;
+
+      display: grid;
+      place-items: center;
+    }
+
+    .lightbox img {
+      max-height: 82vh;
+
+      width: auto;
+      max-width: 100%;
+
+      object-fit: contain;
+
+      border-radius: 10px;
+    }
+
+    .lightbox-close {
+      position: absolute;
+
+      top: -45px;
+      right: 0;
+
+      width: 42px;
+      height: 42px;
+
+      border: 0;
+      border-radius: 50%;
+
+      background: var(--gold);
+      color: var(--navy);
+
+      cursor: pointer;
+
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+
+    .lightbox-caption {
+      margin-top: 12px;
+
+      color: white;
+
+      text-align: center;
+      font-weight: 750;
+    }
+
+    /* =========================================================
+       TOAST
+       ========================================================= */
+
+    .toast {
+      position: fixed;
+
+      z-index: 6000;
+
+      right: 18px;
+      bottom:
+        calc(
+          80px +
+          env(safe-area-inset-bottom)
+        );
+
+      max-width: 340px;
+
+      padding: 14px 16px;
+
+      border-radius: 10px;
+
+      background: var(--navy);
+      color: white;
+
+      box-shadow: var(--shadow);
+
+      opacity: 0;
+      transform: translateY(20px);
+
+      pointer-events: none;
+
+      transition: .25s;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .toast strong {
+      color: var(--gold);
+    }
+
+    /* =========================================================
+       MOBILE QUICK CTA
+       ========================================================= */
+
+    .mobile-cta {
+      display: none;
+    }
+
+    /* =========================================================
+       RESPONSIVE
+       ========================================================= */
+
+    @media (max-width: 1000px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .menu-btn {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .path-grid,
+      .split,
+      .calculator-layout,
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-grid {
+        align-items: center;
+      }
+
+      .mab-photo {
+        max-width: 320px;
+      }
+
+      .comparison-controls {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .comparison-controls .btn {
+        grid-column:
+          1 / -1;
+      }
+    }
+
+    @media (max-width: 650px) {
+
+      section {
+        padding: 56px 0;
+      }
+
+      .container {
+        width:
+          min(100% - 22px,1140px);
+      }
+
+      .brand-logo {
+        height: 45px;
+      }
+
+      .theme-select {
+        width: 105px;
+
+        font-size: .78rem;
+      }
+
+      .hero {
+        min-height: 720px;
+
+        background-position:
+          62% center;
+      }
+
+      .hero-content {
+        padding:
+          68px 0
+          88px;
+      }
+
+      .hero-checks {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions,
+      .final-buttons {
+        flex-direction: column;
+      }
+
+      .hero-actions .btn,
+      .final-buttons .btn {
+        width: 100%;
+      }
+
+      .path-grid,
+      .form-grid,
+      .comparison-controls {
+        grid-template-columns: 1fr;
+      }
+
+      .path-card,
+      .tool,
+      .referral-box {
+        padding: 25px 21px;
+      }
+
+      .card-img {
+        height: 225px;
+      }
+
+      .gallery {
+        grid-template-columns:
+          repeat(2,1fr);
+      }
+
+      .gallery-item,
+      .gallery-item img {
+        min-height: 170px;
+      }
+
+      .map-wrapper iframe {
+        height: 380px;
+      }
+
+      .mobile-cta {
+        position: fixed;
+
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        z-index: 4000;
+
+        display: grid;
+
+        grid-template-columns:
+          1fr 1fr;
+
+        padding-bottom:
+          env(safe-area-inset-bottom);
+
+        box-shadow:
+          0 -5px 20px
+          rgba(0,0,0,.2);
+      }
+
+      .mobile-cta a {
+        min-height: 54px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 10px;
+
+        font-size: .83rem;
+        font-weight: 900;
+      }
+
+      .quick-message {
+        background: var(--gold);
+        color: var(--navy);
+      }
+
+      .quick-viewing {
+        background: var(--red);
+        color: white;
+      }
+    }
+
+    @media (max-width: 430px) {
+
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-item,
+      .gallery-item img {
+        min-height: 220px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration:
+          .01ms !important;
+
+        transition-duration:
+          .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+<a
+  href="#main-content"
+  class="skip-link"
+>
+  Skip to main content
+</a>
+
+
+<!-- ==========================================================
+     NAVIGATION
+     ========================================================== -->
+
+<nav
+  class="navbar"
+  aria-label="Main navigation"
+>
+
+  <div class="container nav-wrap">
+
+    <a
+      href="#home"
+      aria-label="MAB Home"
+    >
+      <img
+        src="images/mab-logo.png"
+        alt="MAB - Move Acquire Build"
+        class="brand-logo"
+      >
+    </a>
+
+
+    <div class="nav-links">
+
+      <a href="#finder">Unit Finder</a>
+
+      <a href="#units">Units</a>
+
+      <a href="#location">Location</a>
+
+      <a href="#financing">Financing</a>
+
+      <a href="#referral">Referral Partner</a>
+
+      <a href="#about">About MAB</a>
+
+      <a href="#faq">FAQ</a>
+
+      <a
+        href="https://m.me/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary msg-link"
+        data-keyword="INFO"
+      >
+        Message MAB
+      </a>
+
+    </div>
+
+
+    <div class="nav-tools">
+
+      <label
+        for="themeSelect"
+        class="sr-only"
+      >
+        Website appearance
+      </label>
+
+      <select
+        id="themeSelect"
+        class="theme-select"
+        aria-label="Website appearance"
+      >
+        <option value="system">
+          System
+        </option>
+
+        <option value="light">
+          Light
+        </option>
+
+        <option value="dark">
+          Dark
+        </option>
+      </select>
+
+
+      <button
+        id="menuBtn"
+        class="menu-btn"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        ☰
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div
+    id="mobileMenu"
+    class="mobile-menu"
+  >
+
+    <a href="#finder">Unit Finder</a>
+
+    <a href="#units">Units</a>
+
+    <a href="#floorplans">Floor Plans</a>
+
+    <a href="#amenities">Amenities</a>
+
+    <a href="#location">Location</a>
+
+    <a href="#financing">Financing</a>
+
+    <a href="#requirements">Requirements</a>
+
+    <a href="#referral">Referral Partner</a>
+
+    <a href="#about">About MAB</a>
+
+    <a href="#faq">FAQ</a>
+
+  </div>
+
+</nav>
+
+
+<main id="main-content">
+
+
+<!-- ==========================================================
+     HERO
+     ========================================================== -->
+
+<header
+  id="home"
+  class="hero"
+>
+
+  <div class="container">
+
+    <div class="hero-content">
+
+      <span class="eyebrow">
+        Urban Deca Homes Ortigas
+      </span>
+
+      <h1>
+        Looking for Your First Condo in Pasig?
+      </h1>
+
+      <p class="hero-tagline">
+        “Every property decision should have a purpose,
+        and every move should be worth it.”
+      </p>
+
+      <p class="hero-sub">
+        Explore ready-for-occupancy
+        2-bedroom and 3-bedroom units
+        at Urban Deca Homes Ortigas,
+        along Ortigas Avenue Extension,
+        Rosario, Pasig City.
+      </p>
+
+
+      <div class="hero-checks">
+
+        <div>
+          Ready-for-occupancy options
+        </div>
+
+        <div>
+          Pag-IBIG or bank financing
+        </div>
+
+        <div>
+          Actual turnover units for viewing
+        </div>
+
+        <div>
+          2BR and 3BR options
+        </div>
+
+        <div>
+          Community amenities
+        </div>
+
+        <div>
+          Guidance for first-time buyers
+        </div>
+
+      </div>
+
+
+      <div class="hero-actions">
+
+        <a
+          href="#finder"
+          class="btn btn-primary"
+        >
+          Find My Unit
+        </a>
+
+        <a
+          href="https://m.me/UDHOrtigasbyMAB"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-red msg-link"
+          data-keyword="VIEWING"
+        >
+          Book a Site Viewing
+        </a>
+
+        <button
+          type="button"
+          class="btn btn-outline"
+          id="shareSiteBtn"
+        >
+          Share Website
+        </button>
+
+      </div>
+
+
+      <p class="hero-note">
+        Prices, availability, financing terms,
+        computations and promotional offers
+        are subject to the latest approved details.
+      </p>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ==========================================================
+     BUYER / REFERRAL PATH
+     ========================================================== -->
+
+<section>
+
+  <div class="container">
+
+    <div class="path-grid">
+
+
+      <article class="path-card">
+
+        <span class="eyebrow">
+          Looking for a Condo?
+        </span>
+
+        <h3>
+          Find a Unit That Fits You
+        </h3>
+
+        <p>
+          Compare unit layouts,
+          financing options,
+          requirements,
+          and available viewing schedules.
+        </p>
+
+        <a
+          href="#finder"
+          class="btn btn-blue"
+        >
+          Start Unit Finder
+        </a>
+
+      </article>
+
+
+      <article class="path-card referral-path">
+
+        <span class="eyebrow">
+          Know a Potential Buyer?
+        </span>
+
+        <h3>
+          Become a Referral Partner
+        </h3>
+
+        <p>
+          Refer a qualified buyer
+          and earn ₱25,000
+          per successful transaction
+          once the referred buyer is approved.
+        </p>
+
+        <a
+          href="#referral"
+          class="btn btn-primary"
+        >
+          Referral Partner Details
+        </a>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     UNIT FINDER
+     ========================================================== -->
+
+<section
+  id="finder"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Interactive Unit Finder
+      </span>
+
+      <h2>
+        Which Unit May Fit You Better?
+      </h2>
+
+      <p>
+        Answer a few quick questions.
+        This is only a guide —
+        final selection still depends
+        on inventory, budget and financing.
+      </p>
+
+    </div>
+
+
+    <div class="tool">
+
+      <div class="form-grid">
+
+
+        <div class="field">
+
+          <label for="finderBedrooms">
+            How many bedrooms do you prefer?
+          </label>
+
+          <select id="finderBedrooms">
+
+            <option value="any">
+              Not sure yet
+            </option>
+
+            <option value="2">
+              2 Bedrooms
+            </option>
+
+            <option value="3">
+              3 Bedrooms
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="field">
+
+          <label for="finderPriority">
+            What's most important to you?
+          </label>
+
+          <select id="finderPriority">
+
+            <option value="practical">
+              Practical / smaller 2BR
+            </option>
+
+            <option value="space">
+              Bigger 2BR space
+            </option>
+
+            <option value="inner">
+              Inner unit
+            </option>
+
+            <option value="outer">
+              Outer unit
+            </option>
+
+            <option value="family">
+              More bedrooms for family
+            </option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <div style="margin-top:20px;">
+
+        <button
+          id="findUnitBtn"
+          class="btn btn-primary"
+          type="button"
+        >
+          Find My Suggested Unit
+        </button>
+
+      </div>
+
+
+      <div
+        id="finderResult"
+        class="tool-result"
+        aria-live="polite"
+      >
+        Select your preferences,
+        then click
+        <strong>Find My Suggested Unit</strong>.
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     UNITS
+     ========================================================== -->
+
+<section id="units">
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Unit Options
+      </span>
+
+      <h2>
+        Compare the Main Unit Types
+      </h2>
+
+    </div>
+
+
+    <div class="grid units-grid">
+
+
+      <article class="card">
+
+        <img
+          src="images/2br-b-actual.jpg"
+          alt="Actual 2 Bedroom B turnover unit"
+          class="card-img"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="card-body">
+
+          <div class="unit-size">
+            30.60 sqm
+          </div>
+
+          <h3>
+            2 Bedroom B
+          </h3>
+
+          <p>
+            A practical 2-bedroom option
+            for first-time buyers
+            and small families.
+          </p>
+
+          <ul class="features">
+
+            <li>2 Bedrooms</li>
+
+            <li>Living area</li>
+
+            <li>Kitchen / dining area</li>
+
+            <li>Toilet & bath</li>
+
+            <li>Inner and outer configurations</li>
+
+          </ul>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-blue msg-link"
+            data-keyword="2BR B"
+          >
+            Ask About 2BR B
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="card">
+
+        <img
+          src="images/2br-a-actual.jpg"
+          alt="Actual 2 Bedroom A turnover unit"
+          class="card-img"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="card-body">
+
+          <div class="unit-size">
+            35.57 sqm • Outer
+          </div>
+
+          <h3>
+            2 Bedroom A
+          </h3>
+
+          <p>
+            A bigger 2-bedroom option
+            with an outer-unit configuration.
+          </p>
+
+          <ul class="features">
+
+            <li>2 Bedrooms</li>
+
+            <li>Living area</li>
+
+            <li>Kitchen / dining area</li>
+
+            <li>Toilet & bath</li>
+
+            <li>Outer unit</li>
+
+          </ul>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-blue msg-link"
+            data-keyword="2BR A"
+          >
+            Ask About 2BR A
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="card">
+
+        <img
+          src="images/2br-c-actual.jpg"
+          alt="Actual 2 Bedroom C turnover unit"
+          class="card-img"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="card-body">
+
+          <div class="unit-size">
+            35.57 sqm • Inner
+          </div>
+
+          <h3>
+            2 Bedroom C
+          </h3>
+
+          <p>
+            A 35.57 sqm 2-bedroom option
+            with an inner-unit configuration.
+          </p>
+
+          <ul class="features">
+
+            <li>2 Bedrooms</li>
+
+            <li>Living area</li>
+
+            <li>Kitchen / dining area</li>
+
+            <li>Toilet & bath</li>
+
+            <li>Inner unit</li>
+
+          </ul>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-blue msg-link"
+            data-keyword="2BR C"
+          >
+            Ask About 2BR C
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="card">
+
+        <img
+          src="images/3br-actual.jpg"
+          alt="Actual 3 Bedroom A turnover unit"
+          class="card-img"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="card-body">
+
+          <div class="unit-size">
+            42.07 sqm • Outer Corner
+          </div>
+
+          <h3>
+            3 Bedroom A
+          </h3>
+
+          <p>
+            For buyers who need
+            an additional bedroom
+            or more family space.
+          </p>
+
+          <ul class="features">
+
+            <li>3 Bedrooms</li>
+
+            <li>Living area</li>
+
+            <li>Kitchen / dining area</li>
+
+            <li>Toilet & bath</li>
+
+            <li>Outer corner</li>
+
+          </ul>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-blue msg-link"
+            data-keyword="3BR"
+          >
+            Ask About 3BR
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     UNIT COMPARISON
+     ========================================================== -->
+
+<section class="soft-section">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <span class="eyebrow">
+        Unit Comparison
+      </span>
+
+      <h2>
+        Compare Two Units Side by Side
+      </h2>
+
+    </div>
+
+
+    <div class="tool">
+
+      <div class="comparison-controls">
+
+        <div class="field">
+
+          <label for="compareOne">
+            First unit
+          </label>
+
+          <select id="compareOne"></select>
+
+        </div>
+
+
+        <div class="field">
+
+          <label for="compareTwo">
+            Second unit
+          </label>
+
+          <select id="compareTwo"></select>
+
+        </div>
+
+
+        <button
+          id="compareBtn"
+          class="btn btn-primary"
+          type="button"
+        >
+          Compare
+        </button>
+
+      </div>
+
+
+      <div
+        id="comparisonOutput"
+        class="compare-table-wrap"
+      ></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     ACTUAL UNIT GALLERY
+     ========================================================== -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <span class="eyebrow">
+        Actual Turnover Units
+      </span>
+
+      <h2>
+        Click Any Photo to View Larger
+      </h2>
+
+    </div>
+
+
+    <div class="gallery">
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/2br-b-actual.jpg"
+        data-caption="2BR B • 30.60 sqm"
+      >
+
+        <img
+          src="images/2br-b-actual.jpg"
+          alt="2BR B actual unit"
+          loading="lazy"
+        >
+
+        <span class="gallery-label">
+          2BR B • 30.60 sqm
+        </span>
+
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/2br-a-actual.jpg"
+        data-caption="2BR A • 35.57 sqm • Outer"
+      >
+
+        <img
+          src="images/2br-a-actual.jpg"
+          alt="2BR A actual unit"
+          loading="lazy"
+        >
+
+        <span class="gallery-label">
+          2BR A • 35.57 sqm
+        </span>
+
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/2br-c-actual.jpg"
+        data-caption="2BR C • 35.57 sqm • Inner"
+      >
+
+        <img
+          src="images/2br-c-actual.jpg"
+          alt="2BR C actual unit"
+          loading="lazy"
+        >
+
+        <span class="gallery-label">
+          2BR C • 35.57 sqm
+        </span>
+
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/3br-actual.jpg"
+        data-caption="3BR A • 42.07 sqm • Outer Corner"
+      >
+
+        <img
+          src="images/3br-actual.jpg"
+          alt="3BR actual unit"
+          loading="lazy"
+        >
+
+        <span class="gallery-label">
+          3BR A • 42.07 sqm
+        </span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     FLOOR PLANS
+     ========================================================== -->
+
+<section
+  id="floorplans"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Unit Floor Plans
+      </span>
+
+      <h2>
+        Compare How the Space Is Arranged
+      </h2>
+
+    </div>
+
+
+    <div class="floor-grid">
+
+
+      <article class="floor-card">
+
+        <button
+          class="lightbox-trigger"
+          data-src="images/2br-a-floorplan.jpg"
+          data-caption="2 Bedroom A • 35.57 sqm"
+        >
+
+          <img
+            src="images/2br-a-floorplan.jpg"
+            alt="2BR A floor plan"
+            loading="lazy"
+          >
+
+        </button>
+
+        <div class="floor-copy">
+
+          <h3>2 Bedroom A</h3>
+
+          <p>
+            35.57 sqm • Outer Unit
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="floor-card">
+
+        <button
+          class="lightbox-trigger"
+          data-src="images/2br-b-floorplan.jpg"
+          data-caption="2 Bedroom B • 30.60 sqm"
+        >
+
+          <img
+            src="images/2br-b-floorplan.jpg"
+            alt="2BR B floor plan"
+            loading="lazy"
+          >
+
+        </button>
+
+        <div class="floor-copy">
+
+          <h3>2 Bedroom B</h3>
+
+          <p>
+            30.60 sqm • Inner / Outer
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="floor-card">
+
+        <button
+          class="lightbox-trigger"
+          data-src="images/2br-c-floorplan.jpg"
+          data-caption="2 Bedroom C • 35.57 sqm"
+        >
+
+          <img
+            src="images/2br-c-floorplan.jpg"
+            alt="2BR C floor plan"
+            loading="lazy"
+          >
+
+        </button>
+
+        <div class="floor-copy">
+
+          <h3>2 Bedroom C</h3>
+
+          <p>
+            35.57 sqm • Inner Unit
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <article class="floor-card">
+
+        <button
+          class="lightbox-trigger"
+          data-src="images/3br-floorplan.jpg"
+          data-caption="3 Bedroom A • 42.07 sqm"
+        >
+
+          <img
+            src="images/3br-floorplan.jpg"
+            alt="3BR floor plan"
+            loading="lazy"
+          >
+
+        </button>
+
+        <div class="floor-copy">
+
+          <h3>3 Bedroom A</h3>
+
+          <p>
+            42.07 sqm • Outer Corner
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     BUILDING PLAN
+     ========================================================== -->
+
+<section>
+
+  <div class="container">
+
+    <div class="split">
+
+      <div class="image-frame">
+
+        <button
+          class="lightbox-trigger"
+          data-src="images/building-floorplan.jpg"
+          data-caption="Urban Deca Homes Ortigas Building Floor Plan"
+          style="
+            width:100%;
+            border:0;
+            padding:0;
+            background:transparent;
+            cursor:pointer;
+          "
+        >
+
+          <img
+            src="images/building-floorplan.jpg"
+            alt="Urban Deca Homes Ortigas building floor plan"
+            loading="lazy"
+          >
+
+        </button>
+
+      </div>
+
+
+      <div>
+
+        <span class="eyebrow">
+          Building Layout
+        </span>
+
+        <h2>
+          Inner or Outer Unit?
+        </h2>
+
+        <p>
+          Unit location differs
+          depending on the layout
+          and current inventory.
+        </p>
+
+
+        <div class="simple-list">
+
+          <div>
+            2BR A — Outer Unit
+          </div>
+
+          <div>
+            2BR B — Inner / Outer Options
+          </div>
+
+          <div>
+            2BR C — Inner Unit
+          </div>
+
+          <div>
+            3BR A — Outer Corner
+          </div>
+
+          <div>
+            64 residential units per floor
+          </div>
+
+        </div>
+
+
+        <div style="margin-top:24px;">
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary msg-link"
+            data-keyword="AVAILABILITY"
+          >
+            Check Current Availability
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     AMENITIES
+     ========================================================== -->
+
+<section
+  id="amenities"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Community Amenities
+      </span>
+
+      <h2>
+        More Than Just the Unit
+      </h2>
+
+    </div>
+
+
+    <div class="gallery">
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-playground.jpg"
+        data-caption="Children's Playground"
+      >
+        <img
+          src="images/amenity-playground.jpg"
+          alt="Children's Playground"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Playground
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-gym.jpg"
+        data-caption="Outdoor Gym"
+      >
+        <img
+          src="images/amenity-gym.jpg"
+          alt="Outdoor Gym"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Outdoor Gym
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-basketball.jpg"
+        data-caption="Basketball Court"
+      >
+        <img
+          src="images/amenity-basketball.jpg"
+          alt="Basketball Court"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Basketball Court
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-lagoon.jpg"
+        data-caption="Lagoon"
+      >
+        <img
+          src="images/amenity-lagoon.jpg"
+          alt="Lagoon"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Lagoon
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-park.jpg"
+        data-caption="Pocket Parks"
+      >
+        <img
+          src="images/amenity-park.jpg"
+          alt="Pocket Parks"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Pocket Parks
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-store.jpg"
+        data-caption="Convenience Store"
+      >
+        <img
+          src="images/amenity-store.jpg"
+          alt="Convenience Store"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Convenience Store
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-coffee.jpg"
+        data-caption="Coffee Shop"
+      >
+        <img
+          src="images/amenity-coffee.jpg"
+          alt="Coffee Shop"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Coffee Shop
+        </span>
+      </button>
+
+
+      <button
+        class="gallery-item lightbox-trigger"
+        data-src="images/amenity-commercial.jpg"
+        data-caption="Commercial Area"
+      >
+        <img
+          src="images/amenity-commercial.jpg"
+          alt="Commercial Area"
+          loading="lazy"
+        >
+        <span class="gallery-label">
+          Commercial Area
+        </span>
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     LOCATION
+     ========================================================== -->
+
+<section id="location">
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Project Location
+      </span>
+
+      <h2>
+        Where Is Urban Deca Homes Ortigas?
+      </h2>
+
+      <p>
+        Ortigas Avenue Extension,
+        Rosario, Pasig City.
+      </p>
+
+    </div>
+
+
+    <div class="map-wrapper">
+
+      <iframe
+        src="https://www.google.com/maps?q=Urban%20Deca%20Homes%20Ortigas%20Rosario%20Pasig&output=embed"
+        title="Map of Urban Deca Homes Ortigas"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+    </div>
+
+
+    <div class="location-actions">
+
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Urban+Deca+Homes+Ortigas+Rosario+Pasig"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-blue"
+      >
+        Open in Google Maps
+      </a>
+
+      <a
+        href="https://m.me/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary msg-link"
+        data-keyword="DIRECTIONS"
+      >
+        Ask MAB for Directions
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     FINANCING CALCULATOR
+     ========================================================== -->
+
+<section
+  id="financing"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <span class="eyebrow">
+        Financing Calculator
+      </span>
+
+      <h2>
+        Estimate a Monthly Payment
+      </h2>
+
+      <p>
+        Use this only as a planning tool.
+        Official monthly amortization
+        depends on the final approved computation,
+        rate, loan amount and financing institution.
+      </p>
+
+    </div>
+
+
+    <div class="calculator-layout">
+
+      <div class="tool">
+
+        <div class="form-grid">
+
+
+          <div class="field">
+
+            <label for="loanAmount">
+              Estimated loan amount
+            </label>
+
+            <input
+              id="loanAmount"
+              type="number"
+              min="0"
+              step="1000"
+              value="3000000"
+            >
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="interestRate">
+              Annual interest rate (%)
+            </label>
+
+            <input
+              id="interestRate"
+              type="number"
+              min="0"
+              step=".01"
+              value="6.5"
+            >
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="loanYears">
+              Loan term
+            </label>
+
+            <select id="loanYears">
+
+              <option value="5">
+                5 years
+              </option>
+
+              <option value="10">
+                10 years
+              </option>
+
+              <option value="15">
+                15 years
+              </option>
+
+              <option value="20" selected>
+                20 years
+              </option>
+
+              <option value="25">
+                25 years
+              </option>
+
+              <option value="30">
+                30 years
+              </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+
+        <div style="margin-top:20px;">
+
+          <button
+            id="calcBtn"
+            class="btn btn-blue"
+            type="button"
+          >
+            Calculate Estimate
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="calc-output">
+
+        <p>
+          Estimated monthly principal + interest
+        </p>
+
+        <div
+          id="monthlyEstimate"
+          class="calc-number"
+        >
+          ₱0
+        </div>
+
+        <p>
+          This does not include
+          insurance, fees, taxes,
+          association dues,
+          or other charges.
+        </p>
+
+        <a
+          href="https://m.me/UDHOrtigasbyMAB"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary msg-link"
+          data-keyword="COMPUTATION"
+        >
+          Get Official Unit Computation
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     BUYER PROCESS
+     ========================================================== -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        First-Time Homebuyer
+      </span>
+
+      <h2>
+        A Simple Buying Process
+      </h2>
+
+    </div>
+
+
+    <div class="grid process-grid">
+
+      <article class="process-card">
+        <div class="step">1</div>
+        <h3>Send an Inquiry</h3>
+        <p>
+          Tell me your preferred unit
+          or target budget.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <div class="step">2</div>
+        <h3>Compare Options</h3>
+        <p>
+          Review actual photos,
+          layouts and computations.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <div class="step">3</div>
+        <h3>Review Financing</h3>
+        <p>
+          Check available Pag-IBIG
+          or bank options.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <div class="step">4</div>
+        <h3>Prepare Requirements</h3>
+        <p>
+          Receive the checklist
+          applicable to your income source.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <div class="step">5</div>
+        <h3>Site Viewing</h3>
+        <p>
+          Visit the project
+          and see actual units.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <div class="step">6</div>
+        <h3>Proceed When Ready</h3>
+        <p>
+          Get assistance
+          with the next processing steps.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     REQUIREMENTS CHECKER
+     ========================================================== -->
+
+<section
+  id="requirements"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <span class="eyebrow">
+        Requirements Checker
+      </span>
+
+      <h2>
+        Which Requirements Guide Do You Need?
+      </h2>
+
+    </div>
+
+
+    <div class="tool">
+
+      <div class="field">
+
+        <label for="requirementType">
+          Select your source of income
+        </label>
+
+        <select id="requirementType">
+
+          <option value="">
+            Choose one
+          </option>
+
+          <option value="Locally Employed">
+            Locally Employed
+          </option>
+
+          <option value="Virtual Assistant">
+            Virtual Assistant
+          </option>
+
+          <option value="Self-Employed">
+            Self-Employed
+          </option>
+
+          <option value="Business Owner">
+            Business Owner
+          </option>
+
+          <option value="OFW">
+            OFW
+          </option>
+
+          <option value="Seaman">
+            Seaman
+          </option>
+
+          <option value="Foreign Buyer">
+            Foreign Buyer
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div
+        id="requirementResult"
+        class="tool-result"
+        aria-live="polite"
+      >
+        Select your source of income
+        to see the next step.
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     REFERRAL PROGRAM
+     ========================================================== -->
+
+<section id="referral">
+
+  <div class="container">
+
+    <div class="referral-box">
+
+      <span class="eyebrow">
+        MAB Referral Partner Program
+      </span>
+
+      <h2>
+        Refer a Buyer.
+        Earn ₱25,000.
+      </h2>
+
+      <p>
+        May kakilala kang naghahanap ng condo
+        or considering Urban Deca Homes Ortigas?
+        You can become a referral partner of MAB.
+      </p>
+
+
+      <div class="incentive">
+
+        <span>
+          Referral Incentive
+        </span>
+
+        <strong>
+          ₱25,000
+        </strong>
+
+        <small>
+          per successful transaction
+        </small>
+
+      </div>
+
+
+      <p>
+        The referral commission is released
+        once the referred buyer is approved,
+        subject to referral validation
+        and applicable program terms.
+      </p>
+
+      <p>
+        Click below,
+        then send
+        <strong>“REFERRAL PARTNER”</strong>
+        in Messenger.
+      </p>
+
+
+      <a
+        href="https://m.me/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary msg-link"
+        data-keyword="REFERRAL PARTNER"
+      >
+        Become a Referral Partner
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     ABOUT MAB
+     ========================================================== -->
+
+<section
+  id="about"
+  class="about"
+>
+
+  <div class="container">
+
+    <div class="about-grid">
+
+
+      <div>
+
+        <img
+          src="images/mab-photo.png"
+          alt="MAB, Property Specialist at Urban Deca Homes Ortigas"
+          class="mab-photo"
+          loading="lazy"
+          decoding="async"
+        >
+
+      </div>
+
+
+      <div>
+
+        <span class="eyebrow">
+          Your Property Specialist
+        </span>
+
+        <h2>
+          Hindi Basta Condo.<br>
+          Dapat Worth It Para sa’yo.
+        </h2>
+
+        <p>
+          Buying a property is a major decision,
+          especially if this is your first home.
+          My goal is to help you understand
+          your choices,
+          compare available units,
+          financing options,
+          and actual costs
+          before you decide.
+        </p>
+
+        <p>
+          <em>
+            Every property decision should have a purpose,
+            and every move should be worth it.
+          </em>
+        </p>
+
+
+        <p class="signature">
+          Ako si MAB,
+          your Property Specialist at
+          Urban Deca Homes Ortigas.
+          Hindi Basta Condo.
+          Dapat Worth It Para sa’yo.
+        </p>
+
+
+        <div
+          style="
+            display:flex;
+            flex-wrap:wrap;
+            gap:12px;
+          "
+        >
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary msg-link"
+            data-keyword="INFO"
+          >
+            Message MAB
+          </a>
+
+          <a
+            href="https://web.facebook.com/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-red"
+          >
+            Visit Facebook Page
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     FAQ
+     ========================================================== -->
+
+<section
+  id="faq"
+  class="soft-section"
+>
+
+  <div class="container">
+
+    <div class="section-head center">
+
+      <span class="eyebrow">
+        Frequently Asked Questions
+      </span>
+
+      <h2>
+        Common Buyer Questions
+      </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+
+      <details>
+
+        <summary>
+          Is Urban Deca Homes Ortigas ready for occupancy?
+        </summary>
+
+        <p>
+          Ready-for-occupancy options
+          are available based on current inventory.
+          Exact availability should be confirmed
+          before reservation.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          What unit sizes are available?
+        </summary>
+
+        <p>
+          Current unit materials include
+          2BR B at 30.60 sqm,
+          2BR A at 35.57 sqm,
+          2BR C at 35.57 sqm,
+          and 3BR A at 42.07 sqm.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Can I use Pag-IBIG financing?
+        </summary>
+
+        <p>
+          Pag-IBIG financing options may be available
+          subject to unit eligibility,
+          buyer qualification,
+          approval,
+          and applicable requirements.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How much is the monthly amortization?
+        </summary>
+
+        <p>
+          It depends on the unit,
+          financing type,
+          loan amount,
+          term,
+          interest rate,
+          and latest approved computation.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How much is the downpayment?
+        </summary>
+
+        <p>
+          Downpayment and promotional offers
+          may differ by unit,
+          building,
+          and current promotion.
+          Request the latest computation.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Can I schedule a site viewing?
+        </summary>
+
+        <p>
+          Yes.
+          Message MAB with your preferred
+          date and time.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How does the referral program work?
+        </summary>
+
+        <p>
+          Qualified referral partners may receive
+          ₱25,000 per successful transaction.
+          Commission is released once
+          the referred buyer is approved,
+          subject to validation
+          and applicable referral terms.
+        </p>
+
+      </details>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================================================
+     FINAL CTA
+     ========================================================== -->
+
+<section class="final-cta">
+
+  <div class="container">
+
+    <span
+      class="eyebrow"
+      style="color:#F5B52E;"
+    >
+      Your Next Move Should Have a Purpose
+    </span>
+
+    <h2>
+      Hindi Basta Condo.<br>
+      Dapat Worth It Para sa’yo.
+    </h2>
+
+    <p>
+      Tell me your preferred unit,
+      target budget,
+      financing preference,
+      or site-viewing schedule.
+      I’ll help you compare your options.
+    </p>
+
+
+    <div class="final-buttons">
+
+      <a
+        href="https://m.me/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary msg-link"
+        data-keyword="COMPUTATION"
+      >
+        Get Updated Computation
+      </a>
+
+      <a
+        href="https://m.me/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-red msg-link"
+        data-keyword="VIEWING"
+      >
+        Book a Site Viewing
+      </a>
+
+    </div>
+
+
+    <p
+      style="
+        margin-top:30px;
+        color:#F5B52E;
+        font-weight:850;
+      "
+    >
+      Ako si MAB,
+      your Property Specialist at
+      Urban Deca Homes Ortigas.
+    </p>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ==========================================================
+     FOOTER
+     ========================================================== -->
+
+<footer>
+
+  <div class="container">
+
+    <img
+      src="images/mab-logo.png"
+      alt="MAB - Move Acquire Build"
+      class="footer-logo"
+    >
+
+    <p
+      style="
+        color:#F5B52E;
+        font-style:italic;
+      "
+    >
+      Every property decision should have a purpose,
+      and every move should be worth it.
+    </p>
+
+    <p
+      style="
+        color:white;
+        font-weight:800;
+      "
+    >
+      Hindi Basta Condo.
+      Dapat Worth It Para sa’yo.
+    </p>
+
+    <p>
+      <a
+        href="https://web.facebook.com/UDHOrtigasbyMAB"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="
+          color:#F5B52E;
+          font-weight:850;
+        "
+      >
+        Urban Deca Homes - Ortigas by MAB
+      </a>
+    </p>
+
+    <p
+      style="
+        max-width:760px;
+        margin:24px auto 0;
+        font-size:.77rem;
+      "
+    >
+      Prices,
+      unit availability,
+      computations,
+      financing terms,
+      requirements,
+      referral terms,
+      and promotional offers
+      may change.
+      Confirm the latest approved information
+      before making a property decision.
+    </p>
+
+    <p
+      style="
+        margin-top:15px;
+        font-size:.75rem;
+      "
+    >
+      © <span id="year"></span> MAB
+    </p>
+
+  </div>
+
+</footer>
+
+
+<!-- ==========================================================
+     MOBILE QUICK CTA
+     ========================================================== -->
+
+<div class="mobile-cta">
+
+  <a
+    href="https://m.me/UDHOrtigasbyMAB"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="quick-message msg-link"
+    data-keyword="INFO"
+  >
+    💬 Message MAB
+  </a>
+
+  <a
+    href="https://m.me/UDHOrtigasbyMAB"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="quick-viewing msg-link"
+    data-keyword="VIEWING"
+  >
+    📅 Book Viewing
+  </a>
+
+</div>
+
+
+<!-- ==========================================================
+     LIGHTBOX
+     ========================================================== -->
+
+<div
+  id="lightbox"
+  class="lightbox"
+  aria-hidden="true"
+>
+
+  <div class="lightbox-content">
+
+    <button
+      id="lightboxClose"
+      class="lightbox-close"
+      aria-label="Close image"
+    >
+      ×
+    </button>
+
+    <img
+      id="lightboxImage"
+      src=""
+      alt=""
+    >
+
+    <div
+      id="lightboxCaption"
+      class="lightbox-caption"
+    ></div>
+
+  </div>
+
+</div>
+
+
+<!-- TOAST -->
+
+<div
+  id="toast"
+  class="toast"
+  role="status"
+  aria-live="polite"
+></div>
+
+
+<script>
+/* =========================================================
+   THEME
+   ========================================================= */
+
+const themeSelect =
+  document.getElementById("themeSelect");
+
+const systemTheme =
+  window.matchMedia(
+    "(prefers-color-scheme: dark)"
+  );
+
+function applyTheme(preference) {
+
+  localStorage.setItem(
+    "mab-theme",
+    preference
+  );
+
+  const theme =
+    preference === "system"
+      ? (systemTheme.matches ? "dark" : "light")
+      : preference;
+
+  document.documentElement.dataset.theme =
+    theme;
+
+  document.documentElement.dataset.themePreference =
+    preference;
+
+  let meta =
+    document.querySelector(
+      'meta[name="theme-color"]'
+    );
+
+  if (!meta) {
+
+    meta =
+      document.createElement("meta");
+
+    meta.name =
+      "theme-color";
+
+    document.head.appendChild(meta);
+  }
+
+  meta.content =
+    theme === "dark"
+      ? "#091321"
+      : "#132440";
+}
+
+const savedTheme =
+  localStorage.getItem("mab-theme")
+  || "system";
+
+themeSelect.value =
+  savedTheme;
+
+applyTheme(savedTheme);
+
+themeSelect.addEventListener(
+  "change",
+  function () {
+    applyTheme(this.value);
+  }
+);
+
+systemTheme.addEventListener?.(
+  "change",
+  () => {
+
+    if (
+      localStorage.getItem("mab-theme") === "system"
+    ) {
+      applyTheme("system");
+    }
+
+  }
+);
+
+
+/* =========================================================
+   MOBILE MENU
+   ========================================================= */
+
+const menuBtn =
+  document.getElementById("menuBtn");
+
+const mobileMenu =
+  document.getElementById("mobileMenu");
+
+menuBtn.addEventListener(
+  "click",
+  () => {
+
+    const open =
+      mobileMenu.classList.toggle("open");
+
+    menuBtn.setAttribute(
+      "aria-expanded",
+      String(open)
+    );
+
+    menuBtn.textContent =
+      open ? "×" : "☰";
+  }
+);
+
+mobileMenu
+  .querySelectorAll("a")
+  .forEach(link => {
+
+    link.addEventListener(
+      "click",
+      () => {
+
+        mobileMenu.classList.remove("open");
+
+        menuBtn.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
+        menuBtn.textContent =
+          "☰";
+      }
+    );
+
+  });
+
+
+/* =========================================================
+   TOAST
+   ========================================================= */
+
+const toast =
+  document.getElementById("toast");
+
+let toastTimer;
+
+function showToast(html) {
+
+  toast.innerHTML =
+    html;
+
+  toast.classList.add("show");
+
+  clearTimeout(toastTimer);
+
+  toastTimer =
+    setTimeout(
+      () => {
+        toast.classList.remove("show");
+      },
+      4000
+    );
+}
+
+
+/* =========================================================
+   MESSENGER KEYWORDS
+   ========================================================= */
+
+document
+  .querySelectorAll(".msg-link")
+  .forEach(link => {
+
+    link.addEventListener(
+      "click",
+      async function () {
+
+        const keyword =
+          this.dataset.keyword;
+
+        if (!keyword) return;
+
+        try {
+
+          await navigator.clipboard.writeText(
+            keyword
+          );
+
+          showToast(
+            `Messenger is opening. Paste or send: <strong>${keyword}</strong>`
+          );
+
+        } catch {
+
+          showToast(
+            `Messenger is opening. Send: <strong>${keyword}</strong>`
+          );
+
+        }
+
+      }
+    );
+
+  });
+
+
+/* =========================================================
+   SHARE
+   ========================================================= */
+
+const shareSiteBtn =
+  document.getElementById("shareSiteBtn");
+
+shareSiteBtn.addEventListener(
+  "click",
+  async () => {
+
+    const shareData = {
+      title:
+        "Urban Deca Homes Ortigas by MAB",
+
+      text:
+        "Hindi Basta Condo. Dapat Worth It Para sa’yo.",
+
+      url:
+        window.location.href
+    };
+
+    if (navigator.share) {
+
+      try {
+        await navigator.share(
+          shareData
+        );
+      } catch {}
+
+    } else {
+
+      await navigator.clipboard.writeText(
+        window.location.href
+      );
+
+      showToast(
+        "<strong>Website link copied.</strong>"
+      );
+    }
+
+  }
+);
+
+
+/* =========================================================
+   UNIT DATA
+   ========================================================= */
+
+const units = {
+
+  "2BR B": {
+    name:
+      "2 Bedroom B",
+
+    size:
+      "30.60 sqm",
+
+    bedrooms:
+      2,
+
+    configuration:
+      "Inner / Outer",
+
+    positioning:
+      "Practical 2BR",
+
+    description:
+      "A practical 2-bedroom option for first-time buyers and small families."
+  },
+
+  "2BR A": {
+    name:
+      "2 Bedroom A",
+
+    size:
+      "35.57 sqm",
+
+    bedrooms:
+      2,
+
+    configuration:
+      "Outer",
+
+    positioning:
+      "Bigger 2BR",
+
+    description:
+      "A bigger 2-bedroom layout with an outer-unit configuration."
+  },
+
+  "2BR C": {
+    name:
+      "2 Bedroom C",
+
+    size:
+      "35.57 sqm",
+
+    bedrooms:
+      2,
+
+    configuration:
+      "Inner",
+
+    positioning:
+      "Bigger Inner 2BR",
+
+    description:
+      "A 35.57 sqm 2-bedroom layout with an inner-unit configuration."
+  },
+
+  "3BR": {
+    name:
+      "3 Bedroom A",
+
+    size:
+      "42.07 sqm",
+
+    bedrooms:
+      3,
+
+    configuration:
+      "Outer Corner",
+
+    positioning:
+      "Family Space",
+
+    description:
+      "For buyers who want an additional bedroom and more family space."
+  }
+};
+
+
+/* =========================================================
+   UNIT FINDER
+   ========================================================= */
+
+document
+  .getElementById("findUnitBtn")
+  .addEventListener(
+    "click",
+    () => {
+
+      const bedroom =
+        document
+          .getElementById("finderBedrooms")
+          .value;
+
+      const priority =
+        document
+          .getElementById("finderPriority")
+          .value;
+
+      let key =
+        "2BR B";
+
+
+      if (
+        bedroom === "3"
+        ||
+        priority === "family"
+      ) {
+
+        key =
+          "3BR";
+
+      } else if (
+        priority === "space"
+        ||
+        priority === "outer"
+      ) {
+
+        key =
+          "2BR A";
+
+      } else if (
+        priority === "inner"
+      ) {
+
+        key =
+          "2BR C";
+
+      } else {
+
+        key =
+          "2BR B";
+
+      }
+
+
+      const unit =
+        units[key];
+
+      document
+        .getElementById("finderResult")
+        .innerHTML =
+        `
+          <div class="result-title">
+            Suggested starting point:
+            ${unit.name}
+          </div>
+
+          <p>
+            <strong>${unit.size}</strong>
+            • ${unit.configuration}
+          </p>
+
+          <p>
+            ${unit.description}
+          </p>
+
+          <p>
+            This is only a guide.
+            Current inventory,
+            price and financing
+            still need to be checked.
+          </p>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary msg-link dynamic-msg"
+            data-keyword="${key}"
+          >
+            Ask MAB About ${unit.name}
+          </a>
+        `;
+
+
+      document
+        .querySelectorAll(".dynamic-msg")
+        .forEach(link => {
+
+          link.addEventListener(
+            "click",
+            async function () {
+
+              const keyword =
+                this.dataset.keyword;
+
+              try {
+
+                await navigator.clipboard.writeText(
+                  keyword
+                );
+
+                showToast(
+                  `Messenger is opening. Send: <strong>${keyword}</strong>`
+                );
+
+              } catch {
+
+                showToast(
+                  `Send in Messenger: <strong>${keyword}</strong>`
+                );
+
+              }
+
+            }
+          );
+
+        });
+
+    }
+  );
+
+
+/* =========================================================
+   COMPARISON
+   ========================================================= */
+
+const compareOne =
+  document.getElementById("compareOne");
+
+const compareTwo =
+  document.getElementById("compareTwo");
+
+Object.keys(units)
+  .forEach(key => {
+
+    const option1 =
+      document.createElement("option");
+
+    option1.value =
+      key;
+
+    option1.textContent =
+      units[key].name;
+
+    compareOne.appendChild(
+      option1
+    );
+
+
+    const option2 =
+      option1.cloneNode(true);
+
+    compareTwo.appendChild(
+      option2
+    );
+
+  });
+
+compareOne.value =
+  "2BR B";
+
+compareTwo.value =
+  "2BR A";
+
+
+document
+  .getElementById("compareBtn")
+  .addEventListener(
+    "click",
+    () => {
+
+      const first =
+        units[compareOne.value];
+
+      const second =
+        units[compareTwo.value];
+
+      document
+        .getElementById("comparisonOutput")
+        .innerHTML =
+        `
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>${first.name}</th>
+                <th>${second.name}</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>Size</td>
+                <td>${first.size}</td>
+                <td>${second.size}</td>
+              </tr>
+
+              <tr>
+                <td>Bedrooms</td>
+                <td>${first.bedrooms}</td>
+                <td>${second.bedrooms}</td>
+              </tr>
+
+              <tr>
+                <td>Configuration</td>
+                <td>${first.configuration}</td>
+                <td>${second.configuration}</td>
+              </tr>
+
+              <tr>
+                <td>Positioning</td>
+                <td>${first.positioning}</td>
+                <td>${second.positioning}</td>
+              </tr>
+
+            </tbody>
+          </table>
+        `;
+
+    }
+  );
+
+document
+  .getElementById("compareBtn")
+  .click();
+
+
+/* =========================================================
+   CALCULATOR
+   ========================================================= */
+
+function calculateLoan() {
+
+  const principal =
+    Number(
+      document
+        .getElementById("loanAmount")
+        .value
+    );
+
+  const annual =
+    Number(
+      document
+        .getElementById("interestRate")
+        .value
+    );
+
+  const years =
+    Number(
+      document
+        .getElementById("loanYears")
+        .value
+    );
+
+  const months =
+    years * 12;
+
+  const monthlyRate =
+    annual / 100 / 12;
+
+  let payment = 0;
+
+
+  if (
+    principal > 0
+    &&
+    months > 0
+  ) {
+
+    if (
+      monthlyRate === 0
+    ) {
+
+      payment =
+        principal / months;
+
+    } else {
+
+      const factor =
+        Math.pow(
+          1 + monthlyRate,
+          months
+        );
+
+      payment =
+        principal *
+        (
+          monthlyRate * factor
+        )
+        /
+        (
+          factor - 1
+        );
+    }
+
+  }
+
+
+  document
+    .getElementById("monthlyEstimate")
+    .textContent =
+    new Intl.NumberFormat(
+      "en-PH",
+      {
+        style:
+          "currency",
+
+        currency:
+          "PHP",
+
+        maximumFractionDigits:
+          0
+      }
+    )
+    .format(payment);
+}
+
+document
+  .getElementById("calcBtn")
+  .addEventListener(
+    "click",
+    calculateLoan
+  );
+
+calculateLoan();
+
+
+/* =========================================================
+   REQUIREMENTS CHECKER
+   ========================================================= */
+
+document
+  .getElementById("requirementType")
+  .addEventListener(
+    "change",
+    function () {
+
+      const value =
+        this.value;
+
+      const output =
+        document
+          .getElementById("requirementResult");
+
+
+      if (!value) {
+
+        output.innerHTML =
+          "Select your source of income to see the next step.";
+
+        return;
+      }
+
+
+      output.innerHTML =
+        `
+          <div class="result-title">
+            ${value} Requirements Guide
+          </div>
+
+          <p>
+            I have a requirements guide
+            for this buyer category.
+            Documentary requirements
+            should still be confirmed
+            against the latest developer
+            and financing requirements.
+          </p>
+
+          <a
+            href="https://m.me/UDHOrtigasbyMAB"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary requirement-msg"
+            data-keyword="REQUIREMENTS - ${value}"
+          >
+            Request My Checklist
+          </a>
+        `;
+
+
+      output
+        .querySelector(
+          ".requirement-msg"
+        )
+        .addEventListener(
+          "click",
+          async function () {
+
+            const keyword =
+              this.dataset.keyword;
+
+            try {
+
+              await navigator.clipboard.writeText(
+                keyword
+              );
+
+              showToast(
+                `Messenger is opening. Send: <strong>${keyword}</strong>`
+              );
+
+            } catch {
+
+              showToast(
+                `Send in Messenger: <strong>${keyword}</strong>`
+              );
+
+            }
+
+          }
+        );
+
+    }
+  );
+
+
+/* =========================================================
+   LIGHTBOX
+   ========================================================= */
+
+const lightbox =
+  document.getElementById("lightbox");
+
+const lightboxImage =
+  document.getElementById("lightboxImage");
+
+const lightboxCaption =
+  document.getElementById("lightboxCaption");
+
+const lightboxClose =
+  document.getElementById("lightboxClose");
+
+
+document
+  .querySelectorAll(
+    ".lightbox-trigger"
+  )
+  .forEach(trigger => {
+
+    trigger.addEventListener(
+      "click",
+      () => {
+
+        const src =
+          trigger.dataset.src;
+
+        const caption =
+          trigger.dataset.caption || "";
+
+        lightboxImage.src =
+          src;
+
+        lightboxImage.alt =
+          caption;
+
+        lightboxCaption.textContent =
+          caption;
+
+        lightbox.classList.add(
+          "open"
+        );
+
+        lightbox.setAttribute(
+          "aria-hidden",
+          "false"
+        );
+
+        document.body.style.overflow =
+          "hidden";
+
+        lightboxClose.focus();
+      }
+    );
+
+  });
+
+
+function closeLightbox() {
+
+  lightbox.classList.remove(
+    "open"
+  );
+
+  lightbox.setAttribute(
+    "aria-hidden",
+    "true"
+  );
+
+  document.body.style.overflow =
+    "";
+
+  lightboxImage.src =
+    "";
+}
+
+
+lightboxClose.addEventListener(
+  "click",
+  closeLightbox
+);
+
+
+lightbox.addEventListener(
+  "click",
+  event => {
+
+    if (
+      event.target === lightbox
+    ) {
+      closeLightbox();
+    }
+
+  }
+);
+
+
+document.addEventListener(
+  "keydown",
+  event => {
+
+    if (
+      event.key === "Escape"
+      &&
+      lightbox.classList.contains("open")
+    ) {
+
+      closeLightbox();
+
+    }
+
+  }
+);
+
+
+/* =========================================================
+   YEAR
+   ========================================================= */
+
+document
+  .getElementById("year")
+  .textContent =
+  new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
