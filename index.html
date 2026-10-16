@@ -2,446 +2,5700 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, viewport-fit=cover"
+>
+
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="Ready-for-occupancy 2BR and 3BR units at Urban Deca Homes Ortigas, Rosario, Pasig City. Compare layouts, estimate payments and book a site viewing with MAB.">
+
+<meta
+  name="description"
+  content="Explore Urban Deca Homes Ortigas in Rosario, Pasig City with MAB. Compare ready-for-occupancy 2BR and 3BR units, actual unit photos, floor plans, amenities, location, financing estimates and book a site viewing."
+>
+
 <meta name="author" content="MAB">
-<meta property="og:title" content="Urban Deca Homes Ortigas | MAB">
-<meta property="og:description" content="Hindi Basta Condo. Dapat Worth It Para sa’yo.">
+
+<meta
+  property="og:title"
+  content="Urban Deca Homes Ortigas | MAB Property Specialist"
+>
+
+<meta
+  property="og:description"
+  content="Hindi Basta Condo. Dapat Worth It Para sa’yo."
+>
+
 <meta property="og:type" content="website">
+
 <link rel="icon" href="images/mab-logo.png">
-<title>Urban Deca Homes Ortigas | MAB Property Specialist</title>
+
+<title>
+Urban Deca Homes Ortigas | MAB Property Specialist
+</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+  rel="stylesheet"
+>
+
 <script>
-(function(){var s=localStorage.getItem("mab-theme")||"system",d=matchMedia("(prefers-color-scheme: dark)").matches;
-document.documentElement.dataset.theme=s==="system"?(d?"dark":"light"):s})();
+(function(){
+  const saved =
+    localStorage.getItem("mab-theme") || "system";
+
+  const dark =
+    matchMedia("(prefers-color-scheme: dark)").matches;
+
+  document.documentElement.dataset.theme =
+    saved === "system"
+      ? (dark ? "dark" : "light")
+      : saved;
+})();
 </script>
+
 <style>
-:root{--navy:#0F1D35;--red:#BF092F;--gold:#F5B52E;--bg:#F5F6F8;--alt:#fff;--text:#1A2436;--mute:#667287;--line:#DDE2E9;--ink:#0F1D35;--on:#fff;color-scheme:light}
-html[data-theme=dark]{--bg:#09111F;--alt:#0F1B30;--text:#EDF1F7;--mute:#A6B3C4;--line:#243652;--ink:#F2F5FA;--on:#09111F;color-scheme:dark}
-*,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{margin:0;font:400 1rem/1.7 "DM Sans",system-ui,sans-serif;background:var(--bg);color:var(--text)}
-img{display:block;max-width:100%;height:auto}
-a{color:inherit;text-decoration:none}
-button,select,input{font:inherit;color:inherit}
-h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.02;margin:0 0 .45em;letter-spacing:-.03em;color:var(--ink)}
-h1{font-size:clamp(2.8rem,8vw,6rem);font-weight:800;color:#fff}
-h2{font-size:clamp(2rem,4.8vw,3.4rem);font-weight:800}
-h3{font-size:1.3rem;font-weight:600;letter-spacing:-.01em}
-p{margin:0 0 1em;color:var(--mute);max-width:60ch}
-section{padding:clamp(64px,9vw,120px) 0}
-.alt{background:var(--alt)}
-.w{width:min(1120px,100% - 36px);margin-inline:auto}
-:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 26px;border:0;border-radius:14px;font-weight:700;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
-.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(0,0,0,.45)}
-.gold{background:var(--gold);color:#0F1D35}
-.red{background:var(--red);color:#fff}
-.dark{background:var(--ink);color:var(--on)}
-.ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
-.out{background:none;color:var(--ink);border:1px solid var(--line)}
-.bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--gold);z-index:100}
-/* nav */
-.nav{position:sticky;top:0;z-index:50;padding-top:env(safe-area-inset-top);background:rgba(15,29,53,.88);backdrop-filter:blur(16px)}
-.nav .w{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:14px}
-.nav img{height:46px;width:auto}
-.links{display:flex;align-items:center;gap:24px;color:rgba(255,255,255,.75);font-size:.88rem;font-weight:500}
-.links a.on,.links a:hover{color:#fff}
-.links a.on:not(.btn){box-shadow:0 8px 0 -6px var(--gold)}
-.links .btn{min-height:40px;padding:0 18px;color:#0F1D35}
-.ic{width:42px;height:42px;border:1px solid rgba(255,255,255,.28);border-radius:12px;background:rgba(255,255,255,.08);color:#fff;cursor:pointer;font-size:1.05rem}
-.bg{display:none}
-.mm{display:none;padding:0 18px 14px}
-.mm.open{display:grid}
-.mm a{padding:13px 0;color:#fff;border-bottom:1px solid rgba(255,255,255,.12);font-weight:500}
-/* hero */
-.hero{position:relative;color:#fff;padding:clamp(48px,8vw,96px) 0;background:linear-gradient(105deg,rgba(15,29,53,.97) 30%,rgba(15,29,53,.55)),url(images/building-facade.jpg) center/cover}
-.hero .w{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
-.hero h1 span{display:block;color:var(--gold)}
-.hero .sub{font-size:1.12rem;color:rgba(255,255,255,.82);margin:20px 0 28px}
-.acts{display:flex;flex-wrap:wrap;gap:12px}
-.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:34px;font-size:.9rem;color:rgba(255,255,255,.8)}
-.facts b{color:var(--gold);font-weight:700}
-.fine{font-size:.76rem;color:rgba(255,255,255,.55);margin-top:18px}
-.glass{padding:28px;border:1px solid rgba(255,255,255,.22);border-radius:26px;background:rgba(255,255,255,.1);backdrop-filter:blur(18px);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
-.glass h3{color:#fff;margin-bottom:4px}
-.glass p{color:rgba(255,255,255,.75);font-size:.9rem}
-.q{margin:16px 0 6px;font-size:.84rem;font-weight:700;color:#fff}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{padding:9px 16px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:none;color:#fff;font-size:.86rem;cursor:pointer;transition:all .2s}
-.chip:hover{background:rgba(255,255,255,.15)}
-.chip[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#0F1D35;font-weight:700}
-.pick{margin-top:18px;padding:16px;border-radius:16px;background:rgba(15,29,53,.6);animation:pop .4s}
-.pick b{display:block;font:800 1.25rem "Bricolage Grotesque";color:var(--gold)}
-.pick small{color:rgba(255,255,255,.75)}
-.pick .btn{margin-top:12px;min-height:42px;padding:0 18px;font-size:.88rem}
-@keyframes pop{from{opacity:0;transform:scale(.97)}}
-.hero h1,.hero .sub,.hero .acts,.glass{animation:rise .8s both}
-.hero .sub{animation-delay:.12s}.hero .acts{animation-delay:.22s}.glass{animation-delay:.35s}
-@keyframes rise{from{opacity:0;transform:translateY(24px)}}
-/* head */
-.head{max-width:680px;margin-bottom:44px}
-/* explorer */
-.scale{display:flex;align-items:flex-end;gap:12px;margin-bottom:28px;overflow-x:auto;padding-bottom:6px}
-.sq{flex:0 0 auto;display:flex;flex-direction:column;justify-content:flex-end;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--alt);cursor:pointer;text-align:left;transition:all .4s cubic-bezier(.2,.8,.2,1)}
-.sq b{font:800 1.1rem "Bricolage Grotesque";color:var(--ink)}
-.sq small{color:var(--mute);font-size:.76rem}
-.sq:hover{border-color:var(--ink)}
-.sq[aria-selected=true]{background:var(--red);border-color:var(--red)}
-.sq[aria-selected=true] b,.sq[aria-selected=true] small{color:#fff}
-.stage{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:start}
-.cmp{position:relative;overflow:hidden;border-radius:26px;background:#fff;aspect-ratio:4/3;box-shadow:0 30px 60px -34px rgba(15,29,53,.5);user-select:none}
-.cmp img{position:absolute;inset:0;width:100%;height:100%}
-.cmp .plan{object-fit:contain;padding:14px}
-.cmp .act{object-fit:cover;clip-path:inset(0 var(--r,50%) 0 0)}
-.cmp .line{position:absolute;top:0;bottom:0;left:calc(100% - var(--r,50%));width:3px;margin-left:-1.5px;background:var(--gold);pointer-events:none}
-.cmp .line::after{content:"⇄";position:absolute;top:50%;left:50%;width:44px;height:44px;margin:-22px;display:grid;place-items:center;border-radius:50%;background:var(--gold);color:#0F1D35;font-weight:800;box-shadow:0 6px 18px rgba(0,0,0,.35)}
-.cmp input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize}
-.tag{position:absolute;bottom:14px;padding:6px 14px;border-radius:999px;background:rgba(15,29,53,.85);color:#fff;font-size:.78rem;font-weight:700;pointer-events:none}
-.tag.l{left:14px}.tag.r{right:14px}
-.hint{margin:12px 0 0;font-size:.84rem}
-.num{font:800 clamp(3.6rem,9vw,5.6rem) "Bricolage Grotesque";line-height:.95;letter-spacing:-.04em;color:var(--ink)}
-.num small{font-size:1.1rem;font-weight:600;color:var(--mute);margin-left:6px;letter-spacing:0}
-.spec{margin:20px 0 24px}
-.spec div{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:.92rem;font-weight:500;color:var(--ink)}
-.spec span{color:var(--mute);font-weight:400}
-/* bento */
-.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
-.bt{position:relative;padding:0;border:0;border-radius:22px;overflow:hidden;background:var(--line);cursor:zoom-in}
-.bt img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
-.bt:hover img{transform:scale(1.07)}
-.bt span{position:absolute;left:12px;bottom:12px;padding:7px 14px;border-radius:999px;background:rgba(15,29,53,.88);color:#fff;font-size:.8rem;font-weight:700}
-.bt.big{grid-column:span 2;grid-row:span 2}.bt.wide{grid-column:span 2}
-.bt.plan img{object-fit:contain;background:#fff;padding:10px}
-.bt.note{display:flex;flex-direction:column;justify-content:center;padding:22px;background:var(--navy);color:#fff;cursor:default;text-align:left}
-.bt.note b{font:800 2.4rem "Bricolage Grotesque";color:var(--gold);line-height:1}
-.bt.note small{color:rgba(255,255,255,.8);font-size:.88rem}
-/* map */
-.mapbox{position:relative;border-radius:28px;overflow:hidden;border:1px solid var(--line)}
-.mapbox iframe{display:block;width:100%;height:520px;border:0}
-.mapcard{position:absolute;left:20px;bottom:20px;max-width:340px;padding:24px;border-radius:20px;background:var(--alt);box-shadow:0 20px 50px -20px rgba(0,0,0,.5)}
-.mapcard h3{margin-bottom:6px}.mapcard p{font-size:.92rem}
-.mapcard .acts{gap:8px}.mapcard .btn{min-height:44px;padding:0 16px;font-size:.88rem}
-/* calc */
-.calc{display:grid;grid-template-columns:1fr 1fr;gap:28px}
-.card{padding:clamp(24px,4vw,40px);border:1px solid var(--line);border-radius:26px;background:var(--bg)}
-.f{display:grid;gap:6px;margin-bottom:20px}
-.f label{font-weight:700;font-size:.9rem;color:var(--ink)}
-.f label b{float:right;color:var(--red)}
-select,input[type=number]{width:100%;min-height:48px;padding:0 14px;border:1px solid var(--line);border-radius:12px;background:var(--alt)}
-input[type=range]{width:100%;accent-color:var(--red)}
-.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ring{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
-.donut{flex:0 0 auto;width:170px;height:170px;border-radius:50%;background:conic-gradient(var(--red) var(--a,60%),var(--gold) 0);display:grid;place-items:center;transition:background .3s}
-.donut::after{content:"";grid-area:1/1;width:112px;height:112px;border-radius:50%;background:var(--bg)}
-.mo{font:800 clamp(2.4rem,6vw,3.4rem) "Bricolage Grotesque";letter-spacing:-.03em;color:var(--ink);line-height:1}
-.lg{display:flex;gap:16px;margin:14px 0;font-size:.84rem;color:var(--mute)}
-.lg i{display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:50%}
-/* journey */
-.jr{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
-.steps{display:grid;gap:10px}
-.st{display:flex;gap:16px;align-items:center;width:100%;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:var(--alt);text-align:left;cursor:pointer;transition:all .25s}
-.st i{flex:0 0 38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--bg);font:800 1rem "Bricolage Grotesque";font-style:normal;color:var(--ink)}
-.st b{display:block;color:var(--ink)}.st small{color:var(--mute)}
-.st[aria-pressed=true]{border-color:var(--red);transform:translateX(6px)}
-.st[aria-pressed=true] i{background:var(--red);color:#fff}
-.res{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
-/* referral + about */
-.ref{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;padding:clamp(30px,5vw,60px);border-radius:32px;background:linear-gradient(120deg,#0F1D35,#16476A)}
-.ref h2{color:#fff}.ref p{color:rgba(255,255,255,.82)}
-.amt{font:800 clamp(3rem,8vw,5rem) "Bricolage Grotesque";letter-spacing:-.04em;color:var(--gold);line-height:1;text-align:center}
-.about{display:grid;grid-template-columns:minmax(220px,360px) 1fr;gap:56px;align-items:end}
-.about img{max-width:360px;margin-inline:auto}
-.sig{padding-left:16px;border-left:3px solid var(--red);color:var(--ink)!important;font-weight:500}
-/* faq */
-.faq{max-width:820px}
-details{border-bottom:1px solid var(--line)}
-summary{display:flex;justify-content:space-between;gap:16px;padding:22px 0;cursor:pointer;font:600 1.1rem "Bricolage Grotesque";color:var(--ink);list-style:none}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"+";font-size:1.6rem;line-height:1;color:var(--red);transition:transform .25s}
-details[open] summary::after{transform:rotate(45deg)}
-details p{padding-bottom:20px;margin:0}
-.cta{text-align:center;background:var(--navy)}
-.cta h2{color:#fff}.cta p{color:rgba(255,255,255,.8);margin-inline:auto}.cta .acts{justify-content:center}
-footer{padding:44px 0 calc(44px + env(safe-area-inset-bottom));background:#070E1A;color:rgba(255,255,255,.65);font-size:.82rem}
-footer .w{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-footer img{height:70px;width:auto;margin-bottom:10px}
-footer p{color:inherit;font-size:.78rem}
-/* dock */
-.dock{position:fixed;z-index:60;right:18px;bottom:calc(18px + env(safe-area-inset-bottom));display:flex;gap:8px;padding:8px;border-radius:20px;background:rgba(15,29,53,.92);backdrop-filter:blur(14px);box-shadow:0 18px 40px -12px rgba(0,0,0,.6);transform:translateY(120px);transition:transform .4s}
-.dock.show{transform:none}
-.dock .btn{min-height:44px;padding:0 18px;font-size:.88rem}
-.lb{position:fixed;inset:0;z-index:90;display:none;place-items:center;padding:20px;background:rgba(5,10,20,.92)}
-.lb.open{display:grid}
-.lb figure{margin:0;position:relative;text-align:center}
-.lb img{max-height:80vh;width:auto;margin:auto;border-radius:12px;background:#fff}
-.lb figcaption{margin-top:10px;color:#fff}
-.lb button{position:absolute;top:-48px;right:0;width:40px;height:40px;border:0;border-radius:50%;background:var(--gold);color:#0F1D35;font-size:1.4rem;cursor:pointer}
-.toast{position:fixed;z-index:95;left:50%;bottom:calc(86px + env(safe-area-inset-bottom));max-width:min(92vw,360px);padding:14px 18px;border-radius:14px;background:var(--ink);color:var(--on);font-size:.88rem;opacity:0;transform:translate(-50%,14px);pointer-events:none;transition:.25s}
-.toast.show{opacity:1;transform:translate(-50%,0)}
-@media(max-width:960px){
-.links{display:none}.bg{display:inline-block}
-.hero .w,.stage,.calc,.jr,.about,.ref{grid-template-columns:1fr;gap:30px}
-.bento{grid-template-columns:repeat(2,1fr)}
-.mapcard{position:static;max-width:none;border-radius:0}
-.mapbox iframe{height:380px}
+
+/* =========================================================
+   MAB BRAND
+   ========================================================= */
+
+:root{
+  --red:#BF092F;
+  --navy:#132440;
+  --blue:#16476A;
+  --gold:#F5B52E;
+
+  --bg:#F5F6F8;
+  --alt:#FFFFFF;
+
+  --text:#1B2737;
+  --mute:#667287;
+  --line:#DDE3EA;
+
+  --ink:#132440;
+  --on:#FFFFFF;
+
+  --shadow:
+    0 24px 60px -35px
+    rgba(19,36,64,.45);
+
+  color-scheme:light;
 }
-@media(max-width:620px){
-.row2{grid-template-columns:1fr}
-.acts .btn{width:100%}
-.bento{grid-auto-rows:150px}
-.dock{left:12px;right:12px}.dock .btn{flex:1}
-.st[aria-pressed=true]{transform:none}
+
+html[data-theme="dark"]{
+  --bg:#08121F;
+  --alt:#101E31;
+
+  --text:#EDF2F7;
+  --mute:#AAB7C8;
+  --line:#263A53;
+
+  --ink:#F3F6FA;
+  --on:#08121F;
+
+  color-scheme:dark;
 }
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:85px;
+}
+
+body{
+  margin:0;
+
+  font:
+    400 1rem/1.7
+    Inter,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  background:var(--bg);
+  color:var(--text);
+}
+
+body,
+button,
+input,
+select{
+  font-family:inherit;
+}
+
+img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+button,
+input,
+select,
+a{
+  -webkit-tap-highlight-color:transparent;
+}
+
+button{
+  cursor:pointer;
+}
+
+h1,
+h2,
+h3{
+  margin:0 0 .45em;
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  color:var(--ink);
+
+  line-height:1.12;
+  letter-spacing:-.015em;
+}
+
+h1{
+  color:#fff;
+
+  font-size:
+    clamp(2.75rem,8vw,6rem);
+
+  font-weight:800;
+}
+
+h2{
+  font-size:
+    clamp(2rem,5vw,3.45rem);
+
+  font-weight:800;
+}
+
+h3{
+  font-size:1.3rem;
+}
+
+p{
+  max-width:62ch;
+
+  margin:
+    0 0 1em;
+
+  color:var(--mute);
+}
+
+section{
+  padding:
+    clamp(65px,9vw,120px)
+    0;
+}
+
+.alt{
+  background:var(--alt);
+}
+
+.w{
+  width:
+    min(
+      1120px,
+      calc(100% - 36px)
+    );
+
+  margin-inline:auto;
+}
+
+.head{
+  max-width:760px;
+  margin-bottom:38px;
+}
+
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.eyebrow{
+  display:inline-block;
+
+  margin-bottom:10px;
+
+  color:var(--red);
+
+  font-size:.76rem;
+  font-weight:800;
+
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.skip{
+  position:fixed;
+
+  top:10px;
+  left:10px;
+
+  z-index:999;
+
+  padding:10px 14px;
+
+  border-radius:9px;
+
+  background:var(--gold);
+  color:var(--navy);
+
+  font-weight:800;
+
+  transform:
+    translateY(-180%);
+}
+
+.skip:focus{
+  transform:translateY(0);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible{
+  outline:
+    3px solid var(--gold);
+
+  outline-offset:3px;
+}
+
+
+/* =========================================================
+   PROGRESS BAR
+   ========================================================= */
+
+.bar{
+  position:fixed;
+
+  top:0;
+  left:0;
+
+  z-index:9999;
+
+  width:0;
+  height:3px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--red),
+      var(--gold)
+    );
+}
+
+
+/* =========================================================
+   NAV
+   ========================================================= */
+
+.nav{
+  position:sticky;
+
+  top:0;
+
+  z-index:100;
+
+  background:
+    rgba(19,36,64,.97);
+
+  border-bottom:
+    1px solid
+    rgba(255,255,255,.08);
+
+  backdrop-filter:
+    blur(14px);
+}
+
+.nav > .w{
+  min-height:76px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:20px;
+}
+
+.nav img{
+  width:auto;
+  height:54px;
+
+  object-fit:contain;
+}
+
+.links{
+  display:flex;
+  align-items:center;
+
+  gap:18px;
+
+  color:white;
+
+  font-size:.86rem;
+  font-weight:700;
+}
+
+.links > a:not(.btn){
+  opacity:.84;
+}
+
+.links > a:hover,
+.links > a.on{
+  color:var(--gold);
+  opacity:1;
+}
+
+.navtools{
+  display:flex;
+  gap:8px;
+}
+
+.ic{
+  width:43px;
+  height:43px;
+
+  display:grid;
+  place-items:center;
+
+  border:
+    1px solid
+    rgba(255,255,255,.18);
+
+  border-radius:50%;
+
+  background:
+    rgba(255,255,255,.08);
+
+  color:white;
+
+  font-size:1.15rem;
+}
+
+.bg{
+  display:none;
+}
+
+.mm{
+  display:none;
+
+  padding:
+    0 18px
+    18px;
+
+  background:var(--navy);
+}
+
+.mm.open{
+  display:grid;
+}
+
+.mm a{
+  padding:12px 5px;
+
+  border-bottom:
+    1px solid
+    rgba(255,255,255,.09);
+
+  color:white;
+
+  font-weight:700;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.btn{
+  min-height:46px;
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  gap:7px;
+
+  padding:0 20px;
+
+  border:
+    1px solid transparent;
+
+  border-radius:999px;
+
+  font-weight:800;
+  text-align:center;
+
+  transition:
+    transform .18s,
+    background .18s,
+    border-color .18s;
+}
+
+.btn:hover{
+  transform:
+    translateY(-2px);
+}
+
+.btn.gold{
+  background:var(--gold);
+  color:var(--navy);
+}
+
+.btn.red{
+  background:var(--red);
+  color:white;
+}
+
+.btn.dark{
+  background:var(--navy);
+  color:white;
+}
+
+.btn.blue{
+  background:var(--blue);
+  color:white;
+}
+
+.btn.out{
+  border-color:var(--line);
+  background:transparent;
+  color:var(--ink);
+}
+
+.btn.ghost{
+  border-color:
+    rgba(255,255,255,.35);
+
+  background:
+    rgba(255,255,255,.08);
+
+  color:white;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero{
+  position:relative;
+
+  overflow:hidden;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(19,36,64,.98),
+      rgba(19,36,64,.90) 52%,
+      rgba(22,71,106,.45)
+    ),
+    url("images/building-facade.jpg")
+    center / cover
+    no-repeat;
+}
+
+.hero .w{
+  min-height:
+    min(790px,90vh);
+
+  display:grid;
+
+  grid-template-columns:
+    1.15fr .75fr;
+
+  align-items:center;
+
+  gap:55px;
+
+  padding:
+    65px 0
+    75px;
+}
+
+.hero h1 span{
+  display:block;
+
+  color:var(--gold);
+}
+
+.sub{
+  max-width:710px;
+
+  color:
+    rgba(255,255,255,.84);
+
+  font-size:
+    clamp(1rem,2vw,1.13rem);
+}
+
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+
+  gap:8px;
+
+  margin:
+    17px 0;
+}
+
+.chip{
+  min-height:38px;
+
+  padding:0 14px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.28);
+
+  border-radius:999px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  color:white;
+
+  font-size:.8rem;
+  font-weight:700;
+}
+
+.chip[aria-pressed="true"]{
+  border-color:var(--gold);
+  background:var(--gold);
+  color:var(--navy);
+}
+
+.acts{
+  display:flex;
+  flex-wrap:wrap;
+
+  gap:10px;
+
+  margin-top:23px;
+}
+
+.facts{
+  display:flex;
+  flex-wrap:wrap;
+
+  gap:10px;
+
+  margin-top:30px;
+}
+
+.facts span{
+  padding:
+    9px 13px;
+
+  border-radius:11px;
+
+  background:
+    rgba(255,255,255,.09);
+
+  color:
+    rgba(255,255,255,.82);
+
+  font-size:.78rem;
+}
+
+.facts b{
+  color:var(--gold);
+}
+
+.fine{
+  margin-top:17px;
+
+  color:
+    rgba(255,255,255,.58);
+
+  font-size:.74rem;
+}
+
+.glass{
+  padding:
+    clamp(23px,4vw,34px);
+
+  border:
+    1px solid
+    rgba(255,255,255,.18);
+
+  border-radius:25px;
+
+  background:
+    rgba(255,255,255,.10);
+
+  box-shadow:
+    0 30px 70px
+    rgba(0,0,0,.18);
+
+  backdrop-filter:
+    blur(16px);
+}
+
+.glass h3{
+  color:white;
+}
+
+.glass p,
+.glass .q{
+  color:
+    rgba(255,255,255,.78);
+}
+
+.q{
+  margin-top:18px;
+
+  font-size:.82rem;
+  font-weight:800;
+
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.pick{
+  margin-top:20px;
+
+  padding:16px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.16);
+
+  border-radius:15px;
+
+  background:
+    rgba(19,36,64,.55);
+
+  color:white;
+}
+
+.pick small{
+  display:block;
+
+  margin:
+    5px 0 12px;
+
+  color:
+    rgba(255,255,255,.7);
+}
+
+
+/* =========================================================
+   PROJECT BACKGROUND
+   ========================================================= */
+
+.project{
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap:52px;
+
+  align-items:center;
+}
+
+.project-image{
+  position:relative;
+
+  overflow:hidden;
+
+  border-radius:28px;
+
+  box-shadow:var(--shadow);
+
+  background:white;
+}
+
+.project-image img{
+  aspect-ratio:16 / 10;
+
+  object-fit:cover;
+}
+
+.project-image .badge{
+  position:absolute;
+
+  left:15px;
+  bottom:15px;
+
+  padding:
+    7px 12px;
+
+  border-radius:999px;
+
+  background:
+    rgba(19,36,64,.90);
+
+  color:white;
+
+  font-size:.75rem;
+  font-weight:800;
+}
+
+.stats{
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:12px;
+
+  margin-top:27px;
+}
+
+.stat{
+  padding:20px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:17px;
+
+  background:var(--bg);
+}
+
+.stat strong{
+  display:block;
+
+  color:var(--red);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:
+    clamp(2rem,5vw,3rem);
+
+  line-height:1;
+}
+
+.stat span{
+  display:block;
+
+  margin-top:7px;
+
+  color:var(--ink);
+
+  font-size:.86rem;
+  font-weight:800;
+}
+
+.stat small{
+  display:block;
+
+  color:var(--mute);
+
+  font-size:.72rem;
+}
+
+.stat.feature{
+  grid-column:
+    1 / -1;
+
+  background:var(--navy);
+  border-color:var(--navy);
+}
+
+.stat.feature strong{
+  color:var(--gold);
+}
+
+.stat.feature span,
+.stat.feature small{
+  color:white;
+}
+
+.project-note{
+  margin-top:20px;
+
+  padding:14px 16px;
+
+  border-left:
+    3px solid var(--gold);
+
+  border-radius:
+    0 12px 12px 0;
+
+  background:var(--bg);
+
+  color:var(--mute);
+
+  font-size:.8rem;
+}
+
+.feature-grid{
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap:12px;
+
+  margin-top:35px;
+}
+
+.feature{
+  padding:20px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:17px;
+
+  background:var(--alt);
+}
+
+.feature b{
+  display:block;
+
+  margin-bottom:5px;
+
+  color:var(--ink);
+}
+
+.feature p{
+  margin:0;
+
+  font-size:.82rem;
+}
+
+
+/* =========================================================
+   UNITS
+   ========================================================= */
+
+.scale{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-end;
+
+  gap:13px;
+
+  margin-bottom:30px;
+}
+
+.sq{
+  min-width:130px;
+
+  padding:15px;
+
+  border:
+    2px solid var(--line);
+
+  border-radius:16px;
+
+  background:var(--bg);
+
+  color:var(--ink);
+
+  transition:
+    transform .18s,
+    border-color .18s;
+}
+
+.sq:hover{
+  transform:translateY(-3px);
+}
+
+.sq[aria-selected="true"]{
+  border-color:var(--red);
+
+  box-shadow:
+    inset 0 0 0 1px
+    var(--red);
+}
+
+.sq b{
+  display:block;
+
+  color:var(--red);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:1.5rem;
+}
+
+.sq small{
+  color:var(--mute);
+}
+
+.stage{
+  display:grid;
+
+  grid-template-columns:
+    1.25fr .75fr;
+
+  gap:45px;
+
+  align-items:center;
+}
+
+.cmp{
+  --pos:50%;
+
+  position:relative;
+
+  min-height:430px;
+
+  overflow:hidden;
+
+  border-radius:22px;
+
+  background:white;
+
+  box-shadow:var(--shadow);
+}
+
+.cmp img{
+  position:absolute;
+
+  inset:0;
+
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+}
+
+.cmp .plan{
+  clip-path:
+    inset(
+      0
+      0
+      0
+      var(--pos)
+    );
+}
+
+.cmp .line{
+  position:absolute;
+
+  top:0;
+  bottom:0;
+
+  left:var(--pos);
+
+  width:2px;
+
+  background:white;
+
+  box-shadow:
+    0 0 0 1px
+    rgba(0,0,0,.15);
+}
+
+.cmp input{
+  position:absolute;
+
+  inset:0;
+
+  width:100%;
+  height:100%;
+
+  opacity:0;
+
+  cursor:ew-resize;
+}
+
+.tag{
+  position:absolute;
+
+  top:12px;
+
+  padding:
+    6px 10px;
+
+  border-radius:999px;
+
+  background:
+    rgba(19,36,64,.9);
+
+  color:white;
+
+  font-size:.7rem;
+  font-weight:800;
+}
+
+.tag.l{
+  left:12px;
+}
+
+.tag.r{
+  right:12px;
+}
+
+.hint{
+  margin-top:12px;
+
+  color:var(--mute);
+
+  font-size:.8rem;
+}
+
+.num{
+  display:flex;
+  align-items:flex-end;
+
+  gap:7px;
+}
+
+.num span{
+  color:var(--red);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:
+    clamp(3rem,8vw,5.5rem);
+
+  font-weight:800;
+
+  line-height:.9;
+}
+
+.num small{
+  margin-bottom:5px;
+
+  color:var(--mute);
+
+  font-weight:700;
+}
+
+.spec{
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:9px;
+
+  margin:
+    20px 0;
+}
+
+.spec div{
+  padding:13px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:13px;
+
+  background:var(--bg);
+
+  color:var(--ink);
+
+  font-size:.82rem;
+  font-weight:700;
+}
+
+.spec span{
+  display:block;
+
+  margin-bottom:2px;
+
+  color:var(--mute);
+
+  font-size:.68rem;
+
+  text-transform:uppercase;
+  letter-spacing:.07em;
+}
+
+
+/* =========================================================
+   COMMUNITY GALLERY
+   ========================================================= */
+
+.bento{
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  grid-auto-rows:190px;
+
+  gap:10px;
+}
+
+.bt{
+  position:relative;
+
+  overflow:hidden;
+
+  padding:0;
+
+  border:0;
+  border-radius:18px;
+
+  background:var(--line);
+
+  cursor:zoom-in;
+}
+
+.bt img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+
+  transition:
+    transform .3s;
+}
+
+.bt:hover img{
+  transform:scale(1.035);
+}
+
+.bt span{
+  position:absolute;
+
+  right:9px;
+  bottom:9px;
+  left:9px;
+
+  padding:
+    7px 10px;
+
+  border-radius:9px;
+
+  background:
+    rgba(19,36,64,.86);
+
+  color:white;
+
+  font-size:.72rem;
+  font-weight:800;
+}
+
+.bt.wide{
+  grid-column:
+    span 2;
+}
+
+.bt.big{
+  grid-row:
+    span 2;
+
+  grid-column:
+    span 2;
+}
+
+.bt.note{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  padding:15px;
+
+  background:var(--navy);
+  color:white;
+
+  cursor:default;
+}
+
+.bt.note b{
+  color:var(--gold);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:3rem;
+
+  line-height:1;
+}
+
+.bt.note small{
+  color:white;
+  text-align:center;
+}
+
+
+/* =========================================================
+   LOCATION
+   ========================================================= */
+
+.location-copy{
+  max-width:780px;
+
+  margin-bottom:28px;
+}
+
+.nearby{
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap:10px;
+
+  margin:
+    24px 0
+    30px;
+}
+
+.near{
+  padding:15px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:15px;
+
+  background:var(--bg);
+}
+
+.near b{
+  display:block;
+
+  color:var(--ink);
+
+  font-size:.86rem;
+}
+
+.near small{
+  color:var(--mute);
+  font-size:.72rem;
+}
+
+.mapbox{
+  position:relative;
+
+  overflow:hidden;
+
+  border-radius:25px;
+
+  border:
+    1px solid var(--line);
+
+  box-shadow:var(--shadow);
+}
+
+.mapbox iframe{
+  display:block;
+
+  width:100%;
+  height:500px;
+
+  border:0;
+}
+
+.mapcard{
+  position:absolute;
+
+  left:20px;
+  bottom:20px;
+
+  max-width:340px;
+
+  padding:22px;
+
+  border-radius:17px;
+
+  background:var(--alt);
+
+  box-shadow:
+    0 16px 45px
+    rgba(0,0,0,.18);
+}
+
+.mapcard p{
+  margin-bottom:15px;
+}
+
+.location-ref{
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:12px;
+
+  margin-top:20px;
+}
+
+.location-ref button{
+  position:relative;
+
+  overflow:hidden;
+
+  padding:0;
+
+  border:0;
+  border-radius:18px;
+
+  background:var(--line);
+}
+
+.location-ref img{
+  height:270px;
+
+  object-fit:cover;
+}
+
+.location-ref span{
+  position:absolute;
+
+  left:10px;
+  bottom:10px;
+
+  padding:
+    7px 11px;
+
+  border-radius:999px;
+
+  background:
+    rgba(19,36,64,.9);
+
+  color:white;
+
+  font-size:.74rem;
+  font-weight:800;
+}
+
+
+/* =========================================================
+   CARDS / FORMS
+   ========================================================= */
+
+.card{
+  padding:
+    clamp(20px,3vw,28px);
+
+  border:
+    1px solid var(--line);
+
+  border-radius:20px;
+
+  background:var(--alt);
+
+  box-shadow:var(--shadow);
+}
+
+.f{
+  display:grid;
+
+  gap:6px;
+
+  margin-bottom:15px;
+}
+
+.f label{
+  color:var(--ink);
+
+  font-size:.8rem;
+  font-weight:800;
+}
+
+.f input,
+.f select{
+  width:100%;
+
+  min-height:47px;
+
+  padding:0 12px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:10px;
+
+  background:var(--bg);
+  color:var(--text);
+}
+
+input[type="range"]{
+  padding:0;
+  accent-color:var(--red);
+}
+
+.row2{
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap:12px;
+}
+
+
+/* =========================================================
+   FINANCING
+   ========================================================= */
+
+.calc{
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap:20px;
+}
+
+.ring{
+  display:grid;
+
+  grid-template-columns:
+    190px 1fr;
+
+  align-items:center;
+
+  gap:25px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--navy),
+      var(--blue)
+    );
+}
+
+.ring p,
+.ring b{
+  color:white !important;
+}
+
+.donut{
+  width:180px;
+  height:180px;
+
+  border-radius:50%;
+
+  background:
+    conic-gradient(
+      var(--red) 0 50%,
+      var(--gold) 50% 100%
+    );
+
+  position:relative;
+}
+
+.donut::after{
+  content:"";
+
+  position:absolute;
+
+  inset:25px;
+
+  border-radius:50%;
+
+  background:var(--navy);
+}
+
+.mo{
+  color:var(--gold);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:
+    clamp(2.3rem,7vw,4rem);
+
+  font-weight:800;
+}
+
+.lg{
+  display:flex;
+  flex-wrap:wrap;
+
+  gap:12px;
+
+  margin:
+    8px 0 14px;
+
+  color:white;
+
+  font-size:.73rem;
+}
+
+.lg i{
+  width:8px;
+  height:8px;
+
+  display:inline-block;
+
+  margin-right:4px;
+
+  border-radius:50%;
+}
+
+.note{
+  margin:
+    10px 0;
+
+  padding:12px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:10px;
+
+  background:var(--bg);
+
+  color:var(--mute);
+
+  font-size:.8rem;
+}
+
+
+/* =========================================================
+   BUYING JOURNEY
+   ========================================================= */
+
+.jr{
+  display:grid;
+
+  grid-template-columns:
+    .72fr 1.28fr;
+
+  gap:22px;
+}
+
+.steps{
+  display:grid;
+
+  gap:8px;
+}
+
+.st{
+  display:flex;
+  align-items:center;
+
+  gap:12px;
+
+  padding:13px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:14px;
+
+  background:var(--bg);
+
+  text-align:left;
+}
+
+.st[aria-pressed="true"]{
+  border-color:var(--red);
+
+  transform:
+    translateX(5px);
+}
+
+.st i{
+  width:34px;
+  height:34px;
+
+  display:grid;
+  place-items:center;
+
+  flex:none;
+
+  border-radius:50%;
+
+  background:var(--navy);
+  color:white;
+
+  font-style:normal;
+  font-weight:800;
+}
+
+.st span{
+  display:grid;
+}
+
+.st b{
+  color:var(--ink);
+}
+
+.st small{
+  color:var(--mute);
+}
+
+
+/* =========================================================
+   REFERRAL
+   ========================================================= */
+
+.ref{
+  display:grid;
+
+  grid-template-columns:
+    1.2fr .8fr;
+
+  align-items:center;
+
+  gap:30px;
+
+  padding:
+    clamp(28px,5vw,55px);
+
+  border-radius:27px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--navy),
+      var(--blue)
+    );
+}
+
+.ref h2,
+.ref p{
+  color:white;
+}
+
+.amt{
+  color:var(--gold);
+
+  font-family:
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  font-size:
+    clamp(3rem,9vw,6rem);
+
+  font-weight:800;
+
+  line-height:1;
+
+  text-align:center;
+}
+
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+.about{
+  display:grid;
+
+  grid-template-columns:
+    minmax(250px,360px)
+    1fr;
+
+  align-items:end;
+
+  gap:45px;
+}
+
+.about > img{
+  max-width:360px;
+
+  margin-inline:auto;
+}
+
+.sig{
+  padding-left:16px;
+
+  border-left:
+    4px solid var(--red);
+
+  color:var(--ink);
+
+  font-weight:700;
+}
+
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+
+.faq{
+  max-width:850px;
+}
+
+details{
+  margin-bottom:9px;
+
+  padding:
+    0 17px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:12px;
+
+  background:var(--alt);
+}
+
+summary{
+  padding:
+    17px 0;
+
+  color:var(--ink);
+
+  font-weight:800;
+
+  cursor:pointer;
+}
+
+details p{
+  padding-bottom:16px;
+}
+
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.cta{
+  background:
+    linear-gradient(
+      135deg,
+      var(--navy),
+      var(--blue)
+    );
+
+  text-align:center;
+}
+
+.cta h2{
+  color:white;
+}
+
+.cta > .w > p{
+  margin-left:auto;
+  margin-right:auto;
+
+  color:
+    rgba(255,255,255,.76);
+}
+
+.req{
+  max-width:850px;
+
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr 1fr auto;
+
+  align-items:end;
+
+  gap:10px;
+
+  margin:
+    30px auto
+    0;
+
+  text-align:left;
+}
+
+.req label{
+  display:grid;
+
+  gap:5px;
+
+  color:white;
+
+  font-size:.76rem;
+  font-weight:700;
+}
+
+.req input,
+.req select{
+  min-height:48px;
+
+  padding:0 11px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.18);
+
+  border-radius:10px;
+
+  background:white;
+  color:#172437;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer{
+  padding:
+    45px 0
+    calc(
+      90px +
+      env(safe-area-inset-bottom)
+    );
+
+  background:#06101D;
+
+  text-align:center;
+}
+
+footer img{
+  width:auto;
+  height:80px;
+
+  margin:
+    0 auto
+    18px;
+}
+
+footer p{
+  margin-left:auto;
+  margin-right:auto;
+
+  color:
+    rgba(255,255,255,.62);
+
+  font-size:.76rem;
+}
+
+footer a{
+  color:var(--gold);
+}
+
+
+/* =========================================================
+   MOBILE CTA
+   ========================================================= */
+
+.dock{
+  position:fixed;
+
+  right:18px;
+  bottom:
+    calc(
+      16px +
+      env(safe-area-inset-bottom)
+    );
+
+  z-index:85;
+
+  display:flex;
+
+  gap:8px;
+
+  opacity:0;
+
+  transform:
+    translateY(20px);
+
+  pointer-events:none;
+
+  transition:.25s;
+}
+
+.dock.show{
+  opacity:1;
+  transform:translateY(0);
+
+  pointer-events:auto;
+}
+
+
+/* =========================================================
+   LIGHTBOX
+   ========================================================= */
+
+.lb{
+  position:fixed;
+
+  inset:0;
+
+  z-index:200;
+
+  display:none;
+  align-items:center;
+  justify-content:center;
+
+  padding:20px;
+
+  background:
+    rgba(0,0,0,.88);
+}
+
+.lb.open{
+  display:flex;
+}
+
+.lb figure{
+  position:relative;
+
+  width:
+    min(1050px,96vw);
+
+  max-height:92vh;
+
+  margin:0;
+
+  text-align:center;
+}
+
+.lb img{
+  max-height:82vh;
+
+  width:auto;
+  max-width:100%;
+
+  margin:auto;
+
+  border-radius:10px;
+
+  object-fit:contain;
+}
+
+.lb figcaption{
+  margin-top:10px;
+
+  color:white;
+
+  font-size:.82rem;
+}
+
+#lbx{
+  position:absolute;
+
+  top:-48px;
+  right:0;
+
+  width:40px;
+  height:40px;
+
+  border:0;
+  border-radius:50%;
+
+  background:var(--gold);
+  color:var(--navy);
+
+  font-size:1.4rem;
+}
+
+
+/* =========================================================
+   TOAST
+   ========================================================= */
+
+.toast{
+  position:fixed;
+
+  z-index:250;
+
+  left:50%;
+
+  bottom:
+    calc(
+      86px +
+      env(safe-area-inset-bottom)
+    );
+
+  max-width:
+    min(92vw,360px);
+
+  padding:
+    14px 18px;
+
+  border-radius:14px;
+
+  background:var(--navy);
+  color:white;
+
+  font-size:.86rem;
+
+  opacity:0;
+
+  transform:
+    translate(-50%,14px);
+
+  pointer-events:none;
+
+  transition:.25s;
+}
+
+.toast.show{
+  opacity:1;
+
+  transform:
+    translate(-50%,0);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media(max-width:1050px){
+
+  .links{
+    display:none;
+  }
+
+  .bg{
+    display:grid;
+  }
+
+  .hero .w,
+  .project,
+  .stage,
+  .calc,
+  .jr,
+  .about,
+  .ref{
+    grid-template-columns:1fr;
+  }
+
+  .feature-grid{
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+  .bento{
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+  .nearby{
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+  .mapcard{
+    position:static;
+
+    max-width:none;
+
+    border-radius:0;
+    box-shadow:none;
+  }
+
+  .mapbox iframe{
+    height:390px;
+  }
+
+  .req{
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .req .btn{
+    grid-column:
+      1 / -1;
+  }
+}
+
+@media(max-width:650px){
+
+  .w{
+    width:
+      min(
+        100% - 22px,
+        1120px
+      );
+  }
+
+  .nav img{
+    height:45px;
+  }
+
+  .hero .w{
+    min-height:auto;
+
+    padding:
+      70px 0;
+  }
+
+  .acts{
+    flex-direction:column;
+  }
+
+  .acts .btn{
+    width:100%;
+  }
+
+  .stats,
+  .feature-grid,
+  .spec,
+  .nearby,
+  .location-ref,
+  .row2,
+  .req{
+    grid-template-columns:1fr;
+  }
+
+  .stat.feature{
+    grid-column:auto;
+  }
+
+  .bento{
+    grid-template-columns:1fr;
+
+    grid-auto-rows:220px;
+  }
+
+  .bt.big,
+  .bt.wide{
+    grid-column:auto;
+    grid-row:auto;
+  }
+
+  .cmp{
+    min-height:330px;
+  }
+
+  .ring{
+    grid-template-columns:1fr;
+
+    text-align:center;
+  }
+
+  .donut{
+    margin:auto;
+  }
+
+  .lg{
+    justify-content:center;
+  }
+
+  .req .btn{
+    grid-column:auto;
+  }
+
+  .dock{
+    left:10px;
+    right:10px;
+
+    bottom:
+      calc(
+        9px +
+        env(safe-area-inset-bottom)
+      );
+  }
+
+  .dock .btn{
+    flex:1;
+
+    padding:
+      0 10px;
+
+    font-size:.78rem;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+
+  html{
+    scroll-behavior:auto;
+  }
+
+  *{
+    animation:none !important;
+    transition:none !important;
+  }
+}
+
 </style>
 </head>
-<body>
-<div class="bar" id="bar"></div>
 
-<nav class="nav" aria-label="Main">
+
+<body>
+
+<a
+  class="skip"
+  href="#main"
+>
+Skip to main content
+</a>
+
+<div
+  class="bar"
+  id="bar"
+></div>
+
+
+<!-- =========================================================
+     NAVIGATION
+     ========================================================= -->
+
+<nav
+  class="nav"
+  aria-label="Main navigation"
+>
+
 <div class="w">
-<a href="#top" aria-label="MAB home"><img src="images/mab-logo.png" alt="MAB - Move Acquire Build"></a>
-<div class="links" id="links">
-<a href="#units">Units</a><a href="#community">Community</a><a href="#location">Location</a><a href="#financing">Financing</a><a href="#journey">Buying</a><a href="#faq">FAQ</a>
-<a class="btn gold msg" data-kw="INFO" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Message MAB</a>
+
+<a
+  href="#top"
+  aria-label="MAB home"
+>
+<img
+  src="images/mab-logo.png"
+  alt="MAB - Move Acquire Build"
+>
+</a>
+
+
+<div
+  class="links"
+  id="links"
+>
+
+<a href="#project">
+Project
+</a>
+
+<a href="#units">
+Units
+</a>
+
+<a href="#community">
+Community
+</a>
+
+<a href="#location">
+Location
+</a>
+
+<a href="#financing">
+Financing
+</a>
+
+<a href="#journey">
+Buying
+</a>
+
+<a href="#referral">
+Referral
+</a>
+
+<a href="#faq">
+FAQ
+</a>
+
+<a
+  class="btn gold msg"
+  data-kw="INFO"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Message MAB
+</a>
+
 </div>
-<div style="display:flex;gap:8px">
-<button class="ic" id="tg" type="button" aria-label="Change appearance"></button>
-<button class="ic bg" id="bg" aria-label="Open menu" aria-expanded="false" aria-controls="mm">☰</button>
+
+
+<div class="navtools">
+
+<button
+  class="ic"
+  id="tg"
+  type="button"
+  aria-label="Change appearance"
+></button>
+
+<button
+  class="ic bg"
+  id="bg"
+  aria-label="Open menu"
+  aria-expanded="false"
+  aria-controls="mm"
+>
+☰
+</button>
+
 </div>
+
 </div>
-<div class="mm" id="mm"><a href="#units">Units</a><a href="#community">Community</a><a href="#location">Location</a><a href="#financing">Financing</a><a href="#journey">Buying process</a><a href="#referral">Referral</a><a href="#about">About MAB</a><a href="#faq">FAQ</a></div>
+
+
+<div
+  class="mm"
+  id="mm"
+>
+
+<a href="#project">Project</a>
+<a href="#units">Units</a>
+<a href="#community">Community</a>
+<a href="#location">Location</a>
+<a href="#financing">Financing</a>
+<a href="#journey">Buying process</a>
+<a href="#referral">Referral</a>
+<a href="#about">About MAB</a>
+<a href="#faq">FAQ</a>
+
+</div>
+
 </nav>
 
-<main>
-<header class="hero" id="top">
+
+<main id="main">
+
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+
+<header
+  class="hero"
+  id="top"
+>
+
 <div class="w">
+
 <div>
-<h1>Hindi basta condo.<span>Dapat worth it.</span></h1>
-<p class="sub">Ready-for-occupancy 2BR and 3BR units at Urban Deca Homes Ortigas in Rosario, Pasig City. See the real units, compare your options and know your costs before you decide.</p>
+
+<span
+  class="eyebrow"
+  style="color:#F5B52E"
+>
+Urban Deca Homes Ortigas
+</span>
+
+<h1>
+Hindi basta condo.
+<span>
+Dapat worth it.
+</span>
+</h1>
+
+
+<div
+  class="chips"
+  id="who"
+  role="group"
+  aria-label="I am a"
+>
+
+<button
+  class="chip"
+  aria-pressed="true"
+  data-w="first"
+>
+First-time buyer
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-w="family"
+>
+Growing family
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-w="ofw"
+>
+OFW
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-w="investor"
+>
+Investor
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-w="renter"
+>
+Renter
+</button>
+
+</div>
+
+
+<p
+  class="sub"
+  id="sub"
+>
+Explore 2-bedroom and 3-bedroom options at Urban Deca Homes Ortigas in Rosario, Pasig City. See the actual units, compare layouts, understand your possible costs and book a site viewing before you decide.
+</p>
+
+
 <div class="acts">
-<a class="btn gold" href="#units">Explore the units</a>
-<a class="btn ghost msg" data-kw="VIEWING" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Book a site viewing</a>
-<button class="btn ghost" id="share" type="button">Share</button>
+
+<a
+  class="btn gold"
+  href="#units"
+>
+Explore the units
+</a>
+
+<a
+  class="btn ghost msg"
+  data-kw="VIEWING"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Book a site viewing
+</a>
+
+<button
+  class="btn ghost"
+  id="share"
+  type="button"
+>
+Share
+</button>
+
 </div>
-<div class="facts"><span><b>30.60 to 42.07 sqm</b> layouts</span><span><b>Pag-IBIG</b> or bank financing</span><span><b>Actual units</b> for viewing</span></div>
-<p class="fine">Prices, availability, financing terms and promotional offers are subject to the latest approved details.</p>
+
+
+<div class="facts">
+
+<span>
+<b>30.60–42.07 sqm</b>
+layouts
+</span>
+
+<span>
+<b>2BR & 3BR</b>
+options
+</span>
+
+<span>
+<b>Pag-IBIG</b>
+or bank financing
+</span>
+
+<span>
+<b>Actual units</b>
+available for viewing
+</span>
+
 </div>
+
+
+<p class="fine">
+Prices, availability, financing terms, computations and promotional offers are subject to the latest approved details.
+</p>
+
+</div>
+
+
 <div class="glass">
-<h3>Find your layout</h3>
-<p>Two taps for a starting point.</p>
-<div class="q" id="l1">Bedrooms</div>
-<div class="chips" data-g="b" aria-labelledby="l1"><button class="chip" aria-pressed="false" data-v="2">2 bedrooms</button><button class="chip" aria-pressed="false" data-v="3">3 bedrooms</button></div>
-<div class="q" id="l2">What matters most</div>
-<div class="chips" data-g="p" aria-labelledby="l2"><button class="chip" aria-pressed="false" data-v="practical">Compact</button><button class="chip" aria-pressed="false" data-v="space">More space</button><button class="chip" aria-pressed="false" data-v="inner">Inner unit</button><button class="chip" aria-pressed="false" data-v="outer">Outer unit</button></div>
-<div id="fres" aria-live="polite"></div>
+
+<h3>
+Find your starting layout
+</h3>
+
+<p>
+Two quick choices to help you start comparing.
+</p>
+
+
+<div
+  class="q"
+  id="l1"
+>
+Bedrooms
 </div>
+
+<div
+  class="chips"
+  data-g="b"
+  aria-labelledby="l1"
+>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="2"
+>
+2 bedrooms
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="3"
+>
+3 bedrooms
+</button>
+
 </div>
+
+
+<div
+  class="q"
+  id="l2"
+>
+What matters most?
+</div>
+
+<div
+  class="chips"
+  data-g="p"
+  aria-labelledby="l2"
+>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="practical"
+>
+Compact
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="space"
+>
+More space
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="inner"
+>
+Inner unit
+</button>
+
+<button
+  class="chip"
+  aria-pressed="false"
+  data-v="outer"
+>
+Outer unit
+</button>
+
+</div>
+
+
+<div
+  id="fres"
+  aria-live="polite"
+></div>
+
+</div>
+
+</div>
+
 </header>
 
-<section id="units" class="alt">
+
+<!-- =========================================================
+     PROJECT BACKGROUND
+     ========================================================= -->
+
+<section
+  id="project"
+  class="alt"
+>
+
 <div class="w">
-<div class="head"><h2>Every layout, drawn to scale</h2><p>Block size reflects real floor area. Select one, then drag across the image to compare the actual unit with its floor plan.</p></div>
-<div class="scale" id="scale" role="tablist" aria-label="Unit types"></div>
-<div class="stage" id="stage"></div>
+
+
+<div class="project">
+
+<div>
+
+<span class="eyebrow">
+Project Background
+</span>
+
+<h2>
+About Urban Deca Homes Ortigas
+</h2>
+
+<p>
+Urban Deca Homes Ortigas is a large master-planned residential community along Ortigas Avenue Extension in Rosario, Pasig City.
+</p>
+
+<p>
+The official project information describes a development covering approximately <strong>13 hectares</strong> and composed of <strong>22 residential towers</strong>, built around a central community park and amenity area.
+</p>
+
+<p>
+8990 Holdings' corporate disclosures identify Urban Deca Homes Ortigas as a project designed to serve first-time homebuyers in Pasig and nearby cities, offering 2-bedroom and 3-bedroom homes for different household needs.
+</p>
+
+<p>
+Depending on current inventory, buyers may encounter ready-for-occupancy or other available inventory. Always request the latest unit availability and computation before deciding.
+</p>
+
+
+<div class="stats">
+
+<div class="stat">
+
+<strong>
+13
+</strong>
+
+<span>
+Hectares
+</span>
+
+<small>
+Approximate master-planned community area
+</small>
+
 </div>
+
+
+<div class="stat">
+
+<strong>
+22
+</strong>
+
+<span>
+Residential Towers
+</span>
+
+<small>
+Project masterplan
+</small>
+
+</div>
+
+
+<div class="stat">
+
+<strong>
+19,046
+</strong>
+
+<span>
+Project Units
+</span>
+
+<small>
+Listed in 8990 Holdings corporate disclosures
+</small>
+
+</div>
+
+
+<div class="stat">
+
+<strong>
+4
+</strong>
+
+<span>
+Elevators per Building
+</span>
+
+<small>
+Based on official project information
+</small>
+
+</div>
+
+
+<div class="stat feature">
+
+<strong>
+1.3
+</strong>
+
+<span>
+Hectare Central Park
+</span>
+
+<small>
+Open space for recreation, relaxation and community activities
+</small>
+
+</div>
+
+</div>
+
+
+<div class="project-note">
+Project information is provided for buyer education. Unit inventory, building status, turnover schedules and financing details should always be confirmed against the latest approved information.
+</div>
+
+</div>
+
+
+<div class="project-image">
+
+<button
+  class="lb-t"
+  data-src="images/official-udh-banner.jpg"
+  data-cap="Official Urban Deca Homes Ortigas project banner"
+  style="
+    width:100%;
+    border:0;
+    padding:0;
+    background:transparent;
+  "
+>
+
+<img
+  src="images/official-udh-banner.jpg"
+  alt="Official Urban Deca Homes Ortigas project banner"
+  loading="lazy"
+>
+
+</button>
+
+<div class="badge">
+Official project reference
+</div>
+
+</div>
+
+</div>
+
+
+<div class="feature-grid">
+
+<div class="feature">
+
+<b>
+Gated Community
+</b>
+
+<p>
+The development has a perimeter wall and controlled community access.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<b>
+Floor Access Control
+</b>
+
+<p>
+Resident access passes are designed to provide access to their respective residential floors.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<b>
+Four Elevators
+</b>
+
+<p>
+Official project information states that each residential building has four elevators.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<b>
+Outer-Unit Views
+</b>
+
+<p>
+Some outer units may face the city skyline, Sierra Madre, Laguna de Bay, Antipolo or Cainta depending on orientation.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="community">
+
+<!-- =========================================================
+     UNITS
+     ========================================================= -->
+
+<section
+  id="units"
+>
+
 <div class="w">
-<div class="head"><h2>The building and the community</h2><p>See how each floor is laid out and what you can enjoy outside your door. Tap any tile to enlarge it.</p></div>
-<div class="bento" id="bento"></div>
+
+<div class="head">
+
+<span class="eyebrow">
+Unit Explorer
+</span>
+
+<h2>
+Every layout has a different purpose
+</h2>
+
+<p>
+Select a unit type, then drag across the image to compare the actual turnover unit with its floor plan.
+</p>
+
 </div>
+
+
+<div
+  class="scale"
+  id="scale"
+  role="tablist"
+  aria-label="Unit types"
+></div>
+
+
+<div
+  class="stage"
+  id="stage"
+></div>
+
+</div>
+
 </section>
 
-<section id="location" class="alt">
+
+<!-- =========================================================
+     COMMUNITY
+     ========================================================= -->
+
+<section
+  id="community"
+  class="alt"
+>
+
 <div class="w">
-<div class="head"><h2>Right on Ortigas Avenue Extension</h2></div>
+
+<div class="head">
+
+<span class="eyebrow">
+Community
+</span>
+
+<h2>
+Designed around everyday living
+</h2>
+
+<p>
+The 1.3-hectare central park is a major community feature. Official project information identifies facilities such as a clubhouse, basketball courts, park areas, playground, jogging path, outdoor gym, atrium and lagoon.
+</p>
+
+<p>
+Explore the building layout, amenities and commercial conveniences below.
+</p>
+
+</div>
+
+
+<div
+  class="bento"
+  id="bento"
+></div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================================
+     LOCATION
+     ========================================================= -->
+
+<section
+  id="location"
+>
+
+<div class="w">
+
+<div class="location-copy">
+
+<span class="eyebrow">
+Strategic Location
+</span>
+
+<h2>
+Along Ortigas Avenue Extension
+</h2>
+
+<p>
+Urban Deca Homes Ortigas is located in Rosario, Pasig City along the Ortigas Avenue Extension corridor.
+</p>
+
+<p>
+Major roads such as Ortigas Avenue, C5 and EDSA connect the area with business districts, malls, hospitals, schools and other destinations across Metro Manila.
+</p>
+
+</div>
+
+
+<div class="nearby">
+
+<div class="near">
+
+<b>
+SM East Ortigas
+</b>
+
+<small>
+Retail and everyday convenience
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+SM Megamall
+</b>
+
+<small>
+Major shopping destination
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+The Medical City
+</b>
+
+<small>
+Hospital and healthcare
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+Ortigas Center
+</b>
+
+<small>
+Major business district
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+Tiendesitas
+</b>
+
+<small>
+Retail and lifestyle destination
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+Greenhills
+</b>
+
+<small>
+Shopping and commercial district
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+Ateneo de Manila
+</b>
+
+<small>
+Educational institution
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+La Salle Greenhills
+</b>
+
+<small>
+Educational institution
+</small>
+
+</div>
+
+</div>
+
+
 <div class="mapbox">
-<iframe src="https://www.google.com/maps?q=Urban%20Deca%20Homes%20Ortigas%20Rosario%20Pasig&output=embed" title="Map of Urban Deca Homes Ortigas" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
-<div class="mapcard"><h3>Urban Deca Homes Ortigas</h3><p>Rosario, Pasig City</p>
-<div class="acts"><a class="btn dark" href="https://www.google.com/maps/search/?api=1&query=Urban+Deca+Homes+Ortigas+Rosario+Pasig" target="_blank" rel="noopener noreferrer">Open in Maps</a><a class="btn out msg" data-kw="DIRECTIONS" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Ask for directions</a></div></div>
+
+<iframe
+  src="https://www.google.com/maps?q=Urban%20Deca%20Homes%20Ortigas%20Rosario%20Pasig&output=embed"
+  title="Map of Urban Deca Homes Ortigas"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+
+<div class="mapcard">
+
+<h3>
+Urban Deca Homes Ortigas
+</h3>
+
+<p>
+Ortigas Avenue Extension<br>
+Rosario, Pasig City
+</p>
+
+
+<div class="acts">
+
+<a
+  class="btn dark"
+  href="https://www.google.com/maps/search/?api=1&query=Urban+Deca+Homes+Ortigas+Rosario+Pasig"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Open in Maps
+</a>
+
+
+<a
+  class="btn out msg"
+  data-kw="DIRECTIONS"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Ask MAB
+</a>
+
 </div>
+
 </div>
+
+</div>
+
+
+<div class="location-ref">
+
+<button
+  class="lb-t"
+  data-src="images/strategic-location.jpg"
+  data-cap="Urban Deca Homes Ortigas strategic location reference"
+>
+
+<img
+  src="images/strategic-location.jpg"
+  alt="Urban Deca Homes Ortigas strategic location"
+  loading="lazy"
+>
+
+<span>
+Strategic Location
+</span>
+
+</button>
+
+
+<button
+  class="lb-t"
+  data-src="images/vicinity-map.jpg"
+  data-cap="Urban Deca Homes Ortigas vicinity map"
+>
+
+<img
+  src="images/vicinity-map.jpg"
+  alt="Urban Deca Homes Ortigas vicinity map"
+  loading="lazy"
+>
+
+<span>
+Vicinity Map
+</span>
+
+</button>
+
+</div>
+
+
+<div class="project-note">
+Travel times vary depending on traffic, route and transportation conditions. Use the live Google Map above when checking current directions.
+</div>
+
+</div>
+
 </section>
 
-<section id="financing">
+
+<!-- =========================================================
+     FINANCING
+     ========================================================= -->
+
+<section
+  id="financing"
+  class="alt"
+>
+
 <div class="w">
-<div class="head"><h2>See your monthly payment take shape</h2><p>A planning tool only. Your official amortization depends on the approved computation, rate, loan amount and financing institution.</p></div>
+
+<div class="head">
+
+<span class="eyebrow">
+Planning Tool
+</span>
+
+<h2>
+See your monthly payment take shape
+</h2>
+
+<p>
+This calculator is for planning only. Your official monthly amortization depends on the approved unit computation, loan amount, rate, term and financing institution.
+</p>
+
+</div>
+
+
 <div class="calc">
+
+
 <div class="card">
-<div class="f"><label for="la">Loan amount <b id="lav"></b></label><input id="la" type="range" min="500000" max="8000000" step="50000" value="3000000"></div>
+
+<div class="f">
+
+<label for="la">
+Loan amount
+<b id="lav"></b>
+</label>
+
+<input
+  id="la"
+  type="range"
+  min="500000"
+  max="8000000"
+  step="50000"
+  value="3000000"
+>
+
+</div>
+
+
 <div class="row2">
-<div class="f"><label for="ir">Interest rate (% per year)</label><input id="ir" type="number" min="0" step=".01" value="6.5"></div>
-<div class="f"><label for="ly">Term</label><select id="ly"><option value="5">5 years</option><option value="10">10 years</option><option value="15">15 years</option><option value="20" selected>20 years</option><option value="25">25 years</option><option value="30">30 years</option></select></div>
+
+<div class="f">
+
+<label for="ir">
+Interest rate (% per year)
+</label>
+
+<input
+  id="ir"
+  type="number"
+  min="0"
+  step=".01"
+  value="6.5"
+>
+
 </div>
-<p style="margin:0;font-size:.85rem">Excludes insurance, fees, taxes and association dues.</p>
+
+
+<div class="f">
+
+<label for="ly">
+Loan term
+</label>
+
+<select id="ly">
+
+<option value="5">
+5 years
+</option>
+
+<option value="10">
+10 years
+</option>
+
+<option value="15">
+15 years
+</option>
+
+<option
+  value="20"
+  selected
+>
+20 years
+</option>
+
+<option value="25">
+25 years
+</option>
+
+<option value="30">
+30 years
+</option>
+
+</select>
+
 </div>
+
+</div>
+
+
+<div class="f">
+
+<label for="inc">
+Monthly household income
+(optional)
+</label>
+
+<input
+  id="inc"
+  type="number"
+  min="0"
+  step="1000"
+  placeholder="e.g. 60000"
+>
+
+</div>
+
+
+<div
+  class="note"
+  id="afford"
+  aria-live="polite"
+></div>
+
+
+<p
+  style="
+    margin:0;
+    font-size:.82rem
+  "
+>
+Estimate excludes insurance, fees, taxes, association dues and other charges.
+</p>
+
+</div>
+
+
 <div class="card ring">
-<div class="donut" id="donut" role="img" aria-label="Share of principal and interest"></div>
+
+<div
+  class="donut"
+  id="donut"
+  role="img"
+  aria-label="Estimated share of principal and interest"
+></div>
+
+
 <div>
-<p style="margin:0;font-size:.88rem">Estimated monthly payment</p>
-<div class="mo" id="mo">₱0</div>
-<div class="lg"><span><i style="background:var(--red)"></i>Principal</span><span><i style="background:var(--gold)"></i>Interest</span></div>
-<p style="font-size:.88rem;margin-bottom:16px">Total interest over the term: <b id="int" style="color:var(--ink)"></b></p>
-<a class="btn red msg" data-kw="COMPUTATION" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Get the official computation</a>
+
+<p
+  style="
+    margin:0;
+    font-size:.83rem
+  "
+>
+Estimated monthly principal + interest
+</p>
+
+<div
+  class="mo"
+  id="mo"
+>
+₱0
 </div>
+
+
+<div class="lg">
+
+<span>
+<i style="background:var(--red)"></i>
+Principal
+</span>
+
+<span>
+<i style="background:var(--gold)"></i>
+Interest
+</span>
+
 </div>
+
+
+<p
+  style="
+    font-size:.82rem;
+    margin-bottom:16px
+  "
+>
+Total estimated interest over the term:
+<b id="int"></b>
+</p>
+
+
+<a
+  class="btn gold msg"
+  data-kw="COMPUTATION"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Get official computation
+</a>
+
 </div>
+
 </div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="journey" class="alt">
+
+<!-- =========================================================
+     BUYING JOURNEY
+     ========================================================= -->
+
+<section
+  id="journey"
+>
+
 <div class="w">
-<div class="head"><h2>Your path to the keys</h2><p>Select a step to see what happens and what you need.</p></div>
+
+<div class="head">
+
+<span class="eyebrow">
+First-Time Buyer Guide
+</span>
+
+<h2>
+Your path to the keys
+</h2>
+
+<p>
+Select each step to see what happens next.
+</p>
+
+</div>
+
+
 <div class="jr">
-<div class="steps" id="steps"></div>
-<div class="card" id="stepinfo" aria-live="polite"></div>
+
+<div
+  class="steps"
+  id="steps"
+></div>
+
+<div
+  class="card"
+  id="stepinfo"
+  aria-live="polite"
+></div>
+
 </div>
+
 </div>
+
 </section>
 
-<section id="referral">
+
+<!-- =========================================================
+     REFERRAL
+     ========================================================= -->
+
+<section
+  id="referral"
+  class="alt"
+>
+
 <div class="w">
+
 <div class="ref">
-<div><h2>Know someone looking for a condo?</h2><p>Become a referral partner. The commission is released once the referred buyer is approved, subject to validation and program terms. Tap the button, then send “REFERRAL PARTNER” in Messenger.</p>
-<a class="btn gold msg" data-kw="REFERRAL PARTNER" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Become a referral partner</a></div>
-<div><div class="amt">₱25,000</div><p style="text-align:center;margin:8px auto 0;font-size:.88rem">per successful transaction</p></div>
-</div>
-</div>
-</section>
 
-<section id="about" class="alt">
-<div class="w about">
-<img src="images/mab-photo.png" alt="MAB, Property Specialist at Urban Deca Homes Ortigas" loading="lazy">
 <div>
-<h2>Every move should be worth it.</h2>
-<p>Buying property is a major decision, especially a first home. My role is to help you understand your choices and compare units, financing and actual costs before you commit.</p>
-<p class="sig">Ako si MAB, your Property Specialist at Urban Deca Homes Ortigas. Hindi Basta Condo. Dapat Worth It Para sa’yo.</p>
-<div class="acts"><a class="btn dark msg" data-kw="INFO" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Message MAB</a><a class="btn out" href="https://web.facebook.com/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Facebook page</a></div>
+
+<span
+  class="eyebrow"
+  style="color:#F5B52E"
+>
+MAB Referral Partner Program
+</span>
+
+<h2>
+Know someone looking for a condo?
+</h2>
+
+<p>
+Become a referral partner and refer a potential buyer interested in Urban Deca Homes Ortigas.
+</p>
+
+<p>
+The referral commission is released once the referred buyer is approved, subject to referral validation and applicable program terms.
+</p>
+
+<p>
+Tap the button below, then send
+<strong>“REFERRAL PARTNER”</strong>
+in Messenger.
+</p>
+
+
+<a
+  class="btn gold msg"
+  data-kw="REFERRAL PARTNER"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Become a referral partner
+</a>
+
 </div>
+
+
+<div>
+
+<div class="amt">
+₱25,000
 </div>
+
+<p
+  style="
+    text-align:center;
+    margin:
+      8px auto 0;
+    font-size:.84rem
+  "
+>
+per successful transaction
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="faq">
-<div class="w">
-<div class="head"><h2>Questions buyers ask</h2></div>
-<div class="faq">
-<details><summary>Is it ready for occupancy?</summary><p>Ready-for-occupancy options are available based on current inventory. Confirm exact availability before reservation.</p></details>
-<details><summary>What unit sizes are available?</summary><p>2BR B at 30.60 sqm, 2BR A and 2BR C at 35.57 sqm, and 3BR A at 42.07 sqm.</p></details>
-<details><summary>Can I use Pag-IBIG financing?</summary><p>Pag-IBIG options may be available, subject to unit eligibility, buyer qualification, approval and requirements.</p></details>
-<details><summary>How much is the monthly amortization?</summary><p>It depends on the unit, financing type, loan amount, term, rate and the latest approved computation.</p></details>
-<details><summary>How much is the downpayment?</summary><p>It differs by unit, building and current promotion. Request the latest computation.</p></details>
-<details><summary>Can I schedule a site viewing?</summary><p>Yes. Message MAB with your preferred date and time.</p></details>
-<details><summary>How does the referral program work?</summary><p>Qualified partners may receive ₱25,000 per successful transaction, released once the referred buyer is approved, subject to validation and program terms.</p></details>
+
+<!-- =========================================================
+     ABOUT MAB
+     ========================================================= -->
+
+<section
+  id="about"
+>
+
+<div class="w about">
+
+
+<img
+  src="images/mab-photo.png"
+  alt="MAB, Property Specialist at Urban Deca Homes Ortigas"
+  loading="lazy"
+>
+
+
+<div>
+
+<span class="eyebrow">
+Your Property Specialist
+</span>
+
+<h2>
+Every move should be worth it.
+</h2>
+
+<p>
+Buying property is a major decision, especially when it is your first home. My role is to help you understand your choices, compare layouts, financing and actual costs, and see the project before you commit.
+</p>
+
+<p>
+<em>
+Every property decision should have a purpose, and every move should be worth it.
+</em>
+</p>
+
+<p class="sig">
+Ako si MAB, your Property Specialist at Urban Deca Homes Ortigas. Hindi Basta Condo. Dapat Worth It Para sa’yo.
+</p>
+
+
+<div class="acts">
+
+<a
+  class="btn dark msg"
+  data-kw="INFO"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Message MAB
+</a>
+
+<a
+  class="btn out"
+  href="https://web.facebook.com/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Facebook page
+</a>
+
 </div>
+
 </div>
+
+</div>
+
 </section>
+
+
+<!-- =========================================================
+     FAQ
+     ========================================================= -->
+
+<section
+  id="faq"
+  class="alt"
+>
+
+<div class="w">
+
+<div class="head">
+
+<span class="eyebrow">
+FAQ
+</span>
+
+<h2>
+Questions buyers usually ask
+</h2>
+
+</div>
+
+
+<div class="faq">
+
+
+<details>
+
+<summary>
+What is Urban Deca Homes Ortigas?
+</summary>
+
+<p>
+It is a large master-planned residential community along Ortigas Avenue Extension in Rosario, Pasig City, developed under the Urban Deca Homes brand of 8990 Holdings.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+How large is the development?
+</summary>
+
+<p>
+Official project information describes approximately 13 hectares with 22 residential towers and a 1.3-hectare central park and amenity area.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+What unit sizes are available?
+</summary>
+
+<p>
+The main layouts are 2BR B at 30.60 sqm, 2BR A and 2BR C at 35.57 sqm, and a 3BR option at 42.07 sqm.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Are ready-for-occupancy units available?
+</summary>
+
+<p>
+Ready-for-occupancy options may be available depending on current inventory. Exact unit availability should be confirmed before reservation.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Can I use Pag-IBIG financing?
+</summary>
+
+<p>
+Pag-IBIG options may be available subject to the unit, borrower eligibility, documentary requirements and financing approval.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+How much is the monthly amortization?
+</summary>
+
+<p>
+It depends on your selected unit, loan amount, financing type, interest rate and loan term. Request the latest approved computation for accurate figures.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+What amenities are available?
+</summary>
+
+<p>
+Official project information lists community features including a clubhouse, basketball courts, parks, playground, jogging path, outdoor gym, atrium and lagoon.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Does each building have elevators?
+</summary>
+
+<p>
+The official 8990 project information states that each residential building has four elevators.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Can I schedule a site viewing?
+</summary>
+
+<p>
+Yes. Use the viewing form below or message MAB through Facebook Messenger.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+How does the referral program work?
+</summary>
+
+<p>
+Qualified referral partners may receive ₱25,000 per successful transaction. The commission is released once the referred buyer is approved, subject to validation and applicable program terms.
+</p>
+
+</details>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================================
+     VIEWING CTA
+     ========================================================= -->
 
 <section class="cta">
+
 <div class="w">
-<h2>Your next move should have a purpose.</h2>
-<p>Tell me your preferred unit, budget, financing preference or viewing schedule, and I’ll help you compare.</p>
-<div class="acts"><a class="btn gold msg" data-kw="COMPUTATION" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Get updated computation</a><a class="btn ghost msg" data-kw="VIEWING" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Book a site viewing</a></div>
+
+<h2>
+Your next move should have a purpose.
+</h2>
+
+<p>
+Tell me your preferred unit and viewing schedule. Your request will be prepared and Messenger will open so you can send it directly to MAB.
+</p>
+
+
+<form
+  class="req"
+  id="req"
+>
+
+<label>
+
+Your name
+
+<input
+  id="rn"
+  type="text"
+  autocomplete="name"
+  placeholder="Full name"
+  required
+>
+
+</label>
+
+
+<label>
+
+Unit of interest
+
+<select id="ru">
+</select>
+
+</label>
+
+
+<label>
+
+Preferred viewing date
+
+<input
+  id="rd"
+  type="date"
+>
+
+</label>
+
+
+<button
+  class="btn gold"
+  type="submit"
+>
+Send on Messenger
+</button>
+
+</form>
+
+
+<p
+  style="
+    margin:
+      14px auto 0;
+    font-size:.76rem;
+    color:rgba(255,255,255,.65)
+  "
+>
+The prepared message is copied to your clipboard. Paste and send it when Messenger opens.
+</p>
+
 </div>
+
 </section>
+
+
 </main>
 
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
 <footer>
+
 <div class="w">
-<div><img src="images/mab-logo.png" alt="MAB - Move Acquire Build"><p>Hindi Basta Condo. Dapat Worth It Para sa’yo.</p><p>© <span id="yr"></span> MAB</p></div>
-<div style="max-width:520px"><p><a href="https://web.facebook.com/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer" style="color:var(--gold);font-weight:700">Urban Deca Homes - Ortigas by MAB</a></p><p>Prices, availability, computations, financing terms, requirements, referral terms and promotional offers may change. Confirm the latest approved information before making a property decision.</p></div>
+
+<img
+  src="images/mab-logo.png"
+  alt="MAB - Move Acquire Build"
+>
+
+<p
+  style="
+    color:#F5B52E;
+    font-style:italic;
+    font-size:.84rem
+  "
+>
+Every property decision should have a purpose, and every move should be worth it.
+</p>
+
+<p
+  style="
+    color:white;
+    font-weight:700
+  "
+>
+Hindi Basta Condo. Dapat Worth It Para sa’yo.
+</p>
+
+
+<p>
+
+<a
+  href="https://web.facebook.com/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Urban Deca Homes - Ortigas by MAB
+</a>
+
+</p>
+
+
+<p>
+Project information is provided for general buyer education. Prices, inventory, availability, financing, requirements, promotions and referral terms may change. Confirm the latest approved information before making a property decision.
+</p>
+
+
+<p>
+©
+<span id="yr"></span>
+MAB
+</p>
+
 </div>
+
 </footer>
 
-<div class="dock" id="dock"><a class="btn gold msg" data-kw="INFO" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Message MAB</a><a class="btn red msg" data-kw="VIEWING" href="https://m.me/UDHOrtigasbyMAB" target="_blank" rel="noopener noreferrer">Book viewing</a></div>
-<div class="lb" id="lb" aria-hidden="true"><figure><button id="lbx" aria-label="Close image">×</button><img id="lbi" src="" alt=""><figcaption id="lbc"></figcaption></figure></div>
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- =========================================================
+     FLOATING CTA
+     ========================================================= -->
+
+<div
+  class="dock"
+  id="dock"
+>
+
+<a
+  class="btn gold msg"
+  data-kw="INFO"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Message MAB
+</a>
+
+<a
+  class="btn red msg"
+  data-kw="VIEWING"
+  href="https://m.me/UDHOrtigasbyMAB"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+Book viewing
+</a>
+
+</div>
+
+
+<!-- =========================================================
+     LIGHTBOX
+     ========================================================= -->
+
+<div
+  class="lb"
+  id="lb"
+  aria-hidden="true"
+>
+
+<figure>
+
+<button
+  id="lbx"
+  aria-label="Close image"
+>
+×
+</button>
+
+<img
+  id="lbi"
+  src=""
+  alt=""
+>
+
+<figcaption
+  id="lbc"
+></figcaption>
+
+</figure>
+
+</div>
+
+
+<div
+  class="toast"
+  id="toast"
+  role="status"
+  aria-live="polite"
+></div>
+
 
 <script>
-const $=id=>document.getElementById(id),MSG="https://m.me/UDHOrtigasbyMAB";
-const mq=matchMedia("(prefers-color-scheme: dark)"),modes=["system","light","dark"],icons={system:"◐",light:"☀",dark:"☾"};
-let pref=localStorage.getItem("mab-theme")||"system";
-function theme(){localStorage.setItem("mab-theme",pref);document.documentElement.dataset.theme=pref==="system"?(mq.matches?"dark":"light"):pref;$("tg").textContent=icons[pref];$("tg").title="Appearance: "+pref}
-$("tg").onclick=()=>{pref=modes[(modes.indexOf(pref)+1)%3];theme()};
-mq.addEventListener?.("change",()=>pref==="system"&&theme());theme();
 
-$("bg").onclick=()=>{const o=$("mm").classList.toggle("open");$("bg").setAttribute("aria-expanded",o);$("bg").textContent=o?"×":"☰"};
-$("mm").onclick=e=>{if(e.target.tagName==="A"){$("mm").classList.remove("open");$("bg").textContent="☰"}};
+/* =========================================================
+   GLOBAL
+   ========================================================= */
 
-const secs=[...document.querySelectorAll("#links a:not(.btn)")].map(a=>[a,$(a.hash.slice(1))]);
-addEventListener("scroll",()=>{
- const h=document.documentElement;$("bar").style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+"%";
- $("dock").classList.toggle("show",scrollY>innerHeight*.8);
- let on=null;secs.forEach(([a,s])=>{if(s&&s.getBoundingClientRect().top<innerHeight*.4)on=a});
- secs.forEach(([a])=>a.classList.toggle("on",a===on));
-},{passive:true});
+const $ =
+  id =>
+    document.getElementById(id);
 
-let tt;const toast=h=>{const t=$("toast");t.innerHTML=h;t.classList.add("show");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("show"),4000)};
-document.addEventListener("click",async e=>{
- const a=e.target.closest(".msg");if(!a||!a.dataset.kw)return;const k=a.dataset.kw;
- try{await navigator.clipboard.writeText(k);toast(`Messenger is opening. Paste or send <b>${k}</b>`)}catch{toast(`Messenger is opening. Send <b>${k}</b>`)}
-});
-const mb=(k,t,c="red")=>`<a class="btn ${c} msg" data-kw="${k}" href="${MSG}" target="_blank" rel="noopener noreferrer">${t}</a>`;
-$("share").onclick=async()=>{const d={title:"Urban Deca Homes Ortigas by MAB",text:"Hindi Basta Condo. Dapat Worth It Para sa’yo.",url:location.href};
- try{if(navigator.share)await navigator.share(d);else{await navigator.clipboard.writeText(location.href);toast("<b>Link copied</b>")}}catch{}};
+const MSG =
+  "https://m.me/UDHOrtigasbyMAB";
 
-const U={
-"2BR B":{n:"2 Bedroom B",s:30.60,b:2,c:"Inner or outer",p:"Practical first home",d:"A practical 2-bedroom option for first-time buyers and small families.",a:"images/2br-b-actual.jpg",f:"images/2br-b-floorplan.jpg"},
-"2BR A":{n:"2 Bedroom A",s:35.57,b:2,c:"Outer",p:"More space",d:"A bigger 2-bedroom layout with an outer-unit configuration.",a:"images/2br-a-actual.jpg",f:"images/2br-a-floorplan.jpg"},
-"2BR C":{n:"2 Bedroom C",s:35.57,b:2,c:"Inner",p:"More space, inner",d:"A 35.57 sqm 2-bedroom layout with an inner-unit configuration.",a:"images/2br-c-actual.jpg",f:"images/2br-c-floorplan.jpg"},
-"3BR":{n:"3 Bedroom A",s:42.07,b:3,c:"Outer corner",p:"Family space",d:"For buyers who want an additional bedroom and more family space.",a:"images/3br-actual.jpg",f:"images/3br-floorplan.jpg"}};
-let cur="2BR B",shown=0;
 
-function scale(){$("scale").innerHTML=Object.keys(U).map(k=>{const u=U[k],w=Math.round(Math.sqrt(u.s)*24),h=Math.round(w*.78);
- return `<button class="sq" role="tab" data-k="${k}" aria-selected="${k===cur}" style="width:${w}px;height:${h}px"><b>${u.s.toFixed(2)}</b><small>${u.n}</small></button>`}).join("")}
-function stage(){const u=U[cur];
- $("stage").innerHTML=`<div><div class="cmp" id="cmp"><img class="plan" src="${u.f}" alt="${u.n} floor plan"><img class="act" src="${u.a}" alt="${u.n} actual unit"><div class="line"></div><span class="tag l">Actual unit</span><span class="tag r">Floor plan</span><input type="range" min="0" max="100" value="50" aria-label="Drag to compare the actual unit and floor plan"></div>
- <p class="hint">Drag to compare. <button class="btn out lb-t" style="min-height:36px;padding:0 14px;font-size:.82rem;margin-left:6px" data-src="${u.a}" data-cap="${u.n} actual unit">Enlarge photo</button> <button class="btn out lb-t" style="min-height:36px;padding:0 14px;font-size:.82rem" data-src="${u.f}" data-cap="${u.n} floor plan">Enlarge plan</button></p></div>
- <div><div class="num"><span id="num">${u.s.toFixed(2)}</span><small>sqm</small></div><h3 style="margin-top:12px">${u.n}</h3><p>${u.d}</p>
- <div class="spec"><div><span>Bedrooms</span>${u.b}</div><div><span>Position</span>${u.c}</div><div><span>Best for</span>${u.p}</div><div><span>Includes</span>Living, kitchen, dining, bath</div></div>${mb(cur,"Ask about "+u.n)}</div>`;
- const c=$("cmp");c.querySelector("input").oninput=e=>c.style.setProperty("--r",(100-e.target.value)+"%");
- const n=$("num"),from=shown||u.s,t0=performance.now();(function f(t){const p=Math.min((t-t0)/500,1);n.textContent=(from+(u.s-from)*p).toFixed(2);if(p<1)requestAnimationFrame(f)})(t0);shown=u.s}
-function pick(k){cur=k;scale();stage()}
-$("scale").onclick=e=>{const b=e.target.closest(".sq");if(b)pick(b.dataset.k)};
-scale();stage();
+/* =========================================================
+   THEME
+   ========================================================= */
 
-const F={};
-document.querySelectorAll(".glass .chips").forEach(g=>g.onclick=e=>{const c=e.target.closest(".chip");if(!c)return;
- g.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===c));F[g.dataset.g]=c.dataset.v;
- const k=F.b==="3"?"3BR":(F.p==="space"||F.p==="outer")?"2BR A":F.p==="inner"?"2BR C":"2BR B",u=U[k];
- $("fres").innerHTML=`<div class="pick"><b>${u.n}, ${u.s.toFixed(2)} sqm</b><small>${u.c}. A guide only; inventory, price and financing still need checking.</small><br><button class="btn gold" data-see="${k}" type="button">View this unit</button></div>`});
-$("fres").onclick=e=>{const s=e.target.closest("[data-see]");if(s){pick(s.dataset.see);$("units").scrollIntoView()}};
+const mq =
+  matchMedia(
+    "(prefers-color-scheme: dark)"
+  );
 
-const T=[["images/building-floorplan.jpg","Building floor plan","big plan"],["images/amenity-playground.jpg","Playground",""],["images/amenity-gym.jpg","Outdoor gym",""],["images/amenity-basketball.jpg","Basketball court","wide"],["images/amenity-lagoon.jpg","Lagoon",""],["images/amenity-park.jpg","Pocket parks",""],["images/amenity-store.jpg","Convenience store",""],["images/amenity-coffee.jpg","Coffee shop",""],["images/amenity-commercial.jpg","Commercial area",""]];
-$("bento").innerHTML=T.map(([s,l,c])=>`<button class="bt lb-t ${c}" data-src="${s}" data-cap="${l}"><img src="${s}" alt="${l}" loading="lazy"><span>${l}</span></button>`).join("")+`<div class="bt note"><b>64</b><small>residential units per floor</small></div>`;
+const modes =
+  [
+    "system",
+    "light",
+    "dark"
+  ];
 
-const php=new Intl.NumberFormat("en-PH",{style:"currency",currency:"PHP",maximumFractionDigits:0});
-function calc(){const P=+$("la").value,m=+$("ly").value*12,r=(+$("ir").value)/1200;$("lav").textContent=php.format(P);
- let p=0;if(P>0&&m>0)p=r===0?P/m:P*r*Math.pow(1+r,m)/(Math.pow(1+r,m)-1);const tot=p*m;
- $("mo").textContent=php.format(p);$("int").textContent=php.format(Math.max(tot-P,0));$("donut").style.setProperty("--a",(tot?P/tot*100:100)+"%")}
-["la","ir","ly"].forEach(i=>$(i).addEventListener("input",calc));calc();
+const icons = {
+  system:"◐",
+  light:"☀",
+  dark:"☾"
+};
 
-const S=[["Send an inquiry","Tell me your preferred unit or target budget. I reply with the options that fit.","INFO"],["Compare options","Review actual photos, layouts and computations side by side.","COMPUTATION"],["Review financing","Check the available Pag-IBIG or bank options for your situation.","COMPUTATION"],["Prepare requirements","Choose your source of income to get the right checklist.","REQ"],["Visit the project","See the actual units in person on a day that suits you.","VIEWING"],["Proceed when ready","Get help with the next processing steps, at your pace.","INFO"]];
-$("steps").innerHTML=S.map((s,i)=>`<button class="st" data-i="${i}" aria-pressed="${i===0}"><i>${i+1}</i><span><b>${s[0]}</b><small>${s[1].split(".")[0]}</small></span></button>`).join("");
-function step(i){const s=S[i];document.querySelectorAll(".st").forEach((b,j)=>b.setAttribute("aria-pressed",j===i));
- $("stepinfo").innerHTML=`<h3>${s[0]}</h3><p>${s[1]}</p>`+(s[2]==="REQ"?`<div class="f"><label for="rq">Source of income</label><select id="rq"><option value="">Choose one</option><option>Locally Employed</option><option>Virtual Assistant</option><option>Self-Employed</option><option>Business Owner</option><option>OFW</option><option>Seaman</option><option>Foreign Buyer</option></select></div><div id="rres"></div>`:mb(s[2],"Start this step"))}
-$("steps").onclick=e=>{const b=e.target.closest(".st");if(b)step(+b.dataset.i)};
-$("stepinfo").onchange=e=>{if(e.target.id!=="rq")return;const v=e.target.value;
- $("rres").innerHTML=v?`<div class="res"><p>Checklist for <b>${v}</b>. Confirm documents against the latest developer and financing requirements.</p>${mb("REQUIREMENTS - "+v,"Request my checklist")}</div>`:""};
-step(0);
+let pref =
+  localStorage.getItem(
+    "mab-theme"
+  )
+  || "system";
 
-const lb=$("lb"),close=()=>{lb.classList.remove("open");lb.setAttribute("aria-hidden","true");document.body.style.overflow="";$("lbi").src=""};
-document.addEventListener("click",e=>{const t=e.target.closest(".lb-t");
- if(t&&!t.classList.contains("note")){$("lbi").src=t.dataset.src;$("lbi").alt=t.dataset.cap;$("lbc").textContent=t.dataset.cap;lb.classList.add("open");lb.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";$("lbx").focus()}
- else if(e.target===lb||e.target===$("lbx"))close()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&lb.classList.contains("open"))close()});
-$("yr").textContent=new Date().getFullYear();
+
+function theme(){
+
+  localStorage.setItem(
+    "mab-theme",
+    pref
+  );
+
+  document
+    .documentElement
+    .dataset
+    .theme =
+    pref === "system"
+      ? (
+          mq.matches
+            ? "dark"
+            : "light"
+        )
+      : pref;
+
+  $("tg").textContent =
+    icons[pref];
+
+  $("tg").title =
+    "Appearance: " + pref;
+}
+
+
+$("tg").onclick =
+  () => {
+
+    pref =
+      modes[
+        (
+          modes.indexOf(pref)
+          + 1
+        )
+        % modes.length
+      ];
+
+    theme();
+  };
+
+
+mq.addEventListener?.(
+  "change",
+  () =>
+    pref === "system"
+    && theme()
+);
+
+theme();
+
+
+/* =========================================================
+   MOBILE MENU
+   ========================================================= */
+
+$("bg").onclick =
+  () => {
+
+    const open =
+      $("mm")
+        .classList
+        .toggle("open");
+
+    $("bg")
+      .setAttribute(
+        "aria-expanded",
+        String(open)
+      );
+
+    $("bg").textContent =
+      open
+        ? "×"
+        : "☰";
+  };
+
+
+$("mm").onclick =
+  e => {
+
+    if(
+      e.target.tagName
+      === "A"
+    ){
+
+      $("mm")
+        .classList
+        .remove("open");
+
+      $("bg").textContent =
+        "☰";
+
+      $("bg")
+        .setAttribute(
+          "aria-expanded",
+          "false"
+        );
+    }
+  };
+
+
+/* =========================================================
+   SCROLL
+   ========================================================= */
+
+const sections =
+  [
+    ...document.querySelectorAll(
+      "#links a:not(.btn)"
+    )
+  ]
+  .map(
+    a =>
+      [
+        a,
+        $(
+          a.hash.slice(1)
+        )
+      ]
+  );
+
+
+addEventListener(
+  "scroll",
+  () => {
+
+    const h =
+      document
+        .documentElement;
+
+    const max =
+      h.scrollHeight
+      - h.clientHeight;
+
+    $("bar").style.width =
+      (
+        max
+          ? (
+              h.scrollTop
+              / max
+              * 100
+            )
+          : 0
+      )
+      + "%";
+
+
+    $("dock")
+      .classList
+      .toggle(
+        "show",
+        scrollY
+        > innerHeight * .8
+      );
+
+
+    let active =
+      null;
+
+    sections.forEach(
+      ([a,s]) => {
+
+        if(
+          s
+          &&
+          s
+            .getBoundingClientRect()
+            .top
+          < innerHeight * .4
+        ){
+          active = a;
+        }
+
+      }
+    );
+
+
+    sections.forEach(
+      ([a]) =>
+        a
+          .classList
+          .toggle(
+            "on",
+            a === active
+          )
+    );
+
+  },
+  {
+    passive:true
+  }
+);
+
+
+/* =========================================================
+   TOAST
+   ========================================================= */
+
+let toastTimer;
+
+function toast(html){
+
+  const el =
+    $("toast");
+
+  el.innerHTML =
+    html;
+
+  el.classList.add(
+    "show"
+  );
+
+  clearTimeout(
+    toastTimer
+  );
+
+  toastTimer =
+    setTimeout(
+      () =>
+        el
+          .classList
+          .remove(
+            "show"
+          ),
+      4000
+    );
+}
+
+
+/* =========================================================
+   MESSENGER KEYWORDS
+   ========================================================= */
+
+document.addEventListener(
+  "click",
+  async e => {
+
+    const link =
+      e
+        .target
+        .closest(
+          ".msg"
+        );
+
+    if(
+      !link
+      ||
+      !link.dataset.kw
+    ){
+      return;
+    }
+
+    const keyword =
+      link.dataset.kw;
+
+    try{
+
+      await navigator
+        .clipboard
+        .writeText(
+          keyword
+        );
+
+      toast(
+        `Messenger is opening. Paste or send <b>${keyword}</b>.`
+      );
+
+    }catch{
+
+      toast(
+        `Messenger is opening. Send <b>${keyword}</b>.`
+      );
+    }
+
+  }
+);
+
+
+/* =========================================================
+   SHARE
+   ========================================================= */
+
+$("share").onclick =
+  async () => {
+
+    const data = {
+
+      title:
+        "Urban Deca Homes Ortigas by MAB",
+
+      text:
+        "Hindi Basta Condo. Dapat Worth It Para sa’yo.",
+
+      url:
+        location.href
+    };
+
+
+    try{
+
+      if(
+        navigator.share
+      ){
+
+        await navigator.share(
+          data
+        );
+
+      }else{
+
+        await navigator
+          .clipboard
+          .writeText(
+            location.href
+          );
+
+        toast(
+          "<b>Website link copied.</b>"
+        );
+      }
+
+    }catch{}
+
+  };
+
+
+/* =========================================================
+   UNIT DATA
+   ========================================================= */
+
+const U = {
+
+  "2BR B":{
+    n:"2 Bedroom B",
+    s:30.60,
+    b:2,
+    c:"Inner or outer",
+    p:"Practical first home",
+    d:"A practical 2-bedroom option for first-time buyers and small families.",
+    a:"images/2br-b-actual.jpg",
+    f:"images/2br-b-floorplan.jpg"
+  },
+
+  "2BR A":{
+    n:"2 Bedroom A",
+    s:35.57,
+    b:2,
+    c:"Outer",
+    p:"More space",
+    d:"A larger 2-bedroom layout with an outer-unit configuration.",
+    a:"images/2br-a-actual.jpg",
+    f:"images/2br-a-floorplan.jpg"
+  },
+
+  "2BR C":{
+    n:"2 Bedroom C",
+    s:35.57,
+    b:2,
+    c:"Inner",
+    p:"More space, inner",
+    d:"A 35.57 sqm 2-bedroom layout with an inner-unit configuration.",
+    a:"images/2br-c-actual.jpg",
+    f:"images/2br-c-floorplan.jpg"
+  },
+
+  "3BR":{
+    n:"3 Bedroom A",
+    s:42.07,
+    b:3,
+    c:"Outer corner",
+    p:"Family space",
+    d:"For buyers who need an additional bedroom or more family space.",
+    a:"images/3br-actual.jpg",
+    f:"images/3br-floorplan.jpg"
+  }
+
+};
+
+
+let current =
+  "2BR B";
+
+let shown =
+  0;
+
+
+function messengerButton(
+  keyword,
+  text,
+  color = "red"
+){
+
+  return `
+    <a
+      class="btn ${color} msg"
+      data-kw="${keyword}"
+      href="${MSG}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${text}
+    </a>
+  `;
+}
+
+
+/* =========================================================
+   UNIT SCALE
+   ========================================================= */
+
+function drawScale(){
+
+  $("scale").innerHTML =
+    Object
+      .keys(U)
+      .map(
+        key => {
+
+          const u =
+            U[key];
+
+          const width =
+            Math.round(
+              Math.sqrt(u.s)
+              * 24
+            );
+
+          const height =
+            Math.round(
+              width * .78
+            );
+
+          return `
+            <button
+              class="sq"
+              role="tab"
+              data-k="${key}"
+              aria-selected="${key === current}"
+              style="
+                width:${width}px;
+                height:${height}px
+              "
+            >
+              <b>
+                ${u.s.toFixed(2)}
+              </b>
+
+              <small>
+                ${u.n}
+              </small>
+            </button>
+          `;
+        }
+      )
+      .join("");
+}
+
+
+function drawStage(){
+
+  const u =
+    U[current];
+
+
+  $("stage").innerHTML =
+    `
+      <div>
+
+        <div
+          class="cmp"
+          id="cmp"
+        >
+
+          <img
+            class="act"
+            src="${u.a}"
+            alt="${u.n} actual turnover unit"
+          >
+
+          <img
+            class="plan"
+            src="${u.f}"
+            alt="${u.n} floor plan"
+          >
+
+          <div class="line">
+          </div>
+
+          <span class="tag l">
+            Actual unit
+          </span>
+
+          <span class="tag r">
+            Floor plan
+          </span>
+
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            aria-label="Drag to compare actual unit and floor plan"
+          >
+
+        </div>
+
+
+        <p class="hint">
+
+          Drag to compare.
+
+          <button
+            class="btn out lb-t"
+            style="
+              min-height:36px;
+              padding:0 14px;
+              font-size:.78rem;
+              margin-left:6px
+            "
+            data-src="${u.a}"
+            data-cap="${u.n} actual turnover unit"
+          >
+            Enlarge photo
+          </button>
+
+          <button
+            class="btn out lb-t"
+            style="
+              min-height:36px;
+              padding:0 14px;
+              font-size:.78rem
+            "
+            data-src="${u.f}"
+            data-cap="${u.n} floor plan"
+          >
+            Enlarge plan
+          </button>
+
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <div class="num">
+
+          <span id="num">
+            ${u.s.toFixed(2)}
+          </span>
+
+          <small>
+            sqm
+          </small>
+
+        </div>
+
+
+        <h3 style="margin-top:12px">
+          ${u.n}
+        </h3>
+
+
+        <p>
+          ${u.d}
+        </p>
+
+
+        <div class="spec">
+
+          <div>
+            <span>
+              Bedrooms
+            </span>
+            ${u.b}
+          </div>
+
+          <div>
+            <span>
+              Position
+            </span>
+            ${u.c}
+          </div>
+
+          <div>
+            <span>
+              Best for
+            </span>
+            ${u.p}
+          </div>
+
+          <div>
+            <span>
+              Includes
+            </span>
+            Living, kitchen, dining, bath
+          </div>
+
+        </div>
+
+
+        ${messengerButton(
+          current,
+          "Ask about " + u.n
+        )}
+
+      </div>
+    `;
+
+
+  const compare =
+    $("cmp");
+
+  const range =
+    compare
+      .querySelector(
+        "input"
+      );
+
+
+  range.oninput =
+    e => {
+
+      compare
+        .style
+        .setProperty(
+          "--pos",
+          e.target.value + "%"
+        );
+    };
+
+
+  const number =
+    $("num");
+
+  const from =
+    shown || u.s;
+
+  const start =
+    performance.now();
+
+
+  (
+    function animate(now){
+
+      const progress =
+        Math.min(
+          (
+            now - start
+          )
+          / 500,
+          1
+        );
+
+      number.textContent =
+        (
+          from
+          +
+          (
+            u.s - from
+          )
+          * progress
+        )
+        .toFixed(2);
+
+
+      if(
+        progress < 1
+      ){
+
+        requestAnimationFrame(
+          animate
+        );
+      }
+
+    }
+  )(start);
+
+
+  shown =
+    u.s;
+}
+
+
+function selectUnit(key){
+
+  current =
+    key;
+
+  drawScale();
+
+  drawStage();
+}
+
+
+$("scale").onclick =
+  e => {
+
+    const button =
+      e
+        .target
+        .closest(
+          ".sq"
+        );
+
+    if(
+      button
+    ){
+
+      selectUnit(
+        button.dataset.k
+      );
+    }
+  };
+
+
+drawScale();
+drawStage();
+
+
+/* =========================================================
+   HERO UNIT FINDER
+   ========================================================= */
+
+const finder = {};
+
+document
+  .querySelectorAll(
+    ".glass .chips"
+  )
+  .forEach(
+    group => {
+
+      group.onclick =
+        e => {
+
+          const choice =
+            e
+              .target
+              .closest(
+                ".chip"
+              );
+
+          if(
+            !choice
+          ){
+            return;
+          }
+
+
+          group
+            .querySelectorAll(
+              ".chip"
+            )
+            .forEach(
+              item =>
+                item
+                  .setAttribute(
+                    "aria-pressed",
+                    String(
+                      item
+                      === choice
+                    )
+                  )
+            );
+
+
+          finder[
+            group.dataset.g
+          ] =
+            choice.dataset.v;
+
+
+          let key =
+            "2BR B";
+
+
+          if(
+            finder.b === "3"
+          ){
+
+            key =
+              "3BR";
+
+          }else if(
+            finder.p === "space"
+            ||
+            finder.p === "outer"
+          ){
+
+            key =
+              "2BR A";
+
+          }else if(
+            finder.p === "inner"
+          ){
+
+            key =
+              "2BR C";
+          }
+
+
+          const u =
+            U[key];
+
+
+          $("fres").innerHTML =
+            `
+              <div class="pick">
+
+                <b>
+                  Suggested starting point:
+                  ${u.n},
+                  ${u.s.toFixed(2)} sqm
+                </b>
+
+                <small>
+                  ${u.c}.
+                  This is only a guide.
+                  Inventory, price and financing still need to be checked.
+                </small>
+
+                <button
+                  class="btn gold"
+                  data-see="${key}"
+                  type="button"
+                >
+                  View this unit
+                </button>
+
+              </div>
+            `;
+        };
+
+    }
+  );
+
+
+$("fres").onclick =
+  e => {
+
+    const button =
+      e
+        .target
+        .closest(
+          "[data-see]"
+        );
+
+    if(
+      button
+    ){
+
+      selectUnit(
+        button.dataset.see
+      );
+
+      $("units")
+        .scrollIntoView();
+    }
+  };
+
+
+/* =========================================================
+   COMMUNITY
+   ========================================================= */
+
+const gallery = [
+
+  [
+    "images/building-floorplan.jpg",
+    "Building floor plan",
+    "big"
+  ],
+
+  [
+    "images/amenity-playground.jpg",
+    "Children's playground",
+    ""
+  ],
+
+  [
+    "images/amenity-gym.jpg",
+    "Outdoor gym",
+    ""
+  ],
+
+  [
+    "images/amenity-basketball.jpg",
+    "Basketball courts",
+    "wide"
+  ],
+
+  [
+    "images/amenity-lagoon.jpg",
+    "Lagoon",
+    ""
+  ],
+
+  [
+    "images/amenity-park.jpg",
+    "Pocket parks",
+    ""
+  ],
+
+  [
+    "images/deca-mall.jpg",
+    "Deca Mall",
+    "wide"
+  ],
+
+  [
+    "images/amenity-store.jpg",
+    "Convenience store",
+    ""
+  ],
+
+  [
+    "images/amenity-coffee.jpg",
+    "Coffee shop",
+    ""
+  ],
+
+  [
+    "images/amenity-commercial.jpg",
+    "Commercial area",
+    ""
+  ]
+
+];
+
+
+$("bento").innerHTML =
+
+  gallery
+    .map(
+      ([src,label,classes]) =>
+        `
+          <button
+            class="bt lb-t ${classes}"
+            data-src="${src}"
+            data-cap="${label}"
+          >
+
+            <img
+              src="${src}"
+              alt="${label}"
+              loading="lazy"
+            >
+
+            <span>
+              ${label}
+            </span>
+
+          </button>
+        `
+    )
+    .join("")
+
+  +
+
+  `
+    <div class="bt note">
+
+      <b>
+        1.3
+      </b>
+
+      <small>
+        hectare central park and amenity area
+      </small>
+
+    </div>
+  `;
+
+
+/* =========================================================
+   FINANCING CALCULATOR
+   ========================================================= */
+
+const peso =
+  n =>
+    new Intl
+      .NumberFormat(
+        "en-PH",
+        {
+          style:"currency",
+          currency:"PHP",
+          maximumFractionDigits:0
+        }
+      )
+      .format(
+        Number(n || 0)
+      );
+
+
+function calculate(){
+
+  const principal =
+    Number(
+      $("la").value
+    );
+
+  const annual =
+    Number(
+      $("ir").value
+    );
+
+  const years =
+    Number(
+      $("ly").value
+    );
+
+  const months =
+    years * 12;
+
+  const monthlyRate =
+    annual
+    / 100
+    / 12;
+
+
+  let payment =
+    0;
+
+
+  if(
+    principal > 0
+    &&
+    months > 0
+  ){
+
+    if(
+      monthlyRate === 0
+    ){
+
+      payment =
+        principal
+        / months;
+
+    }else{
+
+      const factor =
+        Math.pow(
+          1 + monthlyRate,
+          months
+        );
+
+      payment =
+        principal
+        *
+        (
+          monthlyRate
+          * factor
+        )
+        /
+        (
+          factor - 1
+        );
+    }
+  }
+
+
+  const total =
+    payment
+    * months;
+
+  const interest =
+    Math.max(
+      0,
+      total - principal
+    );
+
+
+  $("lav").textContent =
+    peso(principal);
+
+  $("mo").textContent =
+    peso(payment);
+
+  $("int").textContent =
+    peso(interest);
+
+
+  const principalShare =
+    total > 0
+      ? principal
+        / total
+        * 100
+      : 50;
+
+
+  $("donut")
+    .style
+    .background =
+    `
+      conic-gradient(
+        var(--red)
+        0
+        ${principalShare}%,
+        var(--gold)
+        ${principalShare}%
+        100%
+      )
+    `;
+
+
+  const income =
+    Number(
+      $("inc").value
+    );
+
+
+  if(
+    income > 0
+  ){
+
+    const share =
+      payment
+      / income
+      * 100;
+
+
+    $("afford").innerHTML =
+      `
+        Estimated payment equals
+        <b>
+          ${share.toFixed(1)}%
+        </b>
+        of the household income entered.
+        This is only a planning indicator and is not a loan-approval assessment.
+      `;
+
+  }else{
+
+    $("afford").textContent =
+      "Enter monthly household income if you want to compare the estimated payment with your income.";
+
+  }
+}
+
+
+[
+  "la",
+  "ir",
+  "ly",
+  "inc"
+]
+.forEach(
+  id =>
+    $(id)
+      .addEventListener(
+        "input",
+        calculate
+      )
+);
+
+
+calculate();
+
+
+/* =========================================================
+   BUYING JOURNEY
+   ========================================================= */
+
+const journey = [
+
+  [
+    "Start with information",
+    "Tell me your preferred unit, budget or questions. You do not need to decide immediately.",
+    "INFO"
+  ],
+
+  [
+    "Compare your unit options",
+    "Review actual unit photos, floor plans, unit positions and current availability.",
+    "AVAILABILITY"
+  ],
+
+  [
+    "Review financing",
+    "Compare Pag-IBIG or bank options and request the latest official computation.",
+    "COMPUTATION"
+  ],
+
+  [
+    "Prepare requirements",
+    "Choose your income source to request the appropriate requirements guide.",
+    "REQ"
+  ],
+
+  [
+    "Visit the property",
+    "Schedule a site viewing so you can see the project and available actual units.",
+    "VIEWING"
+  ],
+
+  [
+    "Proceed when ready",
+    "When the property and numbers make sense for you, ask for the next processing steps.",
+    "INFO"
+  ]
+
+];
+
+
+$("steps").innerHTML =
+  journey
+    .map(
+      (step,index) =>
+        `
+          <button
+            class="st"
+            data-i="${index}"
+            aria-pressed="${index === 0}"
+          >
+
+            <i>
+              ${index + 1}
+            </i>
+
+            <span>
+
+              <b>
+                ${step[0]}
+              </b>
+
+              <small>
+                ${step[1].split(".")[0]}
+              </small>
+
+            </span>
+
+          </button>
+        `
+    )
+    .join("");
+
+
+function showJourney(index){
+
+  const step =
+    journey[index];
+
+
+  document
+    .querySelectorAll(
+      ".st"
+    )
+    .forEach(
+      (button,i) =>
+        button
+          .setAttribute(
+            "aria-pressed",
+            String(
+              i === index
+            )
+          )
+    );
+
+
+  $("stepinfo").innerHTML =
+
+    `
+      <h3>
+        ${step[0]}
+      </h3>
+
+      <p>
+        ${step[1]}
+      </p>
+    `
+
+    +
+
+    (
+      step[2]
+      === "REQ"
+
+      ?
+
+      `
+        <div class="f">
+
+          <label for="rq">
+            Source of income
+          </label>
+
+          <select id="rq">
+
+            <option value="">
+              Choose one
+            </option>
+
+            <option>
+              Locally Employed
+            </option>
+
+            <option>
+              Virtual Assistant
+            </option>
+
+            <option>
+              Self-Employed
+            </option>
+
+            <option>
+              Business Owner
+            </option>
+
+            <option>
+              OFW
+            </option>
+
+            <option>
+              Seaman
+            </option>
+
+            <option>
+              Foreign Buyer
+            </option>
+
+          </select>
+
+        </div>
+
+        <div id="rres">
+        </div>
+      `
+
+      :
+
+      messengerButton(
+        step[2],
+        "Start this step"
+      )
+    );
+}
+
+
+$("steps").onclick =
+  e => {
+
+    const button =
+      e
+        .target
+        .closest(
+          ".st"
+        );
+
+    if(
+      button
+    ){
+
+      showJourney(
+        Number(
+          button.dataset.i
+        )
+      );
+    }
+  };
+
+
+$("stepinfo").onchange =
+  e => {
+
+    if(
+      e.target.id
+      !== "rq"
+    ){
+      return;
+    }
+
+
+    const value =
+      e.target.value;
+
+
+    $("rres").innerHTML =
+      value
+
+      ?
+
+      `
+        <div class="note">
+
+          <p>
+            Requirements guide selected for
+            <b>${value}</b>.
+            Documentary requirements should be confirmed against the latest developer and financing requirements.
+          </p>
+
+          ${messengerButton(
+            "REQUIREMENTS - " + value,
+            "Request my checklist"
+          )}
+
+        </div>
+      `
+
+      :
+
+      "";
+  };
+
+
+showJourney(0);
+
+
+/* =========================================================
+   LIGHTBOX
+   ========================================================= */
+
+const lb =
+  $("lb");
+
+
+function closeLightbox(){
+
+  lb.classList.remove(
+    "open"
+  );
+
+  lb.setAttribute(
+    "aria-hidden",
+    "true"
+  );
+
+  document.body.style.overflow =
+    "";
+
+  $("lbi").src =
+    "";
+}
+
+
+document.addEventListener(
+  "click",
+  e => {
+
+    const trigger =
+      e
+        .target
+        .closest(
+          ".lb-t"
+        );
+
+
+    if(
+      trigger
+    ){
+
+      $("lbi").src =
+        trigger.dataset.src;
+
+      $("lbi").alt =
+        trigger.dataset.cap
+        || "";
+
+      $("lbc").textContent =
+        trigger.dataset.cap
+        || "";
+
+      lb.classList.add(
+        "open"
+      );
+
+      lb.setAttribute(
+        "aria-hidden",
+        "false"
+      );
+
+      document.body.style.overflow =
+        "hidden";
+
+      $("lbx").focus();
+
+    }else if(
+      e.target === lb
+      ||
+      e.target === $("lbx")
+    ){
+
+      closeLightbox();
+    }
+
+  }
+);
+
+
+document.addEventListener(
+  "keydown",
+  e => {
+
+    if(
+      e.key === "Escape"
+      &&
+      lb
+        .classList
+        .contains(
+          "open"
+        )
+    ){
+
+      closeLightbox();
+    }
+
+  }
+);
+
+
+/* =========================================================
+   AUDIENCE PERSONALIZATION
+   ========================================================= */
+
+const audience = {
+
+  first:[
+    "First-time buyer",
+    "Exploring your first condo? Compare the actual units, layouts, possible financing and project features before you decide."
+  ],
+
+  family:[
+    "Growing family",
+    "Need more room? Compare the 2BR and 3BR options together with the playground, courts, parks and community spaces."
+  ],
+
+  ofw:[
+    "OFW",
+    "Buying while working abroad? Start with the unit options, budget and requirements, then message MAB for the current process."
+  ],
+
+  investor:[
+    "Investor",
+    "Considering property in Pasig? Review the project, layouts and current computation before deciding whether it fits your investment purpose."
+  ],
+
+  renter:[
+    "Renter",
+    "Thinking about ownership? Compare the property and use the payment estimator to understand what the numbers could look like."
+  ]
+
+};
+
+
+$("who").onclick =
+  e => {
+
+    const button =
+      e
+        .target
+        .closest(
+          "[data-w]"
+        );
+
+    if(
+      !button
+    ){
+      return;
+    }
+
+
+    const data =
+      audience[
+        button.dataset.w
+      ];
+
+
+    document
+      .querySelectorAll(
+        "#who .chip"
+      )
+      .forEach(
+        item =>
+          item
+            .setAttribute(
+              "aria-pressed",
+              String(
+                item
+                === button
+              )
+            )
+      );
+
+
+    $("sub").textContent =
+      data[1];
+
+  };
+
+
+/* =========================================================
+   VIEWING FORM
+   ========================================================= */
+
+$("ru").innerHTML =
+  Object
+    .keys(U)
+    .map(
+      key =>
+        `
+          <option>
+            ${U[key].n}
+          </option>
+        `
+    )
+    .join("");
+
+
+$("rd").min =
+  new Date()
+    .toISOString()
+    .slice(
+      0,
+      10
+    );
+
+
+$("req").onsubmit =
+  async e => {
+
+    e.preventDefault();
+
+
+    const date =
+      $("rd").value;
+
+
+    const text =
+      `Hi MAB, I'm ${$("rn").value}. I'd like to schedule a site viewing for ${$("ru").value}${date ? " on " + date : ""}. Please confirm availability.`;
+
+
+    try{
+
+      await navigator
+        .clipboard
+        .writeText(
+          text
+        );
+
+    }catch{}
+
+
+    toast(
+      "Viewing request copied. <b>Paste it in Messenger and send.</b>"
+    );
+
+
+    window.open(
+      MSG,
+      "_blank",
+      "noopener"
+    );
+  };
+
+
+/* =========================================================
+   YEAR
+   ========================================================= */
+
+$("yr").textContent =
+  new Date()
+    .getFullYear();
+
 </script>
+
 </body>
 </html>
