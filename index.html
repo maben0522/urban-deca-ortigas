@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 
 <meta
@@ -12,39 +14,54 @@
 
 <meta
   name="description"
-  content="Explore Urban Deca Homes Ortigas in Rosario, Pasig City with MAB. Compare ready-for-occupancy 2BR and 3BR units, actual unit photos, floor plans, amenities, location, financing estimates and book a site viewing."
+  content="Compare 2BR and 3BR units at Urban Deca Homes Ortigas in Pasig. View actual turnover photos, floor plans, amenities, location, financing estimates and request a site viewing with MAB."
 >
 
 <meta name="author" content="MAB">
 
 <meta
   property="og:title"
-  content="Urban Deca Homes Ortigas | MAB Property Specialist"
+  content="Urban Deca Homes Ortigas | 2BR & 3BR Units | MAB"
 >
 
 <meta
   property="og:description"
-  content="Hindi Basta Condo. Dapat Worth It Para sa’yo."
+  content="Hindi Basta Condo. Dapat Worth It Para sa’yo. Compare units, floor plans, amenities and possible financing before requesting a site viewing."
 >
 
 <meta property="og:type" content="website">
 
-<link rel="icon" href="images/mab-logo.png">
+<link
+  rel="icon"
+  href="images/mab-logo.png"
+>
 
 <title>
-Urban Deca Homes Ortigas | MAB Property Specialist
+Urban Deca Homes Ortigas | 2BR & 3BR Units | MAB
 </title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  rel="preconnect"
+  href="https://fonts.googleapis.com"
+>
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin
+>
 
 <link
   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
   rel="stylesheet"
 >
 
+
 <script>
+
 (function(){
+
   const saved =
     localStorage.getItem("mab-theme") || "system";
 
@@ -55,8 +72,11 @@ Urban Deca Homes Ortigas | MAB Property Specialist
     saved === "system"
       ? (dark ? "dark" : "light")
       : saved;
+
 })();
+
 </script>
+
 
 <style>
 
@@ -65,6 +85,7 @@ Urban Deca Homes Ortigas | MAB Property Specialist
    ========================================================= */
 
 :root{
+
   --red:#BF092F;
   --navy:#132440;
   --blue:#16476A;
@@ -74,7 +95,7 @@ Urban Deca Homes Ortigas | MAB Property Specialist
   --alt:#FFFFFF;
 
   --text:#1B2737;
-  --mute:#667287;
+  --mute:#687488;
   --line:#DDE3EA;
 
   --ink:#132440;
@@ -87,7 +108,9 @@ Urban Deca Homes Ortigas | MAB Property Specialist
   color-scheme:light;
 }
 
+
 html[data-theme="dark"]{
+
   --bg:#08121F;
   --alt:#101E31;
 
@@ -112,12 +135,17 @@ html[data-theme="dark"]{
   box-sizing:border-box;
 }
 
+
 html{
+
   scroll-behavior:smooth;
-  scroll-padding-top:85px;
+
+  scroll-padding-top:86px;
 }
 
+
 body{
+
   margin:0;
 
   font:
@@ -130,8 +158,10 @@ body{
     sans-serif;
 
   background:var(--bg);
+
   color:var(--text);
 }
+
 
 body,
 button,
@@ -140,32 +170,45 @@ select{
   font-family:inherit;
 }
 
+
 img{
+
   display:block;
-  width:100%;
+
   max-width:100%;
+
   height:auto;
 }
 
+
 a{
+
   color:inherit;
+
   text-decoration:none;
 }
+
 
 button,
 input,
 select,
 a{
-  -webkit-tap-highlight-color:transparent;
+
+  -webkit-tap-highlight-color:
+    transparent;
 }
 
+
 button{
+
   cursor:pointer;
 }
+
 
 h1,
 h2,
 h3{
+
   margin:0 0 .45em;
 
   font-family:
@@ -176,11 +219,14 @@ h3{
   color:var(--ink);
 
   line-height:1.12;
+
   letter-spacing:-.015em;
 }
 
+
 h1{
-  color:#fff;
+
+  color:#FFFFFF;
 
   font-size:
     clamp(2.75rem,8vw,6rem);
@@ -188,18 +234,24 @@ h1{
   font-weight:800;
 }
 
+
 h2{
+
   font-size:
     clamp(2rem,5vw,3.45rem);
 
   font-weight:800;
 }
 
+
 h3{
+
   font-size:1.3rem;
 }
 
+
 p{
+
   max-width:62ch;
 
   margin:
@@ -208,17 +260,28 @@ p{
   color:var(--mute);
 }
 
+
+strong{
+  color:var(--ink);
+}
+
+
 section{
+
   padding:
     clamp(65px,9vw,120px)
     0;
 }
 
+
 .alt{
+
   background:var(--alt);
 }
 
+
 .w{
+
   width:
     min(
       1120px,
@@ -228,18 +291,17 @@ section{
   margin-inline:auto;
 }
 
+
 .head{
+
   max-width:760px;
+
   margin-bottom:38px;
 }
 
-.center{
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-}
 
 .eyebrow{
+
   display:inline-block;
 
   margin-bottom:10px;
@@ -247,25 +309,30 @@ section{
   color:var(--red);
 
   font-size:.76rem;
+
   font-weight:800;
 
   letter-spacing:.12em;
+
   text-transform:uppercase;
 }
 
+
 .skip{
+
   position:fixed;
 
   top:10px;
   left:10px;
 
-  z-index:999;
+  z-index:9999;
 
   padding:10px 14px;
 
   border-radius:9px;
 
   background:var(--gold);
+
   color:var(--navy);
 
   font-weight:800;
@@ -274,15 +341,19 @@ section{
     translateY(-180%);
 }
 
+
 .skip:focus{
+
   transform:translateY(0);
 }
+
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 summary:focus-visible{
+
   outline:
     3px solid var(--gold);
 
@@ -291,10 +362,11 @@ summary:focus-visible{
 
 
 /* =========================================================
-   PROGRESS BAR
+   SCROLL PROGRESS
    ========================================================= */
 
 .bar{
+
   position:fixed;
 
   top:0;
@@ -315,10 +387,108 @@ summary:focus-visible{
 
 
 /* =========================================================
-   NAV
+   BUTTONS
+   ========================================================= */
+
+.btn{
+
+  min-height:48px;
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:7px;
+
+  padding:0 21px;
+
+  border:
+    1px solid transparent;
+
+  border-radius:999px;
+
+  font-weight:800;
+
+  text-align:center;
+
+  cursor:pointer;
+
+  transition:
+    transform .18s,
+    box-shadow .18s,
+    background .18s;
+}
+
+
+.btn:hover{
+
+  transform:
+    translateY(-2px);
+}
+
+
+.btn.gold{
+
+  background:var(--gold);
+
+  color:var(--navy);
+}
+
+
+.btn.red{
+
+  background:var(--red);
+
+  color:#FFFFFF;
+}
+
+
+.btn.dark{
+
+  background:var(--navy);
+
+  color:#FFFFFF;
+}
+
+
+.btn.blue{
+
+  background:var(--blue);
+
+  color:#FFFFFF;
+}
+
+
+.btn.out{
+
+  border-color:var(--line);
+
+  background:transparent;
+
+  color:var(--ink);
+}
+
+
+.btn.ghost{
+
+  border-color:
+    rgba(255,255,255,.35);
+
+  background:
+    rgba(255,255,255,.08);
+
+  color:#FFFFFF;
+}
+
+
+/* =========================================================
+   NAVIGATION
    ========================================================= */
 
 .nav{
+
   position:sticky;
 
   top:0;
@@ -326,7 +496,7 @@ summary:focus-visible{
   z-index:100;
 
   background:
-    rgba(19,36,64,.97);
+    rgba(19,36,64,.96);
 
   border-bottom:
     1px solid
@@ -336,55 +506,86 @@ summary:focus-visible{
     blur(14px);
 }
 
+
 .nav > .w{
+
   min-height:76px;
 
   display:flex;
+
   align-items:center;
+
   justify-content:space-between;
 
-  gap:20px;
+  gap:18px;
 }
 
-.nav img{
+
+.nav-logo img{
+
   width:auto;
-  height:54px;
+
+  height:52px;
 
   object-fit:contain;
 }
 
+
 .links{
+
   display:flex;
+
   align-items:center;
 
-  gap:18px;
+  gap:15px;
 
-  color:white;
+  color:#FFFFFF;
 
-  font-size:.86rem;
+  font-size:.82rem;
+
   font-weight:700;
 }
 
+
 .links > a:not(.btn){
-  opacity:.84;
+
+  opacity:.82;
 }
 
-.links > a:hover,
+
+.links > a:not(.btn):hover,
 .links > a.on{
+
   color:var(--gold);
+
   opacity:1;
 }
 
+
+.links .btn{
+
+  min-height:42px;
+
+  padding:
+    0 16px;
+}
+
+
 .navtools{
+
   display:flex;
+
   gap:8px;
 }
 
+
 .ic{
+
   width:43px;
   height:43px;
 
   display:grid;
+
   place-items:center;
 
   border:
@@ -396,16 +597,20 @@ summary:focus-visible{
   background:
     rgba(255,255,255,.08);
 
-  color:white;
+  color:#FFFFFF;
 
-  font-size:1.15rem;
+  font-size:1.12rem;
 }
 
+
 .bg{
+
   display:none;
 }
 
+
 .mm{
+
   display:none;
 
   padding:
@@ -415,91 +620,24 @@ summary:focus-visible{
   background:var(--navy);
 }
 
+
 .mm.open{
+
   display:grid;
 }
 
+
 .mm a{
+
   padding:12px 5px;
 
   border-bottom:
     1px solid
     rgba(255,255,255,.09);
 
-  color:white;
+  color:#FFFFFF;
 
   font-weight:700;
-}
-
-
-/* =========================================================
-   BUTTONS
-   ========================================================= */
-
-.btn{
-  min-height:46px;
-
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-
-  gap:7px;
-
-  padding:0 20px;
-
-  border:
-    1px solid transparent;
-
-  border-radius:999px;
-
-  font-weight:800;
-  text-align:center;
-
-  transition:
-    transform .18s,
-    background .18s,
-    border-color .18s;
-}
-
-.btn:hover{
-  transform:
-    translateY(-2px);
-}
-
-.btn.gold{
-  background:var(--gold);
-  color:var(--navy);
-}
-
-.btn.red{
-  background:var(--red);
-  color:white;
-}
-
-.btn.dark{
-  background:var(--navy);
-  color:white;
-}
-
-.btn.blue{
-  background:var(--blue);
-  color:white;
-}
-
-.btn.out{
-  border-color:var(--line);
-  background:transparent;
-  color:var(--ink);
-}
-
-.btn.ghost{
-  border-color:
-    rgba(255,255,255,.35);
-
-  background:
-    rgba(255,255,255,.08);
-
-  color:white;
 }
 
 
@@ -508,6 +646,7 @@ summary:focus-visible{
    ========================================================= */
 
 .hero{
+
   position:relative;
 
   overflow:hidden;
@@ -516,15 +655,17 @@ summary:focus-visible{
     linear-gradient(
       90deg,
       rgba(19,36,64,.98),
-      rgba(19,36,64,.90) 52%,
-      rgba(22,71,106,.45)
+      rgba(19,36,64,.90) 53%,
+      rgba(22,71,106,.42)
     ),
     url("images/building-facade.jpg")
     center / cover
     no-repeat;
 }
 
+
 .hero .w{
+
   min-height:
     min(790px,90vh);
 
@@ -535,20 +676,30 @@ summary:focus-visible{
 
   align-items:center;
 
-  gap:55px;
+  gap:52px;
 
   padding:
     65px 0
     75px;
 }
 
+
 .hero h1 span{
+
   display:block;
 
   color:var(--gold);
 }
 
+
+.hero-eyebrow{
+
+  color:var(--gold);
+}
+
+
 .sub{
+
   max-width:710px;
 
   color:
@@ -558,8 +709,11 @@ summary:focus-visible{
     clamp(1rem,2vw,1.13rem);
 }
 
+
 .chips{
+
   display:flex;
+
   flex-wrap:wrap;
 
   gap:8px;
@@ -568,10 +722,13 @@ summary:focus-visible{
     17px 0;
 }
 
+
 .chip{
+
   min-height:38px;
 
-  padding:0 14px;
+  padding:
+    0 14px;
 
   border:
     1px solid
@@ -582,20 +739,28 @@ summary:focus-visible{
   background:
     rgba(255,255,255,.08);
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.8rem;
+
   font-weight:700;
 }
 
+
 .chip[aria-pressed="true"]{
+
   border-color:var(--gold);
+
   background:var(--gold);
+
   color:var(--navy);
 }
 
+
 .acts{
+
   display:flex;
+
   flex-wrap:wrap;
 
   gap:10px;
@@ -603,8 +768,11 @@ summary:focus-visible{
   margin-top:23px;
 }
 
+
 .facts{
+
   display:flex;
+
   flex-wrap:wrap;
 
   gap:10px;
@@ -612,7 +780,9 @@ summary:focus-visible{
   margin-top:30px;
 }
 
+
 .facts span{
+
   padding:
     9px 13px;
 
@@ -627,11 +797,15 @@ summary:focus-visible{
   font-size:.78rem;
 }
 
+
 .facts b{
+
   color:var(--gold);
 }
 
+
 .fine{
+
   margin-top:17px;
 
   color:
@@ -640,7 +814,13 @@ summary:focus-visible{
   font-size:.74rem;
 }
 
+
+/* =========================================================
+   HERO FINDER
+   ========================================================= */
+
 .glass{
+
   padding:
     clamp(23px,4vw,34px);
 
@@ -661,27 +841,37 @@ summary:focus-visible{
     blur(16px);
 }
 
+
 .glass h3{
-  color:white;
+
+  color:#FFFFFF;
 }
+
 
 .glass p,
 .glass .q{
+
   color:
     rgba(255,255,255,.78);
 }
 
+
 .q{
+
   margin-top:18px;
 
   font-size:.82rem;
+
   font-weight:800;
 
   text-transform:uppercase;
+
   letter-spacing:.08em;
 }
 
+
 .pick{
+
   margin-top:20px;
 
   padding:16px;
@@ -695,17 +885,27 @@ summary:focus-visible{
   background:
     rgba(19,36,64,.55);
 
-  color:white;
+  color:#FFFFFF;
 }
 
+
+.pick b{
+
+  display:block;
+
+  color:var(--gold);
+}
+
+
 .pick small{
+
   display:block;
 
   margin:
     5px 0 12px;
 
   color:
-    rgba(255,255,255,.7);
+    rgba(255,255,255,.72);
 }
 
 
@@ -714,6 +914,7 @@ summary:focus-visible{
    ========================================================= */
 
 .project{
+
   display:grid;
 
   grid-template-columns:
@@ -724,25 +925,49 @@ summary:focus-visible{
   align-items:center;
 }
 
+
 .project-image{
+
   position:relative;
 
   overflow:hidden;
 
   border-radius:28px;
 
-  box-shadow:var(--shadow);
+  background:#FFFFFF;
 
-  background:white;
+  box-shadow:var(--shadow);
 }
 
+
+.project-image button{
+
+  display:block;
+
+  width:100%;
+
+  padding:0;
+
+  border:0;
+
+  background:transparent;
+
+  cursor:zoom-in;
+}
+
+
 .project-image img{
+
+  width:100%;
+
   aspect-ratio:16 / 10;
 
   object-fit:cover;
 }
 
+
 .project-image .badge{
+
   position:absolute;
 
   left:15px;
@@ -756,13 +981,18 @@ summary:focus-visible{
   background:
     rgba(19,36,64,.90);
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.75rem;
+
   font-weight:800;
+
+  pointer-events:none;
 }
 
+
 .stats{
+
   display:grid;
 
   grid-template-columns:
@@ -773,7 +1003,9 @@ summary:focus-visible{
   margin-top:27px;
 }
 
+
 .stat{
+
   padding:20px;
 
   border:
@@ -784,23 +1016,25 @@ summary:focus-visible{
   background:var(--bg);
 }
 
+
 .stat strong{
+
   display:block;
 
   color:var(--red);
 
-  font-family:
+  font:
+    800 clamp(2rem,5vw,3rem)
     "Playfair Display",
     Georgia,
     serif;
 
-  font-size:
-    clamp(2rem,5vw,3rem);
-
   line-height:1;
 }
 
+
 .stat span{
+
   display:block;
 
   margin-top:7px;
@@ -808,35 +1042,49 @@ summary:focus-visible{
   color:var(--ink);
 
   font-size:.86rem;
+
   font-weight:800;
 }
 
+
 .stat small{
+
   display:block;
+
+  margin-top:3px;
 
   color:var(--mute);
 
   font-size:.72rem;
 }
 
+
 .stat.feature{
+
   grid-column:
     1 / -1;
 
   background:var(--navy);
+
   border-color:var(--navy);
 }
 
+
 .stat.feature strong{
+
   color:var(--gold);
 }
 
+
 .stat.feature span,
 .stat.feature small{
-  color:white;
+
+  color:#FFFFFF;
 }
 
+
 .project-note{
+
   margin-top:20px;
 
   padding:14px 16px;
@@ -854,7 +1102,9 @@ summary:focus-visible{
   font-size:.8rem;
 }
 
+
 .feature-grid{
+
   display:grid;
 
   grid-template-columns:
@@ -865,7 +1115,9 @@ summary:focus-visible{
   margin-top:35px;
 }
 
+
 .feature{
+
   padding:20px;
 
   border:
@@ -876,7 +1128,9 @@ summary:focus-visible{
   background:var(--alt);
 }
 
+
 .feature b{
+
   display:block;
 
   margin-bottom:5px;
@@ -884,7 +1138,9 @@ summary:focus-visible{
   color:var(--ink);
 }
 
+
 .feature p{
+
   margin:0;
 
   font-size:.82rem;
@@ -892,12 +1148,15 @@ summary:focus-visible{
 
 
 /* =========================================================
-   UNITS
+   UNIT EXPLORER
    ========================================================= */
 
 .scale{
+
   display:flex;
+
   flex-wrap:wrap;
+
   align-items:flex-end;
 
   gap:13px;
@@ -905,7 +1164,9 @@ summary:focus-visible{
   margin-bottom:30px;
 }
 
+
 .sq{
+
   min-width:130px;
 
   padding:15px;
@@ -919,16 +1180,23 @@ summary:focus-visible{
 
   color:var(--ink);
 
+  text-align:left;
+
   transition:
     transform .18s,
     border-color .18s;
 }
 
+
 .sq:hover{
-  transform:translateY(-3px);
+
+  transform:
+    translateY(-3px);
 }
 
-.sq[aria-selected="true"]{
+
+.sq[aria-pressed="true"]{
+
   border-color:var(--red);
 
   box-shadow:
@@ -936,24 +1204,29 @@ summary:focus-visible{
     var(--red);
 }
 
+
 .sq b{
+
   display:block;
 
   color:var(--red);
 
-  font-family:
+  font:
+    800 1.5rem
     "Playfair Display",
     Georgia,
     serif;
-
-  font-size:1.5rem;
 }
 
+
 .sq small{
+
   color:var(--mute);
 }
 
+
 .stage{
+
   display:grid;
 
   grid-template-columns:
@@ -964,7 +1237,9 @@ summary:focus-visible{
   align-items:center;
 }
 
+
 .cmp{
+
   --pos:50%;
 
   position:relative;
@@ -975,12 +1250,14 @@ summary:focus-visible{
 
   border-radius:22px;
 
-  background:white;
+  background:#FFFFFF;
 
   box-shadow:var(--shadow);
 }
 
+
 .cmp img{
+
   position:absolute;
 
   inset:0;
@@ -991,7 +1268,13 @@ summary:focus-visible{
   object-fit:cover;
 }
 
+
 .cmp .plan{
+
+  object-fit:contain;
+
+  background:#FFFFFF;
+
   clip-path:
     inset(
       0
@@ -1001,7 +1284,9 @@ summary:focus-visible{
     );
 }
 
+
 .cmp .line{
+
   position:absolute;
 
   top:0;
@@ -1011,14 +1296,45 @@ summary:focus-visible{
 
   width:2px;
 
-  background:white;
+  background:#FFFFFF;
 
   box-shadow:
     0 0 0 1px
     rgba(0,0,0,.15);
 }
 
+
+.cmp .line::after{
+
+  content:"⇄";
+
+  position:absolute;
+
+  top:50%;
+  left:50%;
+
+  width:44px;
+  height:44px;
+
+  display:grid;
+
+  place-items:center;
+
+  margin:
+    -22px 0 0 -22px;
+
+  border-radius:50%;
+
+  background:var(--gold);
+
+  color:var(--navy);
+
+  font-weight:800;
+}
+
+
 .cmp input{
+
   position:absolute;
 
   inset:0;
@@ -1026,12 +1342,16 @@ summary:focus-visible{
   width:100%;
   height:100%;
 
+  margin:0;
+
   opacity:0;
 
   cursor:ew-resize;
 }
 
+
 .tag{
+
   position:absolute;
 
   top:12px;
@@ -1042,23 +1362,30 @@ summary:focus-visible{
   border-radius:999px;
 
   background:
-    rgba(19,36,64,.9);
+    rgba(19,36,64,.90);
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.7rem;
+
   font-weight:800;
 }
 
+
 .tag.l{
+
   left:12px;
 }
 
+
 .tag.r{
+
   right:12px;
 }
 
+
 .hint{
+
   margin-top:12px;
 
   color:var(--mute);
@@ -1066,30 +1393,33 @@ summary:focus-visible{
   font-size:.8rem;
 }
 
+
 .num{
+
   display:flex;
+
   align-items:flex-end;
 
   gap:7px;
 }
 
+
 .num span{
+
   color:var(--red);
 
-  font-family:
+  font:
+    800 clamp(3rem,8vw,5.5rem)
     "Playfair Display",
     Georgia,
     serif;
 
-  font-size:
-    clamp(3rem,8vw,5.5rem);
-
-  font-weight:800;
-
   line-height:.9;
 }
 
+
 .num small{
+
   margin-bottom:5px;
 
   color:var(--mute);
@@ -1097,7 +1427,9 @@ summary:focus-visible{
   font-weight:700;
 }
 
+
 .spec{
+
   display:grid;
 
   grid-template-columns:
@@ -1109,7 +1441,9 @@ summary:focus-visible{
     20px 0;
 }
 
+
 .spec div{
+
   padding:13px;
 
   border:
@@ -1122,10 +1456,13 @@ summary:focus-visible{
   color:var(--ink);
 
   font-size:.82rem;
+
   font-weight:700;
 }
 
+
 .spec span{
+
   display:block;
 
   margin-bottom:2px;
@@ -1135,15 +1472,493 @@ summary:focus-visible{
   font-size:.68rem;
 
   text-transform:uppercase;
+
   letter-spacing:.07em;
 }
 
 
 /* =========================================================
-   COMMUNITY GALLERY
+   SMART PROPERTY GUIDE
+   ========================================================= */
+
+.smart-grid{
+
+  display:grid;
+
+  grid-template-columns:
+    1.08fr .92fr;
+
+  gap:28px;
+
+  align-items:start;
+}
+
+
+.card{
+
+  padding:
+    clamp(22px,4vw,32px);
+
+  border:
+    1px solid var(--line);
+
+  border-radius:22px;
+
+  background:var(--alt);
+
+  box-shadow:var(--shadow);
+}
+
+
+.smart-form,
+.smart-result{
+
+  min-height:100%;
+}
+
+
+.smart-top{
+
+  display:flex;
+
+  align-items:flex-start;
+
+  justify-content:space-between;
+
+  gap:18px;
+
+  margin-bottom:20px;
+}
+
+
+.smart-private{
+
+  flex:none;
+
+  padding:
+    7px 11px;
+
+  border-radius:999px;
+
+  background:
+    rgba(22,71,106,.10);
+
+  color:var(--blue);
+
+  font-size:.72rem;
+
+  font-weight:700;
+}
+
+
+html[data-theme="dark"]
+.smart-private{
+
+  background:
+    rgba(245,181,46,.12);
+
+  color:var(--gold);
+}
+
+
+.smart-progress{
+
+  margin:
+    0 0 24px;
+}
+
+
+.smart-progress > div{
+
+  height:7px;
+
+  overflow:hidden;
+
+  border-radius:999px;
+
+  background:var(--line);
+}
+
+
+.smart-progress span{
+
+  display:block;
+
+  width:0;
+
+  height:100%;
+
+  border-radius:inherit;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--red),
+      var(--gold)
+    );
+
+  transition:
+    width .35s ease;
+}
+
+
+.smart-progress small{
+
+  display:block;
+
+  margin-top:7px;
+
+  color:var(--mute);
+
+  font-size:.72rem;
+}
+
+
+.f{
+
+  display:grid;
+
+  gap:6px;
+
+  margin-bottom:16px;
+}
+
+
+.f label{
+
+  color:var(--ink);
+
+  font-size:.82rem;
+
+  font-weight:800;
+}
+
+
+.f input,
+.f select{
+
+  width:100%;
+
+  min-height:48px;
+
+  padding:
+    0 13px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:11px;
+
+  background:var(--bg);
+
+  color:var(--text);
+}
+
+
+.row2{
+
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap:12px;
+}
+
+
+.smart-check{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:9px;
+
+  margin:
+    10px 0 18px;
+
+  color:var(--mute);
+
+  font-size:.8rem;
+
+  cursor:pointer;
+}
+
+
+.smart-check input{
+
+  width:18px;
+  height:18px;
+
+  accent-color:var(--red);
+}
+
+
+.smart-result{
+
+  position:sticky;
+
+  top:95px;
+
+  overflow:hidden;
+}
+
+
+.smart-empty{
+
+  min-height:390px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+  padding:25px;
+}
+
+
+.smart-empty p{
+
+  margin-inline:auto;
+}
+
+
+.smart-orb{
+
+  width:86px;
+  height:86px;
+
+  display:grid;
+
+  place-items:center;
+
+  margin-bottom:22px;
+
+  border-radius:50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--red),
+      var(--blue)
+    );
+
+  color:#FFFFFF;
+
+  font:
+    800 1.4rem
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  box-shadow:
+    0 15px 35px -15px
+    rgba(19,36,64,.65);
+}
+
+
+.smart-rec-head{
+
+  display:flex;
+
+  align-items:flex-start;
+
+  justify-content:space-between;
+
+  gap:15px;
+
+  padding-bottom:20px;
+
+  border-bottom:
+    1px solid var(--line);
+}
+
+
+.smart-unit{
+
+  padding:
+    7px 11px;
+
+  border-radius:999px;
+
+  background:var(--gold);
+
+  color:var(--navy);
+
+  font-size:.73rem;
+
+  font-weight:800;
+
+  white-space:nowrap;
+}
+
+
+.smart-size{
+
+  margin:
+    24px 0 4px;
+
+  color:var(--red);
+
+  font:
+    800 clamp(3rem,8vw,5rem)
+    "Playfair Display",
+    Georgia,
+    serif;
+
+  line-height:.95;
+}
+
+
+.smart-size small{
+
+  color:var(--mute);
+
+  font:
+    600 .95rem
+    Inter,
+    sans-serif;
+}
+
+
+.smart-why{
+
+  display:grid;
+
+  gap:9px;
+
+  margin:
+    20px 0;
+}
+
+
+.smart-point{
+
+  padding:
+    12px 14px;
+
+  border:
+    1px solid var(--line);
+
+  border-radius:12px;
+
+  background:var(--bg);
+
+  color:var(--text);
+
+  font-size:.84rem;
+}
+
+
+.smart-point b{
+
+  color:var(--ink);
+}
+
+
+.smart-warning{
+
+  padding:
+    13px 15px;
+
+  border-left:
+    3px solid var(--gold);
+
+  border-radius:
+    0 11px 11px 0;
+
+  background:
+    rgba(245,181,46,.08);
+
+  color:var(--mute);
+
+  font-size:.8rem;
+}
+
+
+.smart-next{
+
+  margin-top:20px;
+
+  padding:18px;
+
+  border-radius:15px;
+
+  background:var(--navy);
+}
+
+
+.smart-next h3{
+
+  color:#FFFFFF;
+
+  font-size:1.05rem;
+}
+
+
+.smart-next p{
+
+  color:
+    rgba(255,255,255,.76);
+
+  font-size:.82rem;
+}
+
+
+.smart-summary{
+
+  margin-top:17px;
+
+  padding-top:17px;
+
+  border-top:
+    1px solid var(--line);
+}
+
+
+.smart-summary dl{
+
+  display:grid;
+
+  grid-template-columns:
+    auto 1fr;
+
+  gap:
+    6px 14px;
+
+  margin:0;
+
+  font-size:.78rem;
+}
+
+
+.smart-summary dt{
+
+  color:var(--mute);
+}
+
+
+.smart-summary dd{
+
+  margin:0;
+
+  color:var(--ink);
+
+  font-weight:700;
+}
+
+
+/* =========================================================
+   COMMUNITY
    ========================================================= */
 
 .bento{
+
   display:grid;
 
   grid-template-columns:
@@ -1154,7 +1969,9 @@ summary:focus-visible{
   gap:10px;
 }
 
+
 .bt{
+
   position:relative;
 
   overflow:hidden;
@@ -1162,6 +1979,7 @@ summary:focus-visible{
   padding:0;
 
   border:0;
+
   border-radius:18px;
 
   background:var(--line);
@@ -1169,7 +1987,9 @@ summary:focus-visible{
   cursor:zoom-in;
 }
 
+
 .bt img{
+
   width:100%;
   height:100%;
 
@@ -1179,11 +1999,15 @@ summary:focus-visible{
     transform .3s;
 }
 
+
 .bt:hover img{
+
   transform:scale(1.035);
 }
 
+
 .bt span{
+
   position:absolute;
 
   right:9px;
@@ -1198,18 +2022,23 @@ summary:focus-visible{
   background:
     rgba(19,36,64,.86);
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.72rem;
+
   font-weight:800;
 }
 
+
 .bt.wide{
+
   grid-column:
     span 2;
 }
 
+
 .bt.big{
+
   grid-row:
     span 2;
 
@@ -1217,35 +2046,45 @@ summary:focus-visible{
     span 2;
 }
 
+
 .bt.note{
+
   display:flex;
+
   flex-direction:column;
+
   align-items:center;
+
   justify-content:center;
 
   padding:15px;
 
   background:var(--navy);
-  color:white;
+
+  color:#FFFFFF;
 
   cursor:default;
 }
 
+
 .bt.note b{
+
   color:var(--gold);
 
-  font-family:
+  font:
+    800 3rem
     "Playfair Display",
     Georgia,
     serif;
 
-  font-size:3rem;
-
   line-height:1;
 }
 
+
 .bt.note small{
-  color:white;
+
+  color:#FFFFFF;
+
   text-align:center;
 }
 
@@ -1255,12 +2094,15 @@ summary:focus-visible{
    ========================================================= */
 
 .location-copy{
+
   max-width:780px;
 
   margin-bottom:28px;
 }
 
+
 .nearby{
+
   display:grid;
 
   grid-template-columns:
@@ -1273,7 +2115,9 @@ summary:focus-visible{
     30px;
 }
 
+
 .near{
+
   padding:15px;
 
   border:
@@ -1284,7 +2128,9 @@ summary:focus-visible{
   background:var(--bg);
 }
 
+
 .near b{
+
   display:block;
 
   color:var(--ink);
@@ -1292,25 +2138,32 @@ summary:focus-visible{
   font-size:.86rem;
 }
 
+
 .near small{
+
   color:var(--mute);
+
   font-size:.72rem;
 }
 
+
 .mapbox{
+
   position:relative;
 
   overflow:hidden;
 
-  border-radius:25px;
-
   border:
     1px solid var(--line);
+
+  border-radius:25px;
 
   box-shadow:var(--shadow);
 }
 
+
 .mapbox iframe{
+
   display:block;
 
   width:100%;
@@ -1319,7 +2172,9 @@ summary:focus-visible{
   border:0;
 }
 
+
 .mapcard{
+
   position:absolute;
 
   left:20px;
@@ -1338,11 +2193,9 @@ summary:focus-visible{
     rgba(0,0,0,.18);
 }
 
-.mapcard p{
-  margin-bottom:15px;
-}
 
 .location-ref{
+
   display:grid;
 
   grid-template-columns:
@@ -1353,7 +2206,9 @@ summary:focus-visible{
   margin-top:20px;
 }
 
+
 .location-ref button{
+
   position:relative;
 
   overflow:hidden;
@@ -1361,18 +2216,26 @@ summary:focus-visible{
   padding:0;
 
   border:0;
+
   border-radius:18px;
 
   background:var(--line);
+
+  cursor:zoom-in;
 }
 
+
 .location-ref img{
+
+  width:100%;
   height:270px;
 
   object-fit:cover;
 }
 
+
 .location-ref span{
+
   position:absolute;
 
   left:10px;
@@ -1384,85 +2247,22 @@ summary:focus-visible{
   border-radius:999px;
 
   background:
-    rgba(19,36,64,.9);
+    rgba(19,36,64,.90);
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.74rem;
+
   font-weight:800;
 }
 
 
 /* =========================================================
-   CARDS / FORMS
-   ========================================================= */
-
-.card{
-  padding:
-    clamp(20px,3vw,28px);
-
-  border:
-    1px solid var(--line);
-
-  border-radius:20px;
-
-  background:var(--alt);
-
-  box-shadow:var(--shadow);
-}
-
-.f{
-  display:grid;
-
-  gap:6px;
-
-  margin-bottom:15px;
-}
-
-.f label{
-  color:var(--ink);
-
-  font-size:.8rem;
-  font-weight:800;
-}
-
-.f input,
-.f select{
-  width:100%;
-
-  min-height:47px;
-
-  padding:0 12px;
-
-  border:
-    1px solid var(--line);
-
-  border-radius:10px;
-
-  background:var(--bg);
-  color:var(--text);
-}
-
-input[type="range"]{
-  padding:0;
-  accent-color:var(--red);
-}
-
-.row2{
-  display:grid;
-
-  grid-template-columns:
-    1fr 1fr;
-
-  gap:12px;
-}
-
-
-/* =========================================================
-   FINANCING
+   FINANCING / JOURNEY / FINAL COMPONENTS
    ========================================================= */
 
 .calc{
+
   display:grid;
 
   grid-template-columns:
@@ -1471,7 +2271,17 @@ input[type="range"]{
   gap:20px;
 }
 
+
+input[type="range"]{
+
+  width:100%;
+
+  accent-color:var(--red);
+}
+
+
 .ring{
+
   display:grid;
 
   grid-template-columns:
@@ -1489,12 +2299,16 @@ input[type="range"]{
     );
 }
 
+
 .ring p,
 .ring b{
-  color:white !important;
+
+  color:#FFFFFF !important;
 }
 
+
 .donut{
+
   width:180px;
   height:180px;
 
@@ -1502,14 +2316,18 @@ input[type="range"]{
 
   background:
     conic-gradient(
-      var(--red) 0 50%,
-      var(--gold) 50% 100%
+      var(--red)
+      var(--a,60%),
+      var(--gold)
+      0
     );
 
   position:relative;
 }
 
+
 .donut::after{
+
   content:"";
 
   position:absolute;
@@ -1521,22 +2339,23 @@ input[type="range"]{
   background:var(--navy);
 }
 
+
 .mo{
+
   color:var(--gold);
 
-  font-family:
+  font:
+    800 clamp(2.3rem,7vw,4rem)
     "Playfair Display",
     Georgia,
     serif;
-
-  font-size:
-    clamp(2.3rem,7vw,4rem);
-
-  font-weight:800;
 }
 
+
 .lg{
+
   display:flex;
+
   flex-wrap:wrap;
 
   gap:12px;
@@ -1544,12 +2363,14 @@ input[type="range"]{
   margin:
     8px 0 14px;
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.73rem;
 }
 
+
 .lg i{
+
   width:8px;
   height:8px;
 
@@ -1560,7 +2381,9 @@ input[type="range"]{
   border-radius:50%;
 }
 
+
 .note{
+
   margin:
     10px 0;
 
@@ -1579,11 +2402,8 @@ input[type="range"]{
 }
 
 
-/* =========================================================
-   BUYING JOURNEY
-   ========================================================= */
-
 .jr{
+
   display:grid;
 
   grid-template-columns:
@@ -1592,14 +2412,19 @@ input[type="range"]{
   gap:22px;
 }
 
+
 .steps{
+
   display:grid;
 
   gap:8px;
 }
 
+
 .st{
+
   display:flex;
+
   align-items:center;
 
   gap:12px;
@@ -1616,18 +2441,23 @@ input[type="range"]{
   text-align:left;
 }
 
+
 .st[aria-pressed="true"]{
+
   border-color:var(--red);
 
   transform:
     translateX(5px);
 }
 
+
 .st i{
+
   width:34px;
   height:34px;
 
   display:grid;
+
   place-items:center;
 
   flex:none;
@@ -1635,30 +2465,35 @@ input[type="range"]{
   border-radius:50%;
 
   background:var(--navy);
-  color:white;
+
+  color:#FFFFFF;
 
   font-style:normal;
+
   font-weight:800;
 }
 
+
 .st span{
+
   display:grid;
 }
 
+
 .st b{
+
   color:var(--ink);
 }
 
+
 .st small{
+
   color:var(--mute);
 }
 
 
-/* =========================================================
-   REFERRAL
-   ========================================================= */
-
 .ref{
+
   display:grid;
 
   grid-template-columns:
@@ -1681,23 +2516,23 @@ input[type="range"]{
     );
 }
 
+
 .ref h2,
 .ref p{
-  color:white;
+
+  color:#FFFFFF;
 }
 
+
 .amt{
+
   color:var(--gold);
 
-  font-family:
+  font:
+    800 clamp(3rem,9vw,6rem)
     "Playfair Display",
     Georgia,
     serif;
-
-  font-size:
-    clamp(3rem,9vw,6rem);
-
-  font-weight:800;
 
   line-height:1;
 
@@ -1705,11 +2540,8 @@ input[type="range"]{
 }
 
 
-/* =========================================================
-   ABOUT
-   ========================================================= */
-
 .about{
+
   display:grid;
 
   grid-template-columns:
@@ -1721,13 +2553,17 @@ input[type="range"]{
   gap:45px;
 }
 
+
 .about > img{
+
   max-width:360px;
 
   margin-inline:auto;
 }
 
+
 .sig{
+
   padding-left:16px;
 
   border-left:
@@ -1739,15 +2575,14 @@ input[type="range"]{
 }
 
 
-/* =========================================================
-   FAQ
-   ========================================================= */
-
 .faq{
+
   max-width:850px;
 }
 
+
 details{
+
   margin-bottom:9px;
 
   padding:
@@ -1761,7 +2596,9 @@ details{
   background:var(--alt);
 }
 
+
 summary{
+
   padding:
     17px 0;
 
@@ -1772,16 +2609,15 @@ summary{
   cursor:pointer;
 }
 
+
 details p{
+
   padding-bottom:16px;
 }
 
 
-/* =========================================================
-   CTA
-   ========================================================= */
-
 .cta{
+
   background:
     linear-gradient(
       135deg,
@@ -1792,25 +2628,30 @@ details p{
   text-align:center;
 }
 
+
 .cta h2{
-  color:white;
+
+  color:#FFFFFF;
 }
 
+
 .cta > .w > p{
-  margin-left:auto;
-  margin-right:auto;
+
+  margin-inline:auto;
 
   color:
     rgba(255,255,255,.76);
 }
 
+
 .req{
-  max-width:850px;
+
+  max-width:1050px;
 
   display:grid;
 
   grid-template-columns:
-    1fr 1fr 1fr auto;
+    1.15fr 1fr .9fr .9fr auto;
 
   align-items:end;
 
@@ -1823,22 +2664,28 @@ details p{
   text-align:left;
 }
 
+
 .req label{
+
   display:grid;
 
   gap:5px;
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.76rem;
+
   font-weight:700;
 }
 
+
 .req input,
 .req select{
+
   min-height:48px;
 
-  padding:0 11px;
+  padding:
+    0 11px;
 
   border:
     1px solid
@@ -1846,16 +2693,14 @@ details p{
 
   border-radius:10px;
 
-  background:white;
+  background:#FFFFFF;
+
   color:#172437;
 }
 
 
-/* =========================================================
-   FOOTER
-   ========================================================= */
-
 footer{
+
   padding:
     45px 0
     calc(
@@ -1868,8 +2713,11 @@ footer{
   text-align:center;
 }
 
+
 footer img{
+
   width:auto;
+
   height:80px;
 
   margin:
@@ -1877,9 +2725,10 @@ footer img{
     18px;
 }
 
+
 footer p{
-  margin-left:auto;
-  margin-right:auto;
+
+  margin-inline:auto;
 
   color:
     rgba(255,255,255,.62);
@@ -1887,19 +2736,19 @@ footer p{
   font-size:.76rem;
 }
 
+
 footer a{
+
   color:var(--gold);
 }
 
 
-/* =========================================================
-   MOBILE CTA
-   ========================================================= */
-
 .dock{
+
   position:fixed;
 
   right:18px;
+
   bottom:
     calc(
       16px +
@@ -1912,6 +2761,20 @@ footer a{
 
   gap:8px;
 
+  padding:8px;
+
+  border-radius:20px;
+
+  background:
+    rgba(19,36,64,.94);
+
+  box-shadow:
+    0 18px 40px -12px
+    rgba(0,0,0,.6);
+
+  backdrop-filter:
+    blur(14px);
+
   opacity:0;
 
   transform:
@@ -1922,19 +2785,20 @@ footer a{
   transition:.25s;
 }
 
+
 .dock.show{
+
   opacity:1;
-  transform:translateY(0);
+
+  transform:
+    translateY(0);
 
   pointer-events:auto;
 }
 
 
-/* =========================================================
-   LIGHTBOX
-   ========================================================= */
-
 .lb{
+
   position:fixed;
 
   inset:0;
@@ -1942,7 +2806,9 @@ footer a{
   z-index:200;
 
   display:none;
+
   align-items:center;
+
   justify-content:center;
 
   padding:20px;
@@ -1951,11 +2817,15 @@ footer a{
     rgba(0,0,0,.88);
 }
 
+
 .lb.open{
+
   display:flex;
 }
 
+
 .lb figure{
+
   position:relative;
 
   width:
@@ -1968,11 +2838,14 @@ footer a{
   text-align:center;
 }
 
+
 .lb img{
+
+  max-width:100%;
+
   max-height:82vh;
 
   width:auto;
-  max-width:100%;
 
   margin:auto;
 
@@ -1981,38 +2854,42 @@ footer a{
   object-fit:contain;
 }
 
+
 .lb figcaption{
+
   margin-top:10px;
 
-  color:white;
+  color:#FFFFFF;
 
   font-size:.82rem;
 }
 
+
 #lbx{
+
   position:absolute;
 
   top:-48px;
+
   right:0;
 
   width:40px;
   height:40px;
 
   border:0;
+
   border-radius:50%;
 
   background:var(--gold);
+
   color:var(--navy);
 
   font-size:1.4rem;
 }
 
 
-/* =========================================================
-   TOAST
-   ========================================================= */
-
 .toast{
+
   position:fixed;
 
   z-index:250;
@@ -2034,7 +2911,8 @@ footer a{
   border-radius:14px;
 
   background:var(--navy);
-  color:white;
+
+  color:#FFFFFF;
 
   font-size:.86rem;
 
@@ -2048,7 +2926,9 @@ footer a{
   transition:.25s;
 }
 
+
 .toast.show{
+
   opacity:1;
 
   transform:
@@ -2073,6 +2953,7 @@ footer a{
   .hero .w,
   .project,
   .stage,
+  .smart-grid,
   .calc,
   .jr,
   .about,
@@ -2095,12 +2976,17 @@ footer a{
       repeat(2,1fr);
   }
 
+  .smart-result{
+    position:static;
+  }
+
   .mapcard{
     position:static;
 
     max-width:none;
 
     border-radius:0;
+
     box-shadow:none;
   }
 
@@ -2119,21 +3005,24 @@ footer a{
   }
 }
 
+
 @media(max-width:650px){
 
   .w{
+
     width:
       min(
-        100% - 22px,
+        calc(100% - 22px),
         1120px
       );
   }
 
-  .nav img{
+  .nav-logo img{
     height:45px;
   }
 
   .hero .w{
+
     min-height:auto;
 
     padding:
@@ -2141,10 +3030,12 @@ footer a{
   }
 
   .acts{
+
     flex-direction:column;
   }
 
   .acts .btn{
+
     width:100%;
   }
 
@@ -2155,14 +3046,17 @@ footer a{
   .location-ref,
   .row2,
   .req{
+
     grid-template-columns:1fr;
   }
 
   .stat.feature{
+
     grid-column:auto;
   }
 
   .bento{
+
     grid-template-columns:1fr;
 
     grid-auto-rows:220px;
@@ -2170,35 +3064,67 @@ footer a{
 
   .bt.big,
   .bt.wide{
+
     grid-column:auto;
+
     grid-row:auto;
   }
 
   .cmp{
+
     min-height:330px;
   }
 
+  .smart-top{
+
+    display:block;
+  }
+
+  .smart-private{
+
+    display:inline-block;
+
+    margin-top:10px;
+  }
+
+  .smart-summary dl{
+
+    grid-template-columns:1fr;
+
+    gap:2px;
+  }
+
+  .smart-summary dd{
+
+    margin-bottom:7px;
+  }
+
   .ring{
+
     grid-template-columns:1fr;
 
     text-align:center;
   }
 
   .donut{
+
     margin:auto;
   }
 
   .lg{
+
     justify-content:center;
   }
 
   .req .btn{
+
     grid-column:auto;
   }
 
   .dock{
-    left:10px;
+
     right:10px;
+    left:10px;
 
     bottom:
       calc(
@@ -2208,32 +3134,39 @@ footer a{
   }
 
   .dock .btn{
+
     flex:1;
 
     padding:
       0 10px;
 
-    font-size:.78rem;
+    font-size:.76rem;
   }
 }
+
 
 @media(prefers-reduced-motion:reduce){
 
   html{
+
     scroll-behavior:auto;
   }
 
   *{
+
     animation:none !important;
+
     transition:none !important;
   }
 }
 
 </style>
+
 </head>
 
 
 <body>
+
 
 <a
   class="skip"
@@ -2241,6 +3174,7 @@ footer a{
 >
 Skip to main content
 </a>
+
 
 <div
   class="bar"
@@ -2259,14 +3193,18 @@ Skip to main content
 
 <div class="w">
 
+
 <a
+  class="nav-logo"
   href="#top"
   aria-label="MAB home"
 >
+
 <img
   src="images/mab-logo.png"
   alt="MAB - Move Acquire Build"
 >
+
 </a>
 
 
@@ -2284,7 +3222,7 @@ Units
 </a>
 
 <a href="#community">
-Community
+Amenities
 </a>
 
 <a href="#location">
@@ -2295,26 +3233,15 @@ Location
 Financing
 </a>
 
-<a href="#journey">
-Buying
-</a>
-
-<a href="#referral">
-Referral
-</a>
-
 <a href="#faq">
 FAQ
 </a>
 
 <a
-  class="btn gold msg"
-  data-kw="INFO"
-  href="https://m.me/UDHOrtigasbyMAB"
-  target="_blank"
-  rel="noopener noreferrer"
+  class="btn gold"
+  href="#viewing"
 >
-Message MAB
+Request a Site Viewing
 </a>
 
 </div>
@@ -2332,6 +3259,7 @@ Message MAB
 <button
   class="ic bg"
   id="bg"
+  type="button"
   aria-label="Open menu"
   aria-expanded="false"
   aria-controls="mm"
@@ -2349,15 +3277,41 @@ Message MAB
   id="mm"
 >
 
-<a href="#project">Project</a>
-<a href="#units">Units</a>
-<a href="#community">Community</a>
-<a href="#location">Location</a>
-<a href="#financing">Financing</a>
-<a href="#journey">Buying process</a>
-<a href="#referral">Referral</a>
-<a href="#about">About MAB</a>
-<a href="#faq">FAQ</a>
+<a href="#project">
+Project
+</a>
+
+<a href="#units">
+Units
+</a>
+
+<a href="#community">
+Amenities
+</a>
+
+<a href="#location">
+Location
+</a>
+
+<a href="#financing">
+Financing
+</a>
+
+<a href="#journey">
+Buying Process
+</a>
+
+<a href="#about">
+About MAB
+</a>
+
+<a href="#faq">
+FAQ
+</a>
+
+<a href="#viewing">
+Request a Site Viewing
+</a>
 
 </div>
 
@@ -2378,20 +3332,24 @@ Message MAB
 
 <div class="w">
 
+
 <div>
 
 <span
-  class="eyebrow"
-  style="color:#F5B52E"
+  class="eyebrow hero-eyebrow"
 >
 Urban Deca Homes Ortigas
 </span>
 
+
 <h1>
+
 Hindi basta condo.
+
 <span>
 Dapat worth it.
 </span>
+
 </h1>
 
 
@@ -2404,6 +3362,7 @@ Dapat worth it.
 
 <button
   class="chip"
+  type="button"
   aria-pressed="true"
   data-w="first"
 >
@@ -2412,6 +3371,7 @@ First-time buyer
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-w="family"
 >
@@ -2420,6 +3380,7 @@ Growing family
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-w="ofw"
 >
@@ -2428,6 +3389,7 @@ OFW
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-w="investor"
 >
@@ -2436,6 +3398,7 @@ Investor
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-w="renter"
 >
@@ -2449,7 +3412,7 @@ Renter
   class="sub"
   id="sub"
 >
-Explore 2-bedroom and 3-bedroom options at Urban Deca Homes Ortigas in Rosario, Pasig City. See the actual units, compare layouts, understand your possible costs and book a site viewing before you decide.
+Compare actual turnover photos, floor plans, amenities, location and possible financing at Urban Deca Homes Ortigas before you decide whether it is worth viewing in person.
 </p>
 
 
@@ -2457,19 +3420,23 @@ Explore 2-bedroom and 3-bedroom options at Urban Deca Homes Ortigas in Rosario, 
 
 <a
   class="btn gold"
-  href="#units"
+  href="#viewing"
 >
-Explore the units
+Request a Site Viewing
 </a>
 
 <a
-  class="btn ghost msg"
-  data-kw="VIEWING"
-  href="https://m.me/UDHOrtigasbyMAB"
-  target="_blank"
-  rel="noopener noreferrer"
+  class="btn ghost"
+  href="#units"
 >
-Book a site viewing
+Compare Units
+</a>
+
+<a
+  class="btn ghost"
+  href="#advisor"
+>
+Find a Unit to Compare
 </a>
 
 <button
@@ -2502,27 +3469,29 @@ or bank financing
 
 <span>
 <b>Actual units</b>
-available for viewing
+for viewing
 </span>
 
 </div>
 
 
 <p class="fine">
-Prices, availability, financing terms, computations and promotional offers are subject to the latest approved details.
+Prices, inventory, financing terms, requirements, computations and promotional offers are subject to the latest available information.
 </p>
 
 </div>
 
 
+<!-- HERO MINI FINDER -->
+
 <div class="glass">
 
 <h3>
-Find your starting layout
+Find a layout to compare
 </h3>
 
 <p>
-Two quick choices to help you start comparing.
+Choose your preferred bedroom count and what matters most to you.
 </p>
 
 
@@ -2533,6 +3502,7 @@ Two quick choices to help you start comparing.
 Bedrooms
 </div>
 
+
 <div
   class="chips"
   data-g="b"
@@ -2541,18 +3511,20 @@ Bedrooms
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="2"
 >
-2 bedrooms
+2 Bedrooms
 </button>
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="3"
 >
-3 bedrooms
+3 Bedrooms
 </button>
 
 </div>
@@ -2565,6 +3537,7 @@ Bedrooms
 What matters most?
 </div>
 
+
 <div
   class="chips"
   data-g="p"
@@ -2573,6 +3546,7 @@ What matters most?
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="practical"
 >
@@ -2581,26 +3555,29 @@ Compact
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="space"
 >
-More space
+More Space
 </button>
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="inner"
 >
-Inner unit
+Inner Unit
 </button>
 
 <button
   class="chip"
+  type="button"
   aria-pressed="false"
   data-v="outer"
 >
-Outer unit
+Outer Unit
 </button>
 
 </div>
@@ -2632,34 +3609,41 @@ Outer unit
 
 <div class="project">
 
+
 <div>
 
 <span class="eyebrow">
 Project Background
 </span>
 
+
 <h2>
 About Urban Deca Homes Ortigas
 </h2>
 
-<p>
-Urban Deca Homes Ortigas is a large master-planned residential community along Ortigas Avenue Extension in Rosario, Pasig City.
-</p>
 
 <p>
-The official project information describes a development covering approximately <strong>13 hectares</strong> and composed of <strong>22 residential towers</strong>, built around a central community park and amenity area.
+Urban Deca Homes Ortigas is a large residential community located along Ortigas Avenue Extension in Rosario, Pasig City.
 </p>
 
-<p>
-8990 Holdings' corporate disclosures identify Urban Deca Homes Ortigas as a project designed to serve first-time homebuyers in Pasig and nearby cities, offering 2-bedroom and 3-bedroom homes for different household needs.
-</p>
 
 <p>
-Depending on current inventory, buyers may encounter ready-for-occupancy or other available inventory. Always request the latest unit availability and computation before deciding.
+Based on the project reference materials, the development covers approximately <strong>13 hectares</strong> and is composed of <strong>22 buildings</strong>, with approximately <strong>19,046 residential units</strong>.
+</p>
+
+
+<p>
+The community also provides approximately <strong>1.3 hectares of amenity and recreational space</strong>, giving residents access to open areas and facilities for exercise, recreation and family activities.
+</p>
+
+
+<p>
+For buyers, the decision should not be based on price alone. The layout, location, financing, community environment and your actual needs should make sense together.
 </p>
 
 
 <div class="stats">
+
 
 <div class="stat">
 
@@ -2672,7 +3656,7 @@ Hectares
 </span>
 
 <small>
-Approximate master-planned community area
+Approximate development area
 </small>
 
 </div>
@@ -2685,11 +3669,11 @@ Approximate master-planned community area
 </strong>
 
 <span>
-Residential Towers
+Buildings
 </span>
 
 <small>
-Project masterplan
+Project development
 </small>
 
 </div>
@@ -2702,11 +3686,11 @@ Project masterplan
 </strong>
 
 <span>
-Project Units
+Residential Units
 </span>
 
 <small>
-Listed in 8990 Holdings corporate disclosures
+Project reference total
 </small>
 
 </div>
@@ -2715,15 +3699,15 @@ Listed in 8990 Holdings corporate disclosures
 <div class="stat">
 
 <strong>
-4
+64
 </strong>
 
 <span>
-Elevators per Building
+Units per Typical Floor
 </span>
 
 <small>
-Based on official project information
+Based on the supplied floor plan
 </small>
 
 </div>
@@ -2736,11 +3720,11 @@ Based on official project information
 </strong>
 
 <span>
-Hectare Central Park
+Hectares of Amenity Area
 </span>
 
 <small>
-Open space for recreation, relaxation and community activities
+Community spaces, recreation and open areas
 </small>
 
 </div>
@@ -2749,7 +3733,7 @@ Open space for recreation, relaxation and community activities
 
 
 <div class="project-note">
-Project information is provided for buyer education. Unit inventory, building status, turnover schedules and financing details should always be confirmed against the latest approved information.
+Project figures shown here are based on the supplied Urban Deca Homes Ortigas reference materials. Current inventory, unit status, prices and financing details should be checked before making a property decision.
 </div>
 
 </div>
@@ -2759,26 +3743,23 @@ Project information is provided for buyer education. Unit inventory, building st
 
 <button
   class="lb-t"
-  data-src="images/official-udh-banner.jpg"
-  data-cap="Official Urban Deca Homes Ortigas project banner"
-  style="
-    width:100%;
-    border:0;
-    padding:0;
-    background:transparent;
-  "
+  type="button"
+  data-src="images/project-masterplan.jpg"
+  data-cap="Urban Deca Homes Ortigas Project Development"
 >
 
 <img
-  src="images/official-udh-banner.jpg"
-  alt="Official Urban Deca Homes Ortigas project banner"
+  src="images/project-masterplan.jpg"
+  alt="Urban Deca Homes Ortigas project development masterplan"
   loading="lazy"
+  decoding="async"
 >
 
 </button>
 
+
 <div class="badge">
-Official project reference
+Project Development
 </div>
 
 </div>
@@ -2788,14 +3769,15 @@ Official project reference
 
 <div class="feature-grid">
 
+
 <div class="feature">
 
 <b>
-Gated Community
+2BR & 3BR Options
 </b>
 
 <p>
-The development has a perimeter wall and controlled community access.
+Compare four different layouts based on floor area, bedroom count and unit position.
 </p>
 
 </div>
@@ -2804,11 +3786,11 @@ The development has a perimeter wall and controlled community access.
 <div class="feature">
 
 <b>
-Floor Access Control
+Community Amenities
 </b>
 
 <p>
-Resident access passes are designed to provide access to their respective residential floors.
+Open spaces and facilities support recreation, exercise and everyday family activities.
 </p>
 
 </div>
@@ -2817,11 +3799,11 @@ Resident access passes are designed to provide access to their respective reside
 <div class="feature">
 
 <b>
-Four Elevators
+Deca Mall
 </b>
 
 <p>
-Official project information states that each residential building has four elevators.
+Commercial convenience is available within the wider Urban Deca Homes Ortigas community.
 </p>
 
 </div>
@@ -2830,11 +3812,11 @@ Official project information states that each residential building has four elev
 <div class="feature">
 
 <b>
-Outer-Unit Views
+Ortigas Avenue Extension
 </b>
 
 <p>
-Some outer units may face the city skyline, Sierra Madre, Laguna de Bay, Antipolo or Cainta depending on orientation.
+The project sits along a major corridor in Rosario, Pasig City.
 </p>
 
 </div>
@@ -2847,7 +3829,7 @@ Some outer units may face the city skyline, Sierra Madre, Laguna de Bay, Antipol
 
 
 <!-- =========================================================
-     UNITS
+     UNIT EXPLORER
      ========================================================= -->
 
 <section
@@ -2856,6 +3838,7 @@ Some outer units may face the city skyline, Sierra Madre, Laguna de Bay, Antipol
 
 <div class="w">
 
+
 <div class="head">
 
 <span class="eyebrow">
@@ -2863,11 +3846,11 @@ Unit Explorer
 </span>
 
 <h2>
-Every layout has a different purpose
+Compare the layouts before you choose
 </h2>
 
 <p>
-Select a unit type, then drag across the image to compare the actual turnover unit with its floor plan.
+Select a unit type, then drag across the image to compare its actual turnover photo with the corresponding floor plan.
 </p>
 
 </div>
@@ -2876,8 +3859,8 @@ Select a unit type, then drag across the image to compare the actual turnover un
 <div
   class="scale"
   id="scale"
-  role="tablist"
-  aria-label="Unit types"
+  role="group"
+  aria-label="Choose a unit type"
 ></div>
 
 
@@ -2892,12 +3875,370 @@ Select a unit type, then drag across the image to compare the actual turnover un
 
 
 <!-- =========================================================
+     SMART PROPERTY GUIDE
+     ========================================================= -->
+
+<section
+  id="advisor"
+  class="alt"
+>
+
+<div class="w">
+
+
+<div class="head">
+
+<span class="eyebrow">
+MAB Smart Property Guide
+</span>
+
+<h2>
+Not sure which unit to compare first?
+</h2>
+
+<p>
+Answer a few simple questions. The website will suggest a starting layout to compare and prepare useful questions for your conversation with MAB.
+</p>
+
+<p style="font-size:.82rem">
+This guide is for property planning only. It does not determine loan approval, buyer eligibility, final affordability, current price or unit availability.
+</p>
+
+</div>
+
+
+<div class="smart-grid">
+
+
+<form
+  class="card smart-form"
+  id="smartForm"
+>
+
+
+<div class="smart-top">
+
+<div>
+
+<h3 style="margin-bottom:4px">
+Tell me what you're looking for
+</h3>
+
+<p style="font-size:.84rem;margin:0">
+Your answers stay in your browser unless you choose to send the prepared summary to MAB.
+</p>
+
+</div>
+
+
+<span class="smart-private">
+Private on this device
+</span>
+
+</div>
+
+
+<div class="smart-progress">
+
+<div>
+
+<span id="smartProgressBar">
+</span>
+
+</div>
+
+<small id="smartProgressText">
+0% profile complete
+</small>
+
+</div>
+
+
+<div class="row2">
+
+
+<div class="f">
+
+<label for="saGoal">
+What is your main purpose?
+</label>
+
+<select id="saGoal">
+
+<option value="">
+Choose one
+</option>
+
+<option value="Own use">
+Own use / first home
+</option>
+
+<option value="Investment">
+Investment
+</option>
+
+<option value="Still deciding">
+Still deciding
+</option>
+
+</select>
+
+</div>
+
+
+<div class="f">
+
+<label for="saBeds">
+How many bedrooms do you prefer?
+</label>
+
+<select id="saBeds">
+
+<option value="">
+Choose one
+</option>
+
+<option value="2">
+2 Bedrooms
+</option>
+
+<option value="3">
+3 Bedrooms
+</option>
+
+<option value="Not sure">
+Not sure yet
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+
+<div class="row2">
+
+
+<div class="f">
+
+<label for="saPriority">
+What matters most in the layout?
+</label>
+
+<select id="saPriority">
+
+<option value="">
+Choose one
+</option>
+
+<option value="practical">
+More compact / practical
+</option>
+
+<option value="space">
+More floor area
+</option>
+
+<option value="outer">
+Outer unit
+</option>
+
+<option value="inner">
+Inner unit
+</option>
+
+<option value="not sure">
+Not sure yet
+</option>
+
+</select>
+
+</div>
+
+
+<div class="f">
+
+<label for="saFinancing">
+Financing preference
+</label>
+
+<select id="saFinancing">
+
+<option value="">
+Choose one
+</option>
+
+<option value="Pag-IBIG">
+Pag-IBIG
+</option>
+
+<option value="Bank">
+Bank
+</option>
+
+<option value="Not sure">
+Not sure yet
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+
+<div class="row2">
+
+
+<div class="f">
+
+<label for="saBudget">
+
+Target monthly payment
+
+<span style="font-weight:400">
+(optional)
+</span>
+
+</label>
+
+<input
+  id="saBudget"
+  type="number"
+  min="0"
+  step="1000"
+  inputmode="numeric"
+  placeholder="e.g. 20000"
+>
+
+</div>
+
+
+<div class="f">
+
+<label for="saIncome">
+Source of income
+</label>
+
+<select id="saIncome">
+
+<option value="">
+Choose one
+</option>
+
+<option value="Locally Employed">
+Locally Employed
+</option>
+
+<option value="Virtual Assistant">
+Virtual Assistant
+</option>
+
+<option value="Self-Employed">
+Self-Employed
+</option>
+
+<option value="Business Owner">
+Business Owner
+</option>
+
+<option value="OFW">
+OFW
+</option>
+
+<option value="Seaman">
+Seaman
+</option>
+
+<option value="Foreign Buyer">
+Foreign Buyer
+</option>
+
+<option value="Prefer not to say">
+Prefer not to say
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+
+<label class="smart-check">
+
+<input
+  id="saRemember"
+  type="checkbox"
+>
+
+<span>
+Remember my answers on this device
+</span>
+
+</label>
+
+
+<div class="acts">
+
+<button
+  class="btn red"
+  type="submit"
+>
+Suggest a Unit to Compare
+</button>
+
+<button
+  class="btn out"
+  id="saReset"
+  type="button"
+>
+Reset
+</button>
+
+</div>
+
+</form>
+
+
+<div
+  class="card smart-result"
+  id="smartResult"
+  aria-live="polite"
+>
+
+<div class="smart-empty">
+
+<div class="smart-orb">
+MAB
+</div>
+
+<h3>
+Your suggested starting unit will appear here
+</h3>
+
+<p>
+The guide uses your bedroom and layout preferences to suggest a unit to compare first. Your financing and budget answers help prepare the right questions for MAB.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================================
      COMMUNITY
      ========================================================= -->
 
 <section
   id="community"
-  class="alt"
 >
 
 <div class="w">
@@ -2905,19 +4246,19 @@ Select a unit type, then drag across the image to compare the actual turnover un
 <div class="head">
 
 <span class="eyebrow">
-Community
+Community & Amenities
 </span>
 
 <h2>
-Designed around everyday living
+A community built around everyday living
 </h2>
 
 <p>
-The 1.3-hectare central park is a major community feature. Official project information identifies facilities such as a clubhouse, basketball courts, park areas, playground, jogging path, outdoor gym, atrium and lagoon.
+Urban Deca Homes Ortigas includes approximately 1.3 hectares of amenity and community space for recreation, exercise, family activities and relaxation.
 </p>
 
 <p>
-Explore the building layout, amenities and commercial conveniences below.
+Explore the playground, outdoor gym, basketball court, lagoon, pocket parks, commercial conveniences and Deca Mall. Tap any image to enlarge it.
 </p>
 
 </div>
@@ -2939,32 +4280,35 @@ Explore the building layout, amenities and commercial conveniences below.
 
 <section
   id="location"
+  class="alt"
 >
 
 <div class="w">
 
+
 <div class="location-copy">
 
 <span class="eyebrow">
-Strategic Location
+Location
 </span>
 
 <h2>
-Along Ortigas Avenue Extension
+Urban Deca Homes Ortigas in Rosario, Pasig City
 </h2>
 
 <p>
-Urban Deca Homes Ortigas is located in Rosario, Pasig City along the Ortigas Avenue Extension corridor.
+Located along Ortigas Avenue Extension, the development sits along a major corridor connecting Pasig with nearby business, commercial and residential areas.
 </p>
 
 <p>
-Major roads such as Ortigas Avenue, C5 and EDSA connect the area with business districts, malls, hospitals, schools and other destinations across Metro Manila.
+Nearby destinations referenced in the project materials include Ortigas Center, Eastwood, BGC, SM East Ortigas, The Medical City and other establishments around Pasig and nearby cities.
 </p>
 
 </div>
 
 
 <div class="nearby">
+
 
 <div class="near">
 
@@ -2982,11 +4326,11 @@ Retail and everyday convenience
 <div class="near">
 
 <b>
-SM Megamall
+National University
 </b>
 
 <small>
-Major shopping destination
+Nearby educational institution
 </small>
 
 </div>
@@ -2999,7 +4343,7 @@ The Medical City
 </b>
 
 <small>
-Hospital and healthcare
+Hospital and healthcare destination
 </small>
 
 </div>
@@ -3021,11 +4365,24 @@ Major business district
 <div class="near">
 
 <b>
-Tiendesitas
+Eastwood
 </b>
 
 <small>
-Retail and lifestyle destination
+Business and lifestyle district
+</small>
+
+</div>
+
+
+<div class="near">
+
+<b>
+BGC
+</b>
+
+<small>
+Major business and lifestyle area
 </small>
 
 </div>
@@ -3038,7 +4395,7 @@ Greenhills
 </b>
 
 <small>
-Shopping and commercial district
+Shopping and commercial area
 </small>
 
 </div>
@@ -3047,24 +4404,11 @@ Shopping and commercial district
 <div class="near">
 
 <b>
-Ateneo de Manila
+Arcovia City
 </b>
 
 <small>
-Educational institution
-</small>
-
-</div>
-
-
-<div class="near">
-
-<b>
-La Salle Greenhills
-</b>
-
-<small>
-Educational institution
+Nearby C5 development
 </small>
 
 </div>
@@ -3114,7 +4458,7 @@ Open in Maps
   target="_blank"
   rel="noopener noreferrer"
 >
-Ask MAB
+Ask for Directions
 </a>
 
 </div>
@@ -3126,16 +4470,19 @@ Ask MAB
 
 <div class="location-ref">
 
+
 <button
   class="lb-t"
+  type="button"
   data-src="images/strategic-location.jpg"
-  data-cap="Urban Deca Homes Ortigas strategic location reference"
+  data-cap="Urban Deca Homes Ortigas Strategic Location"
 >
 
 <img
   src="images/strategic-location.jpg"
-  alt="Urban Deca Homes Ortigas strategic location"
+  alt="Urban Deca Homes Ortigas strategic location reference"
   loading="lazy"
+  decoding="async"
 >
 
 <span>
@@ -3147,14 +4494,16 @@ Strategic Location
 
 <button
   class="lb-t"
+  type="button"
   data-src="images/vicinity-map.jpg"
-  data-cap="Urban Deca Homes Ortigas vicinity map"
+  data-cap="Urban Deca Homes Ortigas Vicinity Map"
 >
 
 <img
   src="images/vicinity-map.jpg"
   alt="Urban Deca Homes Ortigas vicinity map"
   loading="lazy"
+  decoding="async"
 >
 
 <span>
@@ -3167,7 +4516,7 @@ Vicinity Map
 
 
 <div class="project-note">
-Travel times vary depending on traffic, route and transportation conditions. Use the live Google Map above when checking current directions.
+Distances and travel times may vary depending on traffic, route and transportation conditions. Use the live Google Map above when checking current directions.
 </div>
 
 </div>
@@ -3176,28 +4525,34 @@ Travel times vary depending on traffic, route and transportation conditions. Use
 
 
 <!-- =========================================================
+     PART 1 ENDS HERE
+     DO NOT ADD </main>, </body> OR </html> YET
+     PART 2 CONTINUES WITH THE FINANCING SECTION
+     ========================================================= -->
+
+<!-- =========================================================
      FINANCING
      ========================================================= -->
 
 <section
   id="financing"
-  class="alt"
 >
 
 <div class="w">
 
+
 <div class="head">
 
 <span class="eyebrow">
-Planning Tool
+Financing Planner
 </span>
 
 <h2>
-See your monthly payment take shape
+Estimate your possible monthly payment
 </h2>
 
 <p>
-This calculator is for planning only. Your official monthly amortization depends on the approved unit computation, loan amount, rate, term and financing institution.
+Use this calculator for planning only. Your official amortization depends on the selected unit, approved loan amount, interest rate, loan term and financing institution.
 </p>
 
 </div>
@@ -3208,11 +4563,12 @@ This calculator is for planning only. Your official monthly amortization depends
 
 <div class="card">
 
+
 <div class="f">
 
 <label for="la">
 Loan amount
-<b id="lav"></b>
+<strong id="lav"></strong>
 </label>
 
 <input
@@ -3229,16 +4585,19 @@ Loan amount
 
 <div class="row2">
 
+
 <div class="f">
 
 <label for="ir">
-Interest rate (% per year)
+Interest rate
+(% per year)
 </label>
 
 <input
   id="ir"
   type="number"
   min="0"
+  max="30"
   step=".01"
   value="6.5"
 >
@@ -3292,7 +4651,9 @@ Loan term
 
 <label for="inc">
 Monthly household income
+<span style="font-weight:400">
 (optional)
+</span>
 </label>
 
 <input
@@ -3300,6 +4661,7 @@ Monthly household income
   type="number"
   min="0"
   step="1000"
+  inputmode="numeric"
   placeholder="e.g. 60000"
 >
 
@@ -3327,11 +4689,12 @@ Estimate excludes insurance, fees, taxes, association dues and other charges.
 
 <div class="card ring">
 
+
 <div
   class="donut"
   id="donut"
   role="img"
-  aria-label="Estimated share of principal and interest"
+  aria-label="Estimated principal and total interest share"
 ></div>
 
 
@@ -3346,6 +4709,7 @@ Estimate excludes insurance, fees, taxes, association dues and other charges.
 Estimated monthly principal + interest
 </p>
 
+
 <div
   class="mo"
   id="mo"
@@ -3357,13 +4721,21 @@ Estimated monthly principal + interest
 <div class="lg">
 
 <span>
-<i style="background:var(--red)"></i>
+
+<i style="background:var(--red)">
+</i>
+
 Principal
+
 </span>
 
 <span>
-<i style="background:var(--gold)"></i>
-Interest
+
+<i style="background:var(--gold)">
+</i>
+
+Total Interest
+
 </span>
 
 </div>
@@ -3375,8 +4747,8 @@ Interest
     margin-bottom:16px
   "
 >
-Total estimated interest over the term:
-<b id="int"></b>
+Estimated total interest over the selected term:
+<strong id="int"></strong>
 </p>
 
 
@@ -3387,7 +4759,7 @@ Total estimated interest over the term:
   target="_blank"
   rel="noopener noreferrer"
 >
-Get official computation
+Get Latest Computation
 </a>
 
 </div>
@@ -3407,9 +4779,11 @@ Get official computation
 
 <section
   id="journey"
+  class="alt"
 >
 
 <div class="w">
+
 
 <div class="head">
 
@@ -3418,11 +4792,11 @@ First-Time Buyer Guide
 </span>
 
 <h2>
-Your path to the keys
+From questions to property viewing
 </h2>
 
 <p>
-Select each step to see what happens next.
+Go through each step to understand what you may want to compare, prepare and confirm before making a property decision.
 </p>
 
 </div>
@@ -3449,42 +4823,49 @@ Select each step to see what happens next.
 
 
 <!-- =========================================================
-     REFERRAL
+     REFERRAL PARTNER
      ========================================================= -->
 
 <section
   id="referral"
-  class="alt"
 >
 
 <div class="w">
 
+
 <div class="ref">
+
 
 <div>
 
 <span
   class="eyebrow"
-  style="color:#F5B52E"
+  style="color:var(--gold)"
 >
 MAB Referral Partner Program
 </span>
+
 
 <h2>
 Know someone looking for a condo?
 </h2>
 
+
 <p>
 Become a referral partner and refer a potential buyer interested in Urban Deca Homes Ortigas.
 </p>
+
 
 <p>
 The referral commission is released once the referred buyer is approved, subject to referral validation and applicable program terms.
 </p>
 
+
 <p>
 Tap the button below, then send
-<strong>“REFERRAL PARTNER”</strong>
+<strong style="color:#FFFFFF">
+“REFERRAL PARTNER”
+</strong>
 in Messenger.
 </p>
 
@@ -3496,7 +4877,7 @@ in Messenger.
   target="_blank"
   rel="noopener noreferrer"
 >
-Become a referral partner
+Become a Referral Partner
 </a>
 
 </div>
@@ -3504,15 +4885,16 @@ Become a referral partner
 
 <div>
 
+
 <div class="amt">
 ₱25,000
 </div>
 
+
 <p
   style="
     text-align:center;
-    margin:
-      8px auto 0;
+    margin:8px auto 0;
     font-size:.84rem
   "
 >
@@ -3534,6 +4916,7 @@ per successful transaction
 
 <section
   id="about"
+  class="alt"
 >
 
 <div class="w about">
@@ -3541,8 +4924,9 @@ per successful transaction
 
 <img
   src="images/mab-photo.png"
-  alt="MAB, Property Specialist at Urban Deca Homes Ortigas"
+  alt="MAB Property Specialist"
   loading="lazy"
+  decoding="async"
 >
 
 
@@ -3552,19 +4936,23 @@ per successful transaction
 Your Property Specialist
 </span>
 
+
 <h2>
 Every move should be worth it.
 </h2>
 
+
 <p>
-Buying property is a major decision, especially when it is your first home. My role is to help you understand your choices, compare layouts, financing and actual costs, and see the project before you commit.
+Buying property is a major decision, especially when it is your first home. My role is to help you understand your choices, compare the units, financing and actual costs, and see the property before you commit.
 </p>
+
 
 <p>
 <em>
 Every property decision should have a purpose, and every move should be worth it.
 </em>
 </p>
+
 
 <p class="sig">
 Ako si MAB, your Property Specialist at Urban Deca Homes Ortigas. Hindi Basta Condo. Dapat Worth It Para sa’yo.
@@ -3580,8 +4968,9 @@ Ako si MAB, your Property Specialist at Urban Deca Homes Ortigas. Hindi Basta Co
   target="_blank"
   rel="noopener noreferrer"
 >
-Message MAB
+Ask MAB
 </a>
+
 
 <a
   class="btn out"
@@ -3589,7 +4978,7 @@ Message MAB
   target="_blank"
   rel="noopener noreferrer"
 >
-Facebook page
+Visit Facebook Page
 </a>
 
 </div>
@@ -3607,15 +4996,15 @@ Facebook page
 
 <section
   id="faq"
-  class="alt"
 >
 
 <div class="w">
 
+
 <div class="head">
 
 <span class="eyebrow">
-FAQ
+Frequently Asked Questions
 </span>
 
 <h2>
@@ -3631,11 +5020,11 @@ Questions buyers usually ask
 <details>
 
 <summary>
-What is Urban Deca Homes Ortigas?
+What unit types are shown on this website?
 </summary>
 
 <p>
-It is a large master-planned residential community along Ortigas Avenue Extension in Rosario, Pasig City, developed under the Urban Deca Homes brand of 8990 Holdings.
+The layouts presented here are 2 Bedroom B at approximately 30.60 sqm, 2 Bedroom A at approximately 35.57 sqm, 2 Bedroom C at approximately 35.57 sqm and 3 Bedroom A at approximately 42.07 sqm.
 </p>
 
 </details>
@@ -3644,11 +5033,11 @@ It is a large master-planned residential community along Ortigas Avenue Extensio
 <details>
 
 <summary>
-How large is the development?
+What is the difference between 2BR A and 2BR C?
 </summary>
 
 <p>
-Official project information describes approximately 13 hectares with 22 residential towers and a 1.3-hectare central park and amenity area.
+Both have approximately 35.57 sqm of floor area. 2BR A is shown as an outer-unit configuration, while 2BR C is shown as an inner-unit configuration.
 </p>
 
 </details>
@@ -3657,11 +5046,11 @@ Official project information describes approximately 13 hectares with 22 residen
 <details>
 
 <summary>
-What unit sizes are available?
+Which unit is the most compact?
 </summary>
 
 <p>
-The main layouts are 2BR B at 30.60 sqm, 2BR A and 2BR C at 35.57 sqm, and a 3BR option at 42.07 sqm.
+2 Bedroom B is the most compact layout shown on this website at approximately 30.60 sqm.
 </p>
 
 </details>
@@ -3670,11 +5059,11 @@ The main layouts are 2BR B at 30.60 sqm, 2BR A and 2BR C at 35.57 sqm, and a 3BR
 <details>
 
 <summary>
-Are ready-for-occupancy units available?
+Is there a 3-bedroom option?
 </summary>
 
 <p>
-Ready-for-occupancy options may be available depending on current inventory. Exact unit availability should be confirmed before reservation.
+Yes. 3 Bedroom A is approximately 42.07 sqm and is shown as an outer-corner configuration.
 </p>
 
 </details>
@@ -3687,7 +5076,7 @@ Can I use Pag-IBIG financing?
 </summary>
 
 <p>
-Pag-IBIG options may be available subject to the unit, borrower eligibility, documentary requirements and financing approval.
+Pag-IBIG financing options may be available depending on the unit, buyer eligibility, documentary requirements and financing approval. Ask MAB for the latest applicable process.
 </p>
 
 </details>
@@ -3700,7 +5089,20 @@ How much is the monthly amortization?
 </summary>
 
 <p>
-It depends on your selected unit, loan amount, financing type, interest rate and loan term. Request the latest approved computation for accurate figures.
+The monthly amount depends on the selected unit, approved loan amount, interest rate, loan term and financing institution. The calculator on this website is only for planning.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+How much is the downpayment?
+</summary>
+
+<p>
+Downpayment amounts and promotions can differ depending on the unit, building, financing arrangement and current offers. Request the latest computation before deciding.
 </p>
 
 </details>
@@ -3713,7 +5115,7 @@ What amenities are available?
 </summary>
 
 <p>
-Official project information lists community features including a clubhouse, basketball courts, parks, playground, jogging path, outdoor gym, atrium and lagoon.
+The project materials show amenities and community spaces including a playground, outdoor gym, basketball court, lagoon, pocket parks, multi-purpose facilities and commercial conveniences.
 </p>
 
 </details>
@@ -3722,11 +5124,11 @@ Official project information lists community features including a clubhouse, bas
 <details>
 
 <summary>
-Does each building have elevators?
+Where is Urban Deca Homes Ortigas located?
 </summary>
 
 <p>
-The official 8990 project information states that each residential building has four elevators.
+The development is located along Ortigas Avenue Extension in Rosario, Pasig City.
 </p>
 
 </details>
@@ -3735,11 +5137,11 @@ The official 8990 project information states that each residential building has 
 <details>
 
 <summary>
-Can I schedule a site viewing?
+Can I request a site viewing?
 </summary>
 
 <p>
-Yes. Use the viewing form below or message MAB through Facebook Messenger.
+Yes. Use the viewing request form below or contact MAB through Facebook Messenger. Your preferred schedule still needs to be confirmed based on viewing availability.
 </p>
 
 </details>
@@ -3752,7 +5154,7 @@ How does the referral program work?
 </summary>
 
 <p>
-Qualified referral partners may receive ₱25,000 per successful transaction. The commission is released once the referred buyer is approved, subject to validation and applicable program terms.
+Qualified referral partners may receive ₱25,000 per successful transaction. The referral commission is released once the referred buyer is approved, subject to referral validation and applicable program terms.
 </p>
 
 </details>
@@ -3765,19 +5167,32 @@ Qualified referral partners may receive ₱25,000 per successful transaction. Th
 
 
 <!-- =========================================================
-     VIEWING CTA
+     FINAL VIEWING CTA
      ========================================================= -->
 
-<section class="cta">
+<section
+  class="cta"
+  id="viewing"
+>
 
 <div class="w">
 
+
+<span
+  class="eyebrow"
+  style="color:var(--gold)"
+>
+See It For Yourself
+</span>
+
+
 <h2>
-Your next move should have a purpose.
+Interested? Visit the property before you decide.
 </h2>
 
+
 <p>
-Tell me your preferred unit and viewing schedule. Your request will be prepared and Messenger will open so you can send it directly to MAB.
+Tell MAB which unit you want to see and your preferred schedule. Your request will be prepared and Messenger will open so the available viewing schedule can be confirmed.
 </p>
 
 
@@ -3785,6 +5200,7 @@ Tell me your preferred unit and viewing schedule. Your request will be prepared 
   class="req"
   id="req"
 >
+
 
 <label>
 
@@ -3813,7 +5229,7 @@ Unit of interest
 
 <label>
 
-Preferred viewing date
+Preferred date
 
 <input
   id="rd"
@@ -3823,11 +5239,38 @@ Preferred viewing date
 </label>
 
 
+<label>
+
+Preferred time
+
+<select id="rt">
+
+<option value="">
+Any time
+</option>
+
+<option value="Morning">
+Morning
+</option>
+
+<option value="Afternoon">
+Afternoon
+</option>
+
+<option value="Evening">
+Evening
+</option>
+
+</select>
+
+</label>
+
+
 <button
   class="btn gold"
   type="submit"
 >
-Send on Messenger
+Prepare My Viewing Request
 </button>
 
 </form>
@@ -3835,13 +5278,12 @@ Send on Messenger
 
 <p
   style="
-    margin:
-      14px auto 0;
+    margin:14px auto 0;
     font-size:.76rem;
     color:rgba(255,255,255,.65)
   "
 >
-The prepared message is copied to your clipboard. Paste and send it when Messenger opens.
+Your viewing request will be copied to your clipboard and Messenger will open. Paste the prepared message and send it to MAB to confirm the available schedule.
 </p>
 
 </div>
@@ -3860,14 +5302,16 @@ The prepared message is copied to your clipboard. Paste and send it when Messeng
 
 <div class="w">
 
+
 <img
   src="images/mab-logo.png"
   alt="MAB - Move Acquire Build"
 >
 
+
 <p
   style="
-    color:#F5B52E;
+    color:var(--gold);
     font-style:italic;
     font-size:.84rem
   "
@@ -3875,13 +5319,19 @@ The prepared message is copied to your clipboard. Paste and send it when Messeng
 Every property decision should have a purpose, and every move should be worth it.
 </p>
 
+
 <p
   style="
-    color:white;
+    color:#FFFFFF;
     font-weight:700
   "
 >
-Hindi Basta Condo. Dapat Worth It Para sa’yo.
+Ako si MAB, your Property Specialist at Urban Deca Homes Ortigas. Hindi Basta Condo. Dapat Worth It Para sa’yo.
+</p>
+
+
+<p>
+Prices, available units, computations, financing terms, requirements and promotions may change. Ask MAB for the latest information before making a property decision.
 </p>
 
 
@@ -3895,11 +5345,6 @@ Hindi Basta Condo. Dapat Worth It Para sa’yo.
 Urban Deca Homes - Ortigas by MAB
 </a>
 
-</p>
-
-
-<p>
-Project information is provided for general buyer education. Prices, inventory, availability, financing, requirements, promotions and referral terms may change. Confirm the latest approved information before making a property decision.
 </p>
 
 
@@ -3924,23 +5369,20 @@ MAB
 >
 
 <a
-  class="btn gold msg"
+  class="btn gold"
+  href="#viewing"
+>
+Request Viewing
+</a>
+
+<a
+  class="btn ghost msg"
   data-kw="INFO"
   href="https://m.me/UDHOrtigasbyMAB"
   target="_blank"
   rel="noopener noreferrer"
 >
-Message MAB
-</a>
-
-<a
-  class="btn red msg"
-  data-kw="VIEWING"
-  href="https://m.me/UDHOrtigasbyMAB"
-  target="_blank"
-  rel="noopener noreferrer"
->
-Book viewing
+Ask MAB
 </a>
 
 </div>
@@ -3954,12 +5396,16 @@ Book viewing
   class="lb"
   id="lb"
   aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Image viewer"
 >
 
 <figure>
 
 <button
   id="lbx"
+  type="button"
   aria-label="Close image"
 >
 ×
@@ -3980,6 +5426,10 @@ Book viewing
 </div>
 
 
+<!-- =========================================================
+     TOAST
+     ========================================================= -->
+
 <div
   class="toast"
   id="toast"
@@ -3991,25 +5441,43 @@ Book viewing
 <script>
 
 /* =========================================================
-   GLOBAL
+   BASIC HELPERS
    ========================================================= */
 
 const $ =
   id =>
     document.getElementById(id);
 
+
 const MSG =
   "https://m.me/UDHOrtigasbyMAB";
 
 
+const peso =
+  value =>
+    new Intl.NumberFormat(
+      "en-PH",
+      {
+        style:"currency",
+        currency:"PHP",
+        maximumFractionDigits:0
+      }
+    )
+    .format(
+      Number(value || 0)
+    );
+
+
 /* =========================================================
    THEME
+   System → Light → Dark
    ========================================================= */
 
 const mq =
   matchMedia(
     "(prefers-color-scheme: dark)"
   );
+
 
 const modes =
   [
@@ -4018,70 +5486,101 @@ const modes =
     "dark"
   ];
 
-const icons = {
+
+const themeIcons = {
+
   system:"◐",
+
   light:"☀",
+
   dark:"☾"
+
 };
 
-let pref =
+
+let themePreference =
   localStorage.getItem(
     "mab-theme"
   )
   || "system";
 
 
-function theme(){
+function applyTheme(){
 
   localStorage.setItem(
     "mab-theme",
-    pref
+    themePreference
   );
+
 
   document
     .documentElement
     .dataset
     .theme =
-    pref === "system"
-      ? (
-          mq.matches
-            ? "dark"
-            : "light"
-        )
-      : pref;
+
+    themePreference === "system"
+
+    ?
+
+    (
+      mq.matches
+        ? "dark"
+        : "light"
+    )
+
+    :
+
+    themePreference;
+
 
   $("tg").textContent =
-    icons[pref];
+    themeIcons[
+      themePreference
+    ];
+
 
   $("tg").title =
-    "Appearance: " + pref;
+    "Appearance: "
+    + themePreference;
 }
 
 
 $("tg").onclick =
   () => {
 
-    pref =
+    themePreference =
       modes[
         (
-          modes.indexOf(pref)
+          modes.indexOf(
+            themePreference
+          )
           + 1
         )
         % modes.length
       ];
 
-    theme();
+
+    applyTheme();
   };
 
 
 mq.addEventListener?.(
   "change",
-  () =>
-    pref === "system"
-    && theme()
+  () => {
+
+    if(
+      themePreference
+      === "system"
+    ){
+
+      applyTheme();
+    }
+
+  }
 );
 
-theme();
+
+applyTheme();
 
 
 /* =========================================================
@@ -4094,13 +5593,17 @@ $("bg").onclick =
     const open =
       $("mm")
         .classList
-        .toggle("open");
+        .toggle(
+          "open"
+        );
+
 
     $("bg")
       .setAttribute(
         "aria-expanded",
         String(open)
       );
+
 
     $("bg").textContent =
       open
@@ -4110,120 +5613,156 @@ $("bg").onclick =
 
 
 $("mm").onclick =
-  e => {
+  event => {
 
     if(
-      e.target.tagName
+      event.target.tagName
       === "A"
     ){
 
       $("mm")
         .classList
-        .remove("open");
+        .remove(
+          "open"
+        );
 
-      $("bg").textContent =
-        "☰";
 
       $("bg")
         .setAttribute(
           "aria-expanded",
           "false"
         );
+
+
+      $("bg").textContent =
+        "☰";
     }
+
   };
 
 
 /* =========================================================
-   SCROLL
+   SCROLL PROGRESS + ACTIVE NAV + FLOATING CTA
    ========================================================= */
 
-const sections =
+const navSections =
   [
     ...document.querySelectorAll(
       "#links a:not(.btn)"
     )
   ]
   .map(
-    a =>
-      [
-        a,
-        $(
-          a.hash.slice(1)
-        )
-      ]
+    link => {
+
+      const id =
+        link
+          .getAttribute(
+            "href"
+          );
+
+      return [
+        link,
+        id
+        &&
+        id.startsWith("#")
+          ? document.querySelector(id)
+          : null
+      ];
+
+    }
   );
 
 
-addEventListener(
-  "scroll",
-  () => {
+function scrollUpdate(){
 
-    const h =
-      document
-        .documentElement;
+  const page =
+    document.documentElement;
 
-    const max =
-      h.scrollHeight
-      - h.clientHeight;
 
-    $("bar").style.width =
+  const maximum =
+    page.scrollHeight
+    - page.clientHeight;
+
+
+  $("bar").style.width =
+    (
+      maximum
+      ?
       (
-        max
-          ? (
-              h.scrollTop
-              / max
-              * 100
-            )
-          : 0
+        page.scrollTop
+        / maximum
+        * 100
       )
-      + "%";
+      :
+      0
+    )
+    + "%";
 
 
-    $("dock")
-      .classList
-      .toggle(
-        "show",
-        scrollY
-        > innerHeight * .8
-      );
+  $("dock")
+    .classList
+    .toggle(
+      "show",
+      scrollY
+      >
+      innerHeight
+      * .7
+    );
 
 
-    let active =
-      null;
+  let active =
+    null;
 
-    sections.forEach(
-      ([a,s]) => {
+
+  navSections
+    .forEach(
+      ([link,section]) => {
 
         if(
-          s
+          section
           &&
-          s
+          section
             .getBoundingClientRect()
             .top
-          < innerHeight * .4
+          <
+          innerHeight
+          * .42
         ){
-          active = a;
+
+          active =
+            link;
         }
 
       }
     );
 
 
-    sections.forEach(
-      ([a]) =>
-        a
+  navSections
+    .forEach(
+      ([link]) => {
+
+        link
           .classList
           .toggle(
             "on",
-            a === active
-          )
-    );
+            link === active
+          );
 
-  },
+      }
+    );
+}
+
+
+addEventListener(
+  "scroll",
+  scrollUpdate,
   {
     passive:true
   }
 );
+
+
+scrollUpdate();
 
 
 /* =========================================================
@@ -4232,60 +5771,74 @@ addEventListener(
 
 let toastTimer;
 
-function toast(html){
 
-  const el =
+function toast(message){
+
+  const box =
     $("toast");
 
-  el.innerHTML =
-    html;
 
-  el.classList.add(
-    "show"
-  );
+  box.innerHTML =
+    message;
+
+
+  box
+    .classList
+    .add(
+      "show"
+    );
+
 
   clearTimeout(
     toastTimer
   );
 
+
   toastTimer =
     setTimeout(
-      () =>
-        el
+      () => {
+
+        box
           .classList
           .remove(
             "show"
-          ),
-      4000
+          );
+
+      },
+      3800
     );
 }
 
 
 /* =========================================================
-   MESSENGER KEYWORDS
+   MESSENGER KEYWORD COPY
    ========================================================= */
 
 document.addEventListener(
   "click",
-  async e => {
+  async event => {
 
     const link =
-      e
+      event
         .target
         .closest(
           ".msg"
         );
+
 
     if(
       !link
       ||
       !link.dataset.kw
     ){
+
       return;
     }
 
+
     const keyword =
       link.dataset.kw;
+
 
     try{
 
@@ -4295,8 +5848,9 @@ document.addEventListener(
           keyword
         );
 
+
       toast(
-        `Messenger is opening. Paste or send <b>${keyword}</b>.`
+        `Messenger is opening. Send or paste <b>${keyword}</b>.`
       );
 
     }catch{
@@ -4317,7 +5871,7 @@ document.addEventListener(
 $("share").onclick =
   async () => {
 
-    const data = {
+    const shareData = {
 
       title:
         "Urban Deca Homes Ortigas by MAB",
@@ -4337,7 +5891,7 @@ $("share").onclick =
       ){
 
         await navigator.share(
-          data
+          shareData
         );
 
       }else{
@@ -4347,6 +5901,7 @@ $("share").onclick =
           .writeText(
             location.href
           );
+
 
         toast(
           "<b>Website link copied.</b>"
@@ -4359,367 +5914,459 @@ $("share").onclick =
 
 
 /* =========================================================
+   AUDIENCE PERSONALIZATION
+   ========================================================= */
+
+const audienceCopy = {
+
+  first:
+  "Buying your first condo? Compare the unit layouts, actual turnover photos, project features and possible financing before making a decision.",
+
+  family:
+  "Looking for more room for your household? Compare the larger 2-bedroom layouts and the 3-bedroom option, together with the amenities and location.",
+
+  ofw:
+  "Planning your property purchase while working abroad? Review the units, floor plans, location and possible financing first, then continue the discussion with MAB.",
+
+  investor:
+  "Evaluating a property in Pasig? Compare the available layouts, project location and latest computation to see whether the property fits your investment plan.",
+
+  renter:
+  "Thinking about moving from renting to ownership? Compare the property, possible financing and estimated monthly payment before taking the next step."
+
+};
+
+
+$("who").onclick =
+  event => {
+
+    const button =
+      event
+        .target
+        .closest(
+          "[data-w]"
+        );
+
+
+    if(
+      !button
+    ){
+
+      return;
+    }
+
+
+    $("who")
+      .querySelectorAll(
+        ".chip"
+      )
+      .forEach(
+        item => {
+
+          item
+            .setAttribute(
+              "aria-pressed",
+              String(
+                item
+                ===
+                button
+              )
+            );
+
+        }
+      );
+
+
+    $("sub").textContent =
+      audienceCopy[
+        button.dataset.w
+      ];
+  };
+
+
+/* =========================================================
    UNIT DATA
    ========================================================= */
 
 const U = {
 
   "2BR B":{
+
     n:"2 Bedroom B",
+
     s:30.60,
+
     b:2,
+
     c:"Inner or outer",
-    p:"Practical first home",
-    d:"A practical 2-bedroom option for first-time buyers and small families.",
+
+    p:"Compact 2BR option",
+
+    d:"A practical 2-bedroom layout for buyers who prefer a more compact floor area.",
+
     a:"images/2br-b-actual.jpg",
+
     f:"images/2br-b-floorplan.jpg"
+
   },
+
 
   "2BR A":{
+
     n:"2 Bedroom A",
+
     s:35.57,
+
     b:2,
-    c:"Outer",
-    p:"More space",
+
+    c:"Outer unit",
+
+    p:"More floor area",
+
     d:"A larger 2-bedroom layout with an outer-unit configuration.",
+
     a:"images/2br-a-actual.jpg",
+
     f:"images/2br-a-floorplan.jpg"
+
   },
+
 
   "2BR C":{
+
     n:"2 Bedroom C",
+
     s:35.57,
+
     b:2,
-    c:"Inner",
-    p:"More space, inner",
+
+    c:"Inner unit",
+
+    p:"More space, inner position",
+
     d:"A 35.57 sqm 2-bedroom layout with an inner-unit configuration.",
+
     a:"images/2br-c-actual.jpg",
+
     f:"images/2br-c-floorplan.jpg"
+
   },
 
+
   "3BR":{
+
     n:"3 Bedroom A",
+
     s:42.07,
+
     b:3,
+
     c:"Outer corner",
-    p:"Family space",
-    d:"For buyers who need an additional bedroom or more family space.",
+
+    p:"Additional family space",
+
+    d:"The largest layout shown on this website, with three bedrooms and an outer-corner configuration.",
+
     a:"images/3br-actual.jpg",
+
     f:"images/3br-floorplan.jpg"
+
   }
 
 };
 
 
-let current =
+let currentUnit =
   "2BR B";
-
-let shown =
-  0;
-
-
-function messengerButton(
-  keyword,
-  text,
-  color = "red"
-){
-
-  return `
-    <a
-      class="btn ${color} msg"
-      data-kw="${keyword}"
-      href="${MSG}"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      ${text}
-    </a>
-  `;
-}
 
 
 /* =========================================================
-   UNIT SCALE
+   UNIT SELECTOR
    ========================================================= */
 
 function drawScale(){
 
   $("scale").innerHTML =
+
     Object
       .keys(U)
       .map(
         key => {
 
-          const u =
+          const unit =
             U[key];
 
-          const width =
-            Math.round(
-              Math.sqrt(u.s)
-              * 24
-            );
-
-          const height =
-            Math.round(
-              width * .78
-            );
 
           return `
+
             <button
               class="sq"
-              role="tab"
+              type="button"
               data-k="${key}"
-              aria-selected="${key === current}"
-              style="
-                width:${width}px;
-                height:${height}px
-              "
+              aria-pressed="${key === currentUnit}"
             >
+
               <b>
-                ${u.s.toFixed(2)}
+                ${unit.s.toFixed(2)}
               </b>
 
               <small>
-                ${u.n}
+                ${unit.n}
               </small>
+
             </button>
+
           `;
+
         }
       )
       .join("");
 }
 
 
+function messengerButton(
+  keyword,
+  label,
+  style = "red"
+){
+
+  return `
+
+    <a
+      class="btn ${style} msg"
+      data-kw="${keyword}"
+      href="${MSG}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${label}
+    </a>
+
+  `;
+}
+
+
 function drawStage(){
 
-  const u =
-    U[current];
+  const unit =
+    U[currentUnit];
 
 
-  $("stage").innerHTML =
-    `
-      <div>
+  $("stage").innerHTML = `
 
-        <div
-          class="cmp"
-          id="cmp"
+
+    <div>
+
+
+      <div
+        class="cmp"
+        id="cmp"
+      >
+
+        <img
+          src="${unit.a}"
+          alt="${unit.n} actual turnover unit"
         >
 
-          <img
-            class="act"
-            src="${u.a}"
-            alt="${u.n} actual turnover unit"
-          >
+        <img
+          class="plan"
+          src="${unit.f}"
+          alt="${unit.n} floor plan"
+        >
 
-          <img
-            class="plan"
-            src="${u.f}"
-            alt="${u.n} floor plan"
-          >
 
-          <div class="line">
-          </div>
-
-          <span class="tag l">
-            Actual unit
-          </span>
-
-          <span class="tag r">
-            Floor plan
-          </span>
-
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value="50"
-            aria-label="Drag to compare actual unit and floor plan"
-          >
-
+        <div class="line">
         </div>
 
 
-        <p class="hint">
+        <span class="tag l">
+          Actual Unit
+        </span>
 
-          Drag to compare.
 
-          <button
-            class="btn out lb-t"
-            style="
-              min-height:36px;
-              padding:0 14px;
-              font-size:.78rem;
-              margin-left:6px
-            "
-            data-src="${u.a}"
-            data-cap="${u.n} actual turnover unit"
-          >
-            Enlarge photo
-          </button>
+        <span class="tag r">
+          Floor Plan
+        </span>
 
-          <button
-            class="btn out lb-t"
-            style="
-              min-height:36px;
-              padding:0 14px;
-              font-size:.78rem
-            "
-            data-src="${u.f}"
-            data-cap="${u.n} floor plan"
-          >
-            Enlarge plan
-          </button>
 
-        </p>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          aria-label="Compare actual unit and floor plan"
+        >
 
       </div>
 
 
-      <div>
+      <p class="hint">
 
-        <div class="num">
+        Drag left or right to compare.
 
-          <span id="num">
-            ${u.s.toFixed(2)}
+      </p>
+
+
+      <div class="acts">
+
+        <button
+          class="btn out lb-t"
+          type="button"
+          data-src="${unit.a}"
+          data-cap="${unit.n} Actual Turnover Unit"
+        >
+          Enlarge Actual Photo
+        </button>
+
+
+        <button
+          class="btn out lb-t"
+          type="button"
+          data-src="${unit.f}"
+          data-cap="${unit.n} Floor Plan"
+        >
+          Enlarge Floor Plan
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div>
+
+
+      <div class="num">
+
+        <span>
+          ${unit.s.toFixed(2)}
+        </span>
+
+        <small>
+          sqm
+        </small>
+
+      </div>
+
+
+      <h3 style="margin-top:14px">
+        ${unit.n}
+      </h3>
+
+
+      <p>
+        ${unit.d}
+      </p>
+
+
+      <div class="spec">
+
+        <div>
+
+          <span>
+            Bedrooms
           </span>
 
-          <small>
-            sqm
-          </small>
+          ${unit.b}
 
         </div>
 
 
-        <h3 style="margin-top:12px">
-          ${u.n}
-        </h3>
+        <div>
 
+          <span>
+            Position
+          </span>
 
-        <p>
-          ${u.d}
-        </p>
-
-
-        <div class="spec">
-
-          <div>
-            <span>
-              Bedrooms
-            </span>
-            ${u.b}
-          </div>
-
-          <div>
-            <span>
-              Position
-            </span>
-            ${u.c}
-          </div>
-
-          <div>
-            <span>
-              Best for
-            </span>
-            ${u.p}
-          </div>
-
-          <div>
-            <span>
-              Includes
-            </span>
-            Living, kitchen, dining, bath
-          </div>
+          ${unit.c}
 
         </div>
 
+
+        <div>
+
+          <span>
+            Good starting point for
+          </span>
+
+          ${unit.p}
+
+        </div>
+
+
+        <div>
+
+          <span>
+            Floor Area
+          </span>
+
+          ${unit.s.toFixed(2)} sqm
+
+        </div>
+
+      </div>
+
+
+      <div class="acts">
 
         ${messengerButton(
-          current,
-          "Ask about " + u.n
+          currentUnit,
+          "Ask About This Unit"
         )}
 
+        <a
+          class="btn out"
+          href="#viewing"
+        >
+          Request a Viewing
+        </a>
+
       </div>
-    `;
+
+    </div>
+
+  `;
 
 
   const compare =
     $("cmp");
 
-  const range =
+
+  const slider =
     compare
       .querySelector(
-        "input"
+        'input[type="range"]'
       );
 
 
-  range.oninput =
-    e => {
+  slider.oninput =
+    event => {
 
       compare
         .style
         .setProperty(
           "--pos",
-          e.target.value + "%"
+          event.target.value
+          + "%"
         );
+
     };
-
-
-  const number =
-    $("num");
-
-  const from =
-    shown || u.s;
-
-  const start =
-    performance.now();
-
-
-  (
-    function animate(now){
-
-      const progress =
-        Math.min(
-          (
-            now - start
-          )
-          / 500,
-          1
-        );
-
-      number.textContent =
-        (
-          from
-          +
-          (
-            u.s - from
-          )
-          * progress
-        )
-        .toFixed(2);
-
-
-      if(
-        progress < 1
-      ){
-
-        requestAnimationFrame(
-          animate
-        );
-      }
-
-    }
-  )(start);
-
-
-  shown =
-    u.s;
 }
 
 
-function selectUnit(key){
+function pickUnit(key){
 
-  current =
+  if(
+    !U[key]
+  ){
+
+    return;
+  }
+
+
+  currentUnit =
     key;
+
 
   drawScale();
 
@@ -4728,20 +6375,21 @@ function selectUnit(key){
 
 
 $("scale").onclick =
-  e => {
+  event => {
 
     const button =
-      e
+      event
         .target
         .closest(
           ".sq"
         );
 
+
     if(
       button
     ){
 
-      selectUnit(
+      pickUnit(
         button.dataset.k
       );
     }
@@ -4749,14 +6397,16 @@ $("scale").onclick =
 
 
 drawScale();
+
 drawStage();
 
 
 /* =========================================================
-   HERO UNIT FINDER
+   HERO MINI FINDER
    ========================================================= */
 
-const finder = {};
+const heroFinder = {};
+
 
 document
   .querySelectorAll(
@@ -4766,18 +6416,20 @@ document
     group => {
 
       group.onclick =
-        e => {
+        event => {
 
           const choice =
-            e
+            event
               .target
               .closest(
                 ".chip"
               );
 
+
           if(
             !choice
           ){
+
             return;
           }
 
@@ -4787,19 +6439,23 @@ document
               ".chip"
             )
             .forEach(
-              item =>
+              item => {
+
                 item
                   .setAttribute(
                     "aria-pressed",
                     String(
                       item
-                      === choice
+                      ===
+                      choice
                     )
-                  )
+                  );
+
+              }
             );
 
 
-          finder[
+          heroFinder[
             group.dataset.g
           ] =
             choice.dataset.v;
@@ -4810,23 +6466,27 @@ document
 
 
           if(
-            finder.b === "3"
+            heroFinder.b
+            === "3"
           ){
 
             key =
               "3BR";
 
           }else if(
-            finder.p === "space"
+            heroFinder.p
+            === "space"
             ||
-            finder.p === "outer"
+            heroFinder.p
+            === "outer"
           ){
 
             key =
               "2BR A";
 
           }else if(
-            finder.p === "inner"
+            heroFinder.p
+            === "inner"
           ){
 
             key =
@@ -4834,36 +6494,37 @@ document
           }
 
 
-          const u =
+          const unit =
             U[key];
 
 
-          $("fres").innerHTML =
-            `
-              <div class="pick">
+          $("fres").innerHTML = `
 
-                <b>
-                  Suggested starting point:
-                  ${u.n},
-                  ${u.s.toFixed(2)} sqm
-                </b>
+            <div class="pick">
 
-                <small>
-                  ${u.c}.
-                  This is only a guide.
-                  Inventory, price and financing still need to be checked.
-                </small>
+              <b>
+                Suggested unit to compare first:
+                ${unit.n}
+                —
+                ${unit.s.toFixed(2)} sqm
+              </b>
 
-                <button
-                  class="btn gold"
-                  data-see="${key}"
-                  type="button"
-                >
-                  View this unit
-                </button>
+              <small>
+                ${unit.c}. This suggestion is based only on your layout preference. Current price and availability still need to be checked.
+              </small>
 
-              </div>
-            `;
+              <button
+                class="btn gold"
+                type="button"
+                data-see="${key}"
+              >
+                Compare This Unit
+              </button>
+
+            </div>
+
+          `;
+
         };
 
     }
@@ -4871,56 +6532,846 @@ document
 
 
 $("fres").onclick =
-  e => {
+  event => {
 
     const button =
-      e
+      event
         .target
         .closest(
           "[data-see]"
         );
 
+
     if(
-      button
+      !button
     ){
 
-      selectUnit(
-        button.dataset.see
-      );
-
-      $("units")
-        .scrollIntoView();
+      return;
     }
+
+
+    pickUnit(
+      button.dataset.see
+    );
+
+
+    $("units")
+      .scrollIntoView(
+        {
+          behavior:"smooth"
+        }
+      );
   };
 
 
 /* =========================================================
-   COMMUNITY
+   SMART PROPERTY GUIDE
+   ========================================================= */
+
+const SMART_KEY =
+  "mab-smart-property-profile-v2";
+
+
+function smartProfile(){
+
+  return {
+
+    goal:
+      $("saGoal").value,
+
+    beds:
+      $("saBeds").value,
+
+    priority:
+      $("saPriority").value,
+
+    financing:
+      $("saFinancing").value,
+
+    budget:
+      Number(
+        $("saBudget").value
+        || 0
+      ),
+
+    income:
+      $("saIncome").value
+
+  };
+}
+
+
+function priorityLabel(value){
+
+  const labels = {
+
+    practical:
+      "More compact / practical",
+
+    space:
+      "More floor area",
+
+    outer:
+      "Outer unit",
+
+    inner:
+      "Inner unit",
+
+    "not sure":
+      "Not sure yet"
+
+  };
+
+
+  return labels[value]
+    ||
+    "Not specified";
+}
+
+
+function smartRecommend(profile){
+
+  if(
+    profile.beds
+    === "3"
+  ){
+
+    return "3BR";
+  }
+
+
+  if(
+    profile.priority
+    === "space"
+    ||
+    profile.priority
+    === "outer"
+  ){
+
+    return "2BR A";
+  }
+
+
+  if(
+    profile.priority
+    === "inner"
+  ){
+
+    return "2BR C";
+  }
+
+
+  return "2BR B";
+}
+
+
+function smartReasons(
+  key,
+  profile
+){
+
+  const reasons = [];
+
+
+  if(
+    profile.beds
+    === "3"
+  ){
+
+    reasons.push(
+      "You selected 3 bedrooms, so 3 Bedroom A is the direct layout to compare first."
+    );
+
+  }else if(
+    profile.beds
+    === "2"
+  ){
+
+    reasons.push(
+      "You selected 2 bedrooms, so the guide stayed within the available 2BR layouts."
+    );
+
+  }else{
+
+    reasons.push(
+      "You are still flexible on bedroom count, so the guide used your layout priority as the starting point."
+    );
+  }
+
+
+  if(
+    key
+    === "2BR B"
+  ){
+
+    reasons.push(
+      "2BR B is the most compact layout shown here at 30.60 sqm."
+    );
+  }
+
+
+  if(
+    key
+    === "2BR A"
+  ){
+
+    reasons.push(
+      "2BR A provides 35.57 sqm of floor area and is shown as an outer-unit configuration."
+    );
+  }
+
+
+  if(
+    key
+    === "2BR C"
+  ){
+
+    reasons.push(
+      "2BR C also provides 35.57 sqm but is shown as an inner-unit configuration."
+    );
+  }
+
+
+  if(
+    key
+    === "3BR"
+  ){
+
+    reasons.push(
+      "3 Bedroom A has the largest floor area among the layouts shown here at 42.07 sqm."
+    );
+  }
+
+
+  if(
+    profile.beds
+    === "3"
+    &&
+    profile.priority
+    === "inner"
+  ){
+
+    reasons.push(
+      "You selected an inner-unit preference, but the 3BR option shown here is an outer-corner unit. You may also want to compare 2BR C."
+    );
+  }
+
+
+  return reasons;
+}
+
+
+function smartProgress(){
+
+  const profile =
+    smartProfile();
+
+
+  const answers = [
+
+    profile.goal,
+
+    profile.beds,
+
+    profile.priority,
+
+    profile.financing,
+
+    profile.income
+
+  ];
+
+
+  let completed =
+    answers
+      .filter(Boolean)
+      .length;
+
+
+  if(
+    profile.budget
+    > 0
+  ){
+
+    completed++;
+  }
+
+
+  const percent =
+    Math.round(
+      completed
+      / 6
+      * 100
+    );
+
+
+  $("smartProgressBar")
+    .style
+    .width =
+      percent
+      + "%";
+
+
+  $("smartProgressText")
+    .textContent =
+      percent
+      + "% profile complete";
+
+
+  if(
+    $("saRemember")
+      .checked
+  ){
+
+    localStorage
+      .setItem(
+        SMART_KEY,
+        JSON.stringify(
+          profile
+        )
+      );
+
+  }else{
+
+    localStorage
+      .removeItem(
+        SMART_KEY
+      );
+  }
+}
+
+
+function smartMessage(
+  profile,
+  key
+){
+
+  const unit =
+    U[key];
+
+
+  return [
+
+    "Hi MAB!",
+
+    "",
+
+    "I used the Smart Property Guide on your Urban Deca Homes Ortigas website.",
+
+    "",
+
+    "My preferences:",
+
+    `• Purpose: ${profile.goal || "Not specified"}`,
+
+    `• Bedroom preference: ${profile.beds || "Not specified"}`,
+
+    `• Layout priority: ${priorityLabel(profile.priority)}`,
+
+    `• Financing preference: ${profile.financing || "Not specified"}`,
+
+    `• Target monthly payment: ${profile.budget ? peso(profile.budget) : "Not specified"}`,
+
+    `• Source of income: ${profile.income || "Not specified"}`,
+
+    "",
+
+    `Suggested unit to compare: ${unit.n} — ${unit.s.toFixed(2)} sqm`,
+
+    `Position: ${unit.c}`,
+
+    "",
+
+    "Please help me check the latest availability, official computation, requirements and next steps.",
+
+    "",
+
+    "I understand that the website suggestion is only a planning guide."
+
+  ]
+  .join(
+    "\n"
+  );
+}
+
+
+function smartRender(){
+
+  const profile =
+    smartProfile();
+
+
+  const key =
+    smartRecommend(
+      profile
+    );
+
+
+  const unit =
+    U[key];
+
+
+  const reasons =
+    smartReasons(
+      key,
+      profile
+    );
+
+
+  $("smartResult").innerHTML = `
+
+
+    <div class="smart-rec-head">
+
+      <div>
+
+        <p
+          style="
+            margin:0 0 5px;
+            font-size:.74rem;
+            text-transform:uppercase;
+            letter-spacing:.08em;
+            font-weight:800;
+            color:var(--red)
+          "
+        >
+          Suggested unit to compare first
+        </p>
+
+        <h3 style="margin:0">
+          ${unit.n}
+        </h3>
+
+      </div>
+
+
+      <span class="smart-unit">
+        ${unit.c}
+      </span>
+
+    </div>
+
+
+    <div class="smart-size">
+
+      ${unit.s.toFixed(2)}
+
+      <small>
+        sqm
+      </small>
+
+    </div>
+
+
+    <p>
+      ${unit.d}
+    </p>
+
+
+    <div class="smart-why">
+
+      ${reasons
+        .map(
+          reason => `
+
+            <div class="smart-point">
+              ${reason}
+            </div>
+
+          `
+        )
+        .join("")
+      }
+
+    </div>
+
+
+    ${
+      profile.budget
+      > 0
+
+      ?
+
+      `
+
+      <div class="smart-warning">
+
+        <strong>
+          Your target:
+          ${peso(profile.budget)}
+          per month
+        </strong>
+
+        <br>
+
+        This target is saved only for planning and your conversation with MAB. It does not mean that this unit fits that monthly amount. The current unit price, downpayment, loan amount, rate and approved computation still need to be confirmed.
+
+      </div>
+
+      `
+
+      :
+
+      `
+
+      <div class="smart-warning">
+
+        This suggestion is based on your layout preferences. Current price, inventory, downpayment and financing still need to be checked.
+
+      </div>
+
+      `
+    }
+
+
+    <div class="smart-summary">
+
+      <h3
+        style="
+          font-size:1rem
+        "
+      >
+        Your current profile
+      </h3>
+
+
+      <dl>
+
+        <dt>
+          Purpose
+        </dt>
+
+        <dd>
+          ${profile.goal || "Not specified"}
+        </dd>
+
+
+        <dt>
+          Bedrooms
+        </dt>
+
+        <dd>
+          ${profile.beds || "Not specified"}
+        </dd>
+
+
+        <dt>
+          Priority
+        </dt>
+
+        <dd>
+          ${priorityLabel(profile.priority)}
+        </dd>
+
+
+        <dt>
+          Financing
+        </dt>
+
+        <dd>
+          ${profile.financing || "Not specified"}
+        </dd>
+
+
+        <dt>
+          Income source
+        </dt>
+
+        <dd>
+          ${profile.income || "Not specified"}
+        </dd>
+
+
+        <dt>
+          Target payment
+        </dt>
+
+        <dd>
+          ${
+            profile.budget
+            ?
+            peso(profile.budget)
+            :
+            "Not specified"
+          }
+        </dd>
+
+      </dl>
+
+    </div>
+
+
+    <div class="smart-next">
+
+      <h3>
+        Recommended next step
+      </h3>
+
+      <p>
+        Check the current availability and latest official computation for this unit, then compare those details with your budget and financing preference.
+      </p>
+
+
+      <div class="acts">
+
+        <button
+          class="btn gold"
+          id="saViewUnit"
+          type="button"
+        >
+          Compare ${unit.n}
+        </button>
+
+
+        <button
+          class="btn ghost"
+          id="saMessenger"
+          type="button"
+        >
+          Continue with MAB
+        </button>
+
+      </div>
+
+    </div>
+
+  `;
+
+
+  $("saViewUnit").onclick =
+    () => {
+
+      pickUnit(
+        key
+      );
+
+
+      $("units")
+        .scrollIntoView(
+          {
+            behavior:"smooth"
+          }
+        );
+    };
+
+
+  $("saMessenger").onclick =
+    async () => {
+
+      const message =
+        smartMessage(
+          profile,
+          key
+        );
+
+
+      try{
+
+        await navigator
+          .clipboard
+          .writeText(
+            message
+          );
+
+
+        toast(
+          "Your Smart Guide summary was copied. <b>Paste it in Messenger and send.</b>"
+        );
+
+      }catch{
+
+        toast(
+          "Messenger is opening. You can send MAB your Smart Guide details."
+        );
+      }
+
+
+      window.open(
+        MSG,
+        "_blank",
+        "noopener"
+      );
+    };
+}
+
+
+$("smartForm")
+  .addEventListener(
+    "input",
+    smartProgress
+  );
+
+
+$("smartForm")
+  .addEventListener(
+    "change",
+    smartProgress
+  );
+
+
+$("smartForm").onsubmit =
+  event => {
+
+    event.preventDefault();
+
+
+    smartProgress();
+
+    smartRender();
+
+
+    $("smartResult")
+      .scrollIntoView(
+        {
+          behavior:"smooth",
+          block:"center"
+        }
+      );
+  };
+
+
+$("saReset").onclick =
+  () => {
+
+    $("smartForm")
+      .reset();
+
+
+    localStorage
+      .removeItem(
+        SMART_KEY
+      );
+
+
+    $("smartProgressBar")
+      .style
+      .width =
+        "0%";
+
+
+    $("smartProgressText")
+      .textContent =
+        "0% profile complete";
+
+
+    $("smartResult").innerHTML = `
+
+      <div class="smart-empty">
+
+        <div class="smart-orb">
+          MAB
+        </div>
+
+        <h3>
+          Your suggested starting unit will appear here
+        </h3>
+
+        <p>
+          Answer the questions on the left to get a starting unit to compare.
+        </p>
+
+      </div>
+
+    `;
+  };
+
+
+(function restoreSmartProfile(){
+
+  try{
+
+    const saved =
+      JSON.parse(
+        localStorage.getItem(
+          SMART_KEY
+        )
+      );
+
+
+    if(
+      !saved
+    ){
+
+      return;
+    }
+
+
+    $("saGoal").value =
+      saved.goal
+      || "";
+
+
+    $("saBeds").value =
+      saved.beds
+      || "";
+
+
+    $("saPriority").value =
+      saved.priority
+      || "";
+
+
+    $("saFinancing").value =
+      saved.financing
+      || "";
+
+
+    $("saBudget").value =
+      saved.budget
+      || "";
+
+
+    $("saIncome").value =
+      saved.income
+      || "";
+
+
+    $("saRemember").checked =
+      true;
+
+
+    smartProgress();
+
+    smartRender();
+
+  }catch{
+
+    localStorage
+      .removeItem(
+        SMART_KEY
+      );
+  }
+
+})();
+
+
+/* =========================================================
+   COMMUNITY GALLERY
    ========================================================= */
 
 const gallery = [
 
   [
     "images/building-floorplan.jpg",
-    "Building floor plan",
+    "Building Floor Plan",
     "big"
   ],
 
   [
     "images/amenity-playground.jpg",
-    "Children's playground",
+    "Children's Playground",
     ""
   ],
 
   [
     "images/amenity-gym.jpg",
-    "Outdoor gym",
+    "Outdoor Gym",
     ""
   ],
 
   [
     "images/amenity-basketball.jpg",
-    "Basketball courts",
+    "Basketball Court",
     "wide"
   ],
 
@@ -4932,7 +7383,7 @@ const gallery = [
 
   [
     "images/amenity-park.jpg",
-    "Pocket parks",
+    "Pocket Parks",
     ""
   ],
 
@@ -4944,19 +7395,19 @@ const gallery = [
 
   [
     "images/amenity-store.jpg",
-    "Convenience store",
+    "Convenience Store",
     ""
   ],
 
   [
     "images/amenity-coffee.jpg",
-    "Coffee shop",
+    "Coffee Shop",
     ""
   ],
 
   [
     "images/amenity-commercial.jpg",
-    "Commercial area",
+    "Commercial Area",
     ""
   ]
 
@@ -4967,43 +7418,54 @@ $("bento").innerHTML =
 
   gallery
     .map(
-      ([src,label,classes]) =>
-        `
-          <button
-            class="bt lb-t ${classes}"
-            data-src="${src}"
-            data-cap="${label}"
+      (
+        [
+          src,
+          label,
+          classes
+        ]
+      ) => `
+
+        <button
+          class="bt lb-t ${classes}"
+          type="button"
+          data-src="${src}"
+          data-cap="${label}"
+        >
+
+          <img
+            src="${src}"
+            alt="${label}"
+            loading="lazy"
+            decoding="async"
           >
 
-            <img
-              src="${src}"
-              alt="${label}"
-              loading="lazy"
-            >
+          <span>
+            ${label}
+          </span>
 
-            <span>
-              ${label}
-            </span>
+        </button>
 
-          </button>
-        `
+      `
     )
     .join("")
 
   +
 
   `
-    <div class="bt note">
 
-      <b>
-        1.3
-      </b>
+  <div class="bt note">
 
-      <small>
-        hectare central park and amenity area
-      </small>
+    <b>
+      1.3
+    </b>
 
-    </div>
+    <small>
+      hectares of amenity and community area
+    </small>
+
+  </div>
+
   `;
 
 
@@ -5011,44 +7473,42 @@ $("bento").innerHTML =
    FINANCING CALCULATOR
    ========================================================= */
 
-const peso =
-  n =>
-    new Intl
-      .NumberFormat(
-        "en-PH",
-        {
-          style:"currency",
-          currency:"PHP",
-          maximumFractionDigits:0
-        }
-      )
-      .format(
-        Number(n || 0)
-      );
-
-
 function calculate(){
 
   const principal =
-    Number(
-      $("la").value
+    Math.max(
+      0,
+      Number(
+        $("la").value
+      )
     );
 
-  const annual =
-    Number(
-      $("ir").value
+
+  const annualRate =
+    Math.max(
+      0,
+      Number(
+        $("ir").value
+      )
     );
+
 
   const years =
-    Number(
-      $("ly").value
+    Math.max(
+      1,
+      Number(
+        $("ly").value
+      )
     );
 
+
   const months =
-    years * 12;
+    years
+    * 12;
+
 
   const monthlyRate =
-    annual
+    annualRate
     / 100
     / 12;
 
@@ -5058,13 +7518,13 @@ function calculate(){
 
 
   if(
-    principal > 0
-    &&
-    months > 0
+    principal
+    > 0
   ){
 
     if(
-      monthlyRate === 0
+      monthlyRate
+      === 0
     ){
 
       payment =
@@ -5075,9 +7535,12 @@ function calculate(){
 
       const factor =
         Math.pow(
-          1 + monthlyRate,
+          1
+          +
+          monthlyRate,
           months
         );
+
 
       payment =
         principal
@@ -5088,7 +7551,8 @@ function calculate(){
         )
         /
         (
-          factor - 1
+          factor
+          - 1
         );
     }
   }
@@ -5098,78 +7562,104 @@ function calculate(){
     payment
     * months;
 
+
   const interest =
     Math.max(
       0,
-      total - principal
+      total
+      -
+      principal
     );
 
 
   $("lav").textContent =
-    peso(principal);
+    peso(
+      principal
+    );
+
 
   $("mo").textContent =
-    peso(payment);
+    peso(
+      payment
+    );
+
 
   $("int").textContent =
-    peso(interest);
+    peso(
+      interest
+    );
 
 
   const principalShare =
-    total > 0
-      ? principal
-        / total
-        * 100
-      : 50;
+    total
+    > 0
+
+    ?
+
+    (
+      principal
+      / total
+      * 100
+    )
+
+    :
+
+    50;
 
 
   $("donut")
     .style
-    .background =
-    `
-      conic-gradient(
-        var(--red)
-        0
-        ${principalShare}%,
-        var(--gold)
-        ${principalShare}%
-        100%
-      )
-    `;
-
-
-  const income =
-    Number(
-      $("inc").value
+    .setProperty(
+      "--a",
+      principalShare
+      + "%"
     );
 
 
+  affordability(
+    payment
+  );
+}
+
+
+function affordability(
+  payment
+){
+
+  const income =
+    Math.max(
+      0,
+      Number(
+        $("inc").value
+      )
+    );
+
+
+  const output =
+    $("afford");
+
+
   if(
-    income > 0
+    !income
   ){
 
-    const share =
-      payment
-      / income
-      * 100;
+    output.textContent =
+      "Enter your monthly household income if you want to compare this estimate with the income amount you entered.";
 
-
-    $("afford").innerHTML =
-      `
-        Estimated payment equals
-        <b>
-          ${share.toFixed(1)}%
-        </b>
-        of the household income entered.
-        This is only a planning indicator and is not a loan-approval assessment.
-      `;
-
-  }else{
-
-    $("afford").textContent =
-      "Enter monthly household income if you want to compare the estimated payment with your income.";
-
+    return;
   }
+
+
+  const ratio =
+    payment
+    / income
+    * 100;
+
+
+  output.innerHTML =
+
+    `The estimated payment is about <strong>${ratio.toFixed(1)}%</strong> of the monthly household income you entered. Use this only for personal planning. Official affordability, loan amount and approval depend on the financing institution and latest approved computation.`;
+
 }
 
 
@@ -5180,12 +7670,21 @@ function calculate(){
   "inc"
 ]
 .forEach(
-  id =>
+  id => {
+
     $(id)
       .addEventListener(
         "input",
         calculate
-      )
+      );
+
+    $(id)
+      .addEventListener(
+        "change",
+        calculate
+      );
+
+  }
 );
 
 
@@ -5198,74 +7697,146 @@ calculate();
 
 const journey = [
 
-  [
-    "Start with information",
-    "Tell me your preferred unit, budget or questions. You do not need to decide immediately.",
-    "INFO"
-  ],
+  {
 
-  [
-    "Compare your unit options",
-    "Review actual unit photos, floor plans, unit positions and current availability.",
-    "AVAILABILITY"
-  ],
+    title:
+      "Start with your questions",
 
-  [
-    "Review financing",
-    "Compare Pag-IBIG or bank options and request the latest official computation.",
-    "COMPUTATION"
-  ],
+    short:
+      "Tell MAB what you are looking for.",
 
-  [
-    "Prepare requirements",
-    "Choose your income source to request the appropriate requirements guide.",
-    "REQ"
-  ],
+    text:
+      "Share your preferred unit, purpose, budget range or questions. You do not need to decide immediately.",
 
-  [
-    "Visit the property",
-    "Schedule a site viewing so you can see the project and available actual units.",
-    "VIEWING"
-  ],
+    action:
+      "INFO"
 
-  [
-    "Proceed when ready",
-    "When the property and numbers make sense for you, ask for the next processing steps.",
-    "INFO"
-  ]
+  },
+
+
+  {
+
+    title:
+      "Compare the unit layouts",
+
+    short:
+      "Review actual photos and floor plans.",
+
+    text:
+      "Compare floor area, bedroom count, inner or outer position and the actual turnover photos before choosing which unit to ask about.",
+
+    action:
+      "AVAILABILITY"
+
+  },
+
+
+  {
+
+    title:
+      "Review the latest computation",
+
+    short:
+      "Compare possible financing options.",
+
+    text:
+      "Ask for the latest computation for your selected unit. Prices, downpayment arrangements, loan amounts, rates and promotions may change.",
+
+    action:
+      "COMPUTATION"
+
+  },
+
+
+  {
+
+    title:
+      "Prepare your requirements",
+
+    short:
+      "Choose your source of income.",
+
+    text:
+      "Select your source of income below to prepare the right requirements inquiry for MAB.",
+
+    action:
+      "REQUIREMENTS"
+
+  },
+
+
+  {
+
+    title:
+      "Visit Urban Deca Homes Ortigas",
+
+    short:
+      "See the property and actual units.",
+
+    text:
+      "Request a site viewing so you can see the project, location, community and available actual units before deciding.",
+
+    action:
+      "VIEWING"
+
+  },
+
+
+  {
+
+    title:
+      "Proceed when the property makes sense",
+
+    short:
+      "Confirm the latest next steps.",
+
+    text:
+      "After reviewing the unit, computation, requirements and property in person, ask MAB about the current reservation and processing steps.",
+
+    action:
+      "INFO"
+
+  }
 
 ];
 
 
 $("steps").innerHTML =
+
   journey
     .map(
-      (step,index) =>
-        `
-          <button
-            class="st"
-            data-i="${index}"
-            aria-pressed="${index === 0}"
-          >
+      (
+        step,
+        index
+      ) => `
 
-            <i>
-              ${index + 1}
-            </i>
+        <button
+          class="st"
+          type="button"
+          data-step="${index}"
+          aria-pressed="${index === 0}"
+        >
 
-            <span>
+          <i>
+            ${index + 1}
+          </i>
 
-              <b>
-                ${step[0]}
-              </b>
 
-              <small>
-                ${step[1].split(".")[0]}
-              </small>
+          <span>
 
-            </span>
+            <b>
+              ${step.title}
+            </b>
 
-          </button>
-        `
+            <small>
+              ${step.short}
+            </small>
+
+          </span>
+
+        </button>
+
+      `
     )
     .join("");
 
@@ -5281,160 +7852,229 @@ function showJourney(index){
       ".st"
     )
     .forEach(
-      (button,i) =>
+      (
+        button,
+        buttonIndex
+      ) => {
+
         button
           .setAttribute(
             "aria-pressed",
             String(
-              i === index
+              buttonIndex
+              ===
+              index
             )
-          )
+          );
+
+      }
     );
 
 
-  $("stepinfo").innerHTML =
+  if(
+    step.action
+    ===
+    "REQUIREMENTS"
+  ){
 
-    `
+    $("stepinfo").innerHTML = `
+
       <h3>
-        ${step[0]}
+        ${step.title}
+      </h3>
+
+
+      <p>
+        ${step.text}
+      </p>
+
+
+      <div class="f">
+
+        <label for="rq">
+          Source of income
+        </label>
+
+
+        <select id="rq">
+
+          <option value="">
+            Choose one
+          </option>
+
+          <option value="Locally Employed">
+            Locally Employed
+          </option>
+
+          <option value="Virtual Assistant">
+            Virtual Assistant
+          </option>
+
+          <option value="Self-Employed">
+            Self-Employed
+          </option>
+
+          <option value="Business Owner">
+            Business Owner
+          </option>
+
+          <option value="OFW">
+            OFW
+          </option>
+
+          <option value="Seaman">
+            Seaman
+          </option>
+
+          <option value="Foreign Buyer">
+            Foreign Buyer
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div id="rres">
+      </div>
+
+    `;
+
+  }else if(
+    step.action
+    ===
+    "VIEWING"
+  ){
+
+    $("stepinfo").innerHTML = `
+
+      <h3>
+        ${step.title}
       </h3>
 
       <p>
-        ${step[1]}
+        ${step.text}
       </p>
-    `
 
-    +
+      <a
+        class="btn red"
+        href="#viewing"
+      >
+        Request a Site Viewing
+      </a>
 
-    (
-      step[2]
-      === "REQ"
+    `;
 
-      ?
+  }else{
 
-      `
-        <div class="f">
+    $("stepinfo").innerHTML = `
 
-          <label for="rq">
-            Source of income
-          </label>
+      <h3>
+        ${step.title}
+      </h3>
 
-          <select id="rq">
+      <p>
+        ${step.text}
+      </p>
 
-            <option value="">
-              Choose one
-            </option>
+      ${messengerButton(
+        step.action,
+        step.action === "COMPUTATION"
+          ? "Get Latest Computation"
+          : step.action === "AVAILABILITY"
+          ? "Check Current Availability"
+          : "Continue with MAB"
+      )}
 
-            <option>
-              Locally Employed
-            </option>
-
-            <option>
-              Virtual Assistant
-            </option>
-
-            <option>
-              Self-Employed
-            </option>
-
-            <option>
-              Business Owner
-            </option>
-
-            <option>
-              OFW
-            </option>
-
-            <option>
-              Seaman
-            </option>
-
-            <option>
-              Foreign Buyer
-            </option>
-
-          </select>
-
-        </div>
-
-        <div id="rres">
-        </div>
-      `
-
-      :
-
-      messengerButton(
-        step[2],
-        "Start this step"
-      )
-    );
+    `;
+  }
 }
 
 
 $("steps").onclick =
-  e => {
+  event => {
 
     const button =
-      e
+      event
         .target
         .closest(
-          ".st"
+          "[data-step]"
         );
 
-    if(
-      button
-    ){
-
-      showJourney(
-        Number(
-          button.dataset.i
-        )
-      );
-    }
-  };
-
-
-$("stepinfo").onchange =
-  e => {
 
     if(
-      e.target.id
-      !== "rq"
+      !button
     ){
+
       return;
     }
 
 
-    const value =
-      e.target.value;
+    showJourney(
+      Number(
+        button.dataset.step
+      )
+    );
+  };
 
 
-    $("rres").innerHTML =
-      value
+$("stepinfo")
+  .addEventListener(
+    "change",
+    event => {
 
-      ?
+      if(
+        event.target.id
+        !==
+        "rq"
+      ){
 
-      `
+        return;
+      }
+
+
+      const value =
+        event.target.value;
+
+
+      const result =
+        $("rres");
+
+
+      if(
+        !value
+      ){
+
+        result.innerHTML =
+          "";
+
+        return;
+      }
+
+
+      result.innerHTML = `
+
         <div class="note">
 
+          <p style="margin-top:0">
+            You selected <strong>${value}</strong>.
+          </p>
+
           <p>
-            Requirements guide selected for
-            <b>${value}</b>.
-            Documentary requirements should be confirmed against the latest developer and financing requirements.
+            Documentary requirements can change, so use the checklist as a starting guide and confirm the latest requirements with MAB and the applicable financing institution.
           </p>
 
           ${messengerButton(
             "REQUIREMENTS - " + value,
-            "Request my checklist"
+            "Request Requirements Checklist"
           )}
 
         </div>
-      `
 
-      :
+      `;
 
-      "";
-  };
+    }
+  );
 
 
 showJourney(0);
@@ -5444,35 +8084,53 @@ showJourney(0);
    LIGHTBOX
    ========================================================= */
 
-const lb =
+const lightbox =
   $("lb");
+
+
+let lastLightboxTrigger =
+  null;
 
 
 function closeLightbox(){
 
-  lb.classList.remove(
-    "open"
-  );
+  lightbox
+    .classList
+    .remove(
+      "open"
+    );
 
-  lb.setAttribute(
-    "aria-hidden",
-    "true"
-  );
+
+  lightbox
+    .setAttribute(
+      "aria-hidden",
+      "true"
+    );
+
 
   document.body.style.overflow =
     "";
 
+
   $("lbi").src =
     "";
+
+
+  if(
+    lastLightboxTrigger
+  ){
+
+    lastLightboxTrigger.focus();
+  }
 }
 
 
 document.addEventListener(
   "click",
-  e => {
+  event => {
 
     const trigger =
-      e
+      event
         .target
         .closest(
           ".lb-t"
@@ -5483,35 +8141,57 @@ document.addEventListener(
       trigger
     ){
 
+      lastLightboxTrigger =
+        trigger;
+
+
       $("lbi").src =
         trigger.dataset.src;
+
 
       $("lbi").alt =
         trigger.dataset.cap
         || "";
 
+
       $("lbc").textContent =
         trigger.dataset.cap
         || "";
 
-      lb.classList.add(
-        "open"
-      );
 
-      lb.setAttribute(
-        "aria-hidden",
-        "false"
-      );
+      lightbox
+        .classList
+        .add(
+          "open"
+        );
+
+
+      lightbox
+        .setAttribute(
+          "aria-hidden",
+          "false"
+        );
+
 
       document.body.style.overflow =
         "hidden";
 
+
       $("lbx").focus();
 
-    }else if(
-      e.target === lb
+
+      return;
+    }
+
+
+    if(
+      event.target
+      ===
+      lightbox
       ||
-      e.target === $("lbx")
+      event.target
+      ===
+      $("lbx")
     ){
 
       closeLightbox();
@@ -5523,19 +8203,41 @@ document.addEventListener(
 
 document.addEventListener(
   "keydown",
-  e => {
+  event => {
 
     if(
-      e.key === "Escape"
-      &&
-      lb
+      !lightbox
         .classList
         .contains(
           "open"
         )
     ){
 
+      return;
+    }
+
+
+    if(
+      event.key
+      ===
+      "Escape"
+    ){
+
       closeLightbox();
+
+      return;
+    }
+
+
+    if(
+      event.key
+      ===
+      "Tab"
+    ){
+
+      event.preventDefault();
+
+      $("lbx").focus();
     }
 
   }
@@ -5543,124 +8245,103 @@ document.addEventListener(
 
 
 /* =========================================================
-   AUDIENCE PERSONALIZATION
-   ========================================================= */
-
-const audience = {
-
-  first:[
-    "First-time buyer",
-    "Exploring your first condo? Compare the actual units, layouts, possible financing and project features before you decide."
-  ],
-
-  family:[
-    "Growing family",
-    "Need more room? Compare the 2BR and 3BR options together with the playground, courts, parks and community spaces."
-  ],
-
-  ofw:[
-    "OFW",
-    "Buying while working abroad? Start with the unit options, budget and requirements, then message MAB for the current process."
-  ],
-
-  investor:[
-    "Investor",
-    "Considering property in Pasig? Review the project, layouts and current computation before deciding whether it fits your investment purpose."
-  ],
-
-  renter:[
-    "Renter",
-    "Thinking about ownership? Compare the property and use the payment estimator to understand what the numbers could look like."
-  ]
-
-};
-
-
-$("who").onclick =
-  e => {
-
-    const button =
-      e
-        .target
-        .closest(
-          "[data-w]"
-        );
-
-    if(
-      !button
-    ){
-      return;
-    }
-
-
-    const data =
-      audience[
-        button.dataset.w
-      ];
-
-
-    document
-      .querySelectorAll(
-        "#who .chip"
-      )
-      .forEach(
-        item =>
-          item
-            .setAttribute(
-              "aria-pressed",
-              String(
-                item
-                === button
-              )
-            )
-      );
-
-
-    $("sub").textContent =
-      data[1];
-
-  };
-
-
-/* =========================================================
-   VIEWING FORM
+   SITE VIEWING FORM
    ========================================================= */
 
 $("ru").innerHTML =
+
   Object
     .keys(U)
     .map(
-      key =>
-        `
-          <option>
-            ${U[key].n}
-          </option>
-        `
+      key => `
+
+        <option value="${U[key].n}">
+          ${U[key].n}
+        </option>
+
+      `
     )
     .join("");
 
 
+const today =
+  new Date();
+
+
+const localToday =
+  new Date(
+    today.getTime()
+    -
+    today.getTimezoneOffset()
+    * 60000
+  )
+  .toISOString()
+  .slice(
+    0,
+    10
+  );
+
+
 $("rd").min =
-  new Date()
-    .toISOString()
-    .slice(
-      0,
-      10
-    );
+  localToday;
 
 
 $("req").onsubmit =
-  async e => {
+  async event => {
 
-    e.preventDefault();
+    event.preventDefault();
+
+
+    const name =
+      $("rn").value.trim();
+
+
+    const unit =
+      $("ru").value;
 
 
     const date =
       $("rd").value;
 
 
-    const text =
-      `Hi MAB, I'm ${$("rn").value}. I'd like to schedule a site viewing for ${$("ru").value}${date ? " on " + date : ""}. Please confirm availability.`;
+    const time =
+      $("rt").value;
+
+
+    const message = [
+
+      "Hi MAB!",
+
+      "",
+
+      `I'm ${name}.`,
+
+      `I'm interested in ${unit} at Urban Deca Homes Ortigas.`,
+
+      "",
+
+      "I would like to request a site viewing.",
+
+      date
+        ? `Preferred date: ${date}`
+        : "Preferred date: Flexible",
+
+      time
+        ? `Preferred time: ${time}`
+        : "Preferred time: Flexible",
+
+      "",
+
+      "Please help me check the available viewing schedule and current unit availability.",
+
+      "",
+
+      "Thank you!"
+
+    ]
+    .join(
+      "\n"
+    );
 
 
     try{
@@ -5668,15 +8349,20 @@ $("req").onsubmit =
       await navigator
         .clipboard
         .writeText(
-          text
+          message
         );
 
-    }catch{}
 
+      toast(
+        "Your viewing request is ready. <b>Paste it in Messenger and send it to MAB to confirm.</b>"
+      );
 
-    toast(
-      "Viewing request copied. <b>Paste it in Messenger and send.</b>"
-    );
+    }catch{
+
+      toast(
+        "Messenger is opening. Send MAB your preferred viewing schedule."
+      );
+    }
 
 
     window.open(
@@ -5698,4 +8384,5 @@ $("yr").textContent =
 </script>
 
 </body>
+
 </html>
